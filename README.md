@@ -4,4 +4,4 @@ http://geoport-dev.whoi.edu/thredds/sand/usgs/Projects/BBLEH/run071tRX/catalog.h
 
 [Wiki](https://github.com/zdefne-usgs/ocean-iso-metadata/wiki/Home)
 ===
-For more information and resources see the wiki pages.
+For more information and resources see the [wiki](https://github.com/zdefne-usgs/ocean-iso-metadata/wiki/Home) pages.
