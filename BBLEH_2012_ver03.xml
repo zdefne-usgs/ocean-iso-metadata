@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 <gmi:MI_Metadata xmlns:gml="http://www.opengis.net/gml/3.2"
-                 xmlns:xlink="http://www.w3.org/1999/xlink"
-                 xmlns:gco="http://www.isotc211.org/2005/gco"
-                 xmlns:xs="http://www.w3.org/2001/XMLSchema"
-                 xmlns:gmd="http://www.isotc211.org/2005/gmd"
-                 xmlns:gmi="http://www.isotc211.org/2005/gmi"
-                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                 xmlns:srv="http://www.isotc211.org/2005/srv"
-                 xmlns:gmx="http://www.isotc211.org/2005/gmx"
-                 xmlns:gsr="http://www.isotc211.org/2005/gsr"
-                 xmlns:gss="http://www.isotc211.org/2005/gss"
-                 xmlns:gts="http://www.isotc211.org/2005/gts"
-                 xsi:schemaLocation="http://www.isotc211.org/2005/gmi http://www.ngdc.noaa.gov/metadata/published/xsd/schema.xsd">
+	xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gco="http://www.isotc211.org/2005/gco"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+	xmlns:gmi="http://www.isotc211.org/2005/gmi"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx"
+	xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss"
+	xmlns:gts="http://www.isotc211.org/2005/gts"
+	xsi:schemaLocation="http://www.isotc211.org/2005/gmi http://www.ngdc.noaa.gov/metadata/published/xsd/schema.xsd">
 	<gmd:fileIdentifier>
 		<gco:CharacterString>gov.usgs.cmgp.whsc:USGS_BBLEH_RUN071TRX</gco:CharacterString>
 	</gmd:fileIdentifier>
 	<gmd:language>
-		<gmd:LanguageCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#LanguageCode"
-                        codeListValue="eng">eng</gmd:LanguageCode>
+		<gmd:LanguageCode
+			codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#LanguageCode"
+			codeListValue="eng">eng</gmd:LanguageCode>
 	</gmd:language>
 	<gmd:characterSet>
-		<gmd:MD_CharacterSetCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode"
-                               codeListValue="UTF8">UTF8</gmd:MD_CharacterSetCode>
+		<gmd:MD_CharacterSetCode
+			codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode"
+			codeListValue="UTF8">UTF8</gmd:MD_CharacterSetCode>
 	</gmd:characterSet>
 	<gmd:hierarchyLevel>
-		<gmd:MD_ScopeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_ScopeCode"
-                        codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+		<gmd:MD_ScopeCode
+			codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_ScopeCode"
+			codeListValue="dataset">dataset</gmd:MD_ScopeCode>
 	</gmd:hierarchyLevel>
 	<gmd:hierarchyLevel>
-		<gmd:MD_ScopeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_ScopeCode"
-                        codeListValue="service">service</gmd:MD_ScopeCode>
+		<gmd:MD_ScopeCode
+			codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_ScopeCode"
+			codeListValue="service">service</gmd:MD_ScopeCode>
 	</gmd:hierarchyLevel>
 	<gmd:contact>
 		<gmd:CI_ResponsibleParty>
@@ -66,16 +66,19 @@
 								<gco:CharacterString/>
 							</gmd:description>
 							<gmd:function>
-								<gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
-                                                   codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+								<gmd:CI_OnLineFunctionCode
+									codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
+									codeListValue="information"
+									>information</gmd:CI_OnLineFunctionCode>
 							</gmd:function>
 						</gmd:CI_OnlineResource>
 					</gmd:onlineResource>
-				</gmd:CI_Contact> 
+				</gmd:CI_Contact>
 			</gmd:contactInfo>
 			<gmd:role>
-				<gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
-                             codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+				<gmd:CI_RoleCode
+					codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+					codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
 			</gmd:role>
 		</gmd:CI_ResponsibleParty>
 	</gmd:contact>
@@ -83,7 +86,8 @@
 		<gco:Date>2018-02-01</gco:Date>
 	</gmd:dateStamp>
 	<gmd:metadataStandardName>
-		<gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
+		<gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for
+			imagery and gridded data</gco:CharacterString>
 	</gmd:metadataStandardName>
 	<gmd:metadataStandardVersion>
 		<gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
@@ -96,8 +100,9 @@
 			<gmd:axisDimensionProperties>
 				<gmd:MD_Dimension>
 					<gmd:dimensionName>
-						<gmd:MD_DimensionNameTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_DimensionNameTypeCode"
-                                                codeListValue="vertical">vertical</gmd:MD_DimensionNameTypeCode>
+						<gmd:MD_DimensionNameTypeCode
+							codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_DimensionNameTypeCode"
+							codeListValue="vertical">vertical</gmd:MD_DimensionNameTypeCode>
 					</gmd:dimensionName>
 					<gmd:dimensionSize>
 						<gco:Integer>7</gco:Integer>
@@ -110,8 +115,9 @@
 			<gmd:axisDimensionProperties>
 				<gmd:MD_Dimension>
 					<gmd:dimensionName>
-						<gmd:MD_DimensionNameTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_DimensionNameTypeCode"
-                                                codeListValue="temporal">temporal</gmd:MD_DimensionNameTypeCode>
+						<gmd:MD_DimensionNameTypeCode
+							codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_DimensionNameTypeCode"
+							codeListValue="temporal">temporal</gmd:MD_DimensionNameTypeCode>
 					</gmd:dimensionName>
 					<gmd:dimensionSize>
 						<gco:Integer>10272</gco:Integer>
@@ -122,8 +128,9 @@
 				</gmd:MD_Dimension>
 			</gmd:axisDimensionProperties>
 			<gmd:cellGeometry>
-				<gmd:MD_CellGeometryCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_CellGeometryCode"
-                                     codeListValue="area">area</gmd:MD_CellGeometryCode>
+				<gmd:MD_CellGeometryCode
+					codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_CellGeometryCode"
+					codeListValue="area">area</gmd:MD_CellGeometryCode>
 			</gmd:cellGeometry>
 			<gmd:transformationParameterAvailability>
 				<gco:Boolean>true</gco:Boolean>
@@ -146,47 +153,54 @@
 								<gco:Date>2017-08-01</gco:Date>
 							</gmd:date>
 							<gmd:dateType>
-								<gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
-                                             codeListValue="lastUpdate">lastUpdate</gmd:CI_DateTypeCode>
+								<gmd:CI_DateTypeCode
+									codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+									codeListValue="lastUpdate">lastUpdate</gmd:CI_DateTypeCode>
 							</gmd:dateType>
 						</gmd:CI_Date>
 					</gmd:date>
-						<gmd:citedResponsibleParty>
-							<gmd:CI_ResponsibleParty>
-								<gmd:organisationName>
-									<gco:CharacterString>Climate and Forecast (CF) Metadata Conventions Organization</gco:CharacterString>
-								</gmd:organisationName>
-								<gmd:contactInfo>
-									<gmd:CI_Contact>
-										<gmd:onlineResource>
-											<gmd:CI_OnlineResource>
-												<gmd:linkage>
-													<gmd:URL>http://cfconventions.org/Data/cf-conventions/cf-conventions-1.7/cf-conventions.html#parametric-v-coord </gmd:URL>
-												</gmd:linkage>
-												<gmd:protocol>
-													<gco:CharacterString>WWW:LINK</gco:CharacterString>
-												</gmd:protocol>
-												<gmd:applicationProfile>
-													<gco:CharacterString>web browser</gco:CharacterString>
-												</gmd:applicationProfile>
-												<gmd:name>
-													<gco:CharacterString/>
-												</gmd:name>
-												<gmd:description>
-													<gco:CharacterString/>
-												</gmd:description>
-												<gmd:function>
-													<gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
-																   codeListValue="information">information</gmd:CI_OnLineFunctionCode>
-												</gmd:function>
-											</gmd:CI_OnlineResource>
-										</gmd:onlineResource>
-									</gmd:CI_Contact>
-								</gmd:contactInfo>
-								<gmd:role>
-									<gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
-											 codeListValue="author">author</gmd:CI_RoleCode>
-								</gmd:role>
+					<gmd:citedResponsibleParty>
+						<gmd:CI_ResponsibleParty>
+							<gmd:organisationName>
+								<gco:CharacterString>Climate and Forecast (CF) Metadata Conventions
+									Organization</gco:CharacterString>
+							</gmd:organisationName>
+							<gmd:contactInfo>
+								<gmd:CI_Contact>
+									<gmd:onlineResource>
+										<gmd:CI_OnlineResource>
+											<gmd:linkage>
+												<gmd:URL>http://cfconventions.org/Data/cf-conventions/cf-conventions-1.7/cf-conventions.html#parametric-v-coord
+												</gmd:URL>
+											</gmd:linkage>
+											<gmd:protocol>
+												<gco:CharacterString>WWW:LINK</gco:CharacterString>
+											</gmd:protocol>
+											<gmd:applicationProfile>
+												<gco:CharacterString>web
+												browser</gco:CharacterString>
+											</gmd:applicationProfile>
+											<gmd:name>
+												<gco:CharacterString/>
+											</gmd:name>
+											<gmd:description>
+												<gco:CharacterString/>
+											</gmd:description>
+											<gmd:function>
+												<gmd:CI_OnLineFunctionCode
+												codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
+												codeListValue="information"
+												>information</gmd:CI_OnLineFunctionCode>
+											</gmd:function>
+										</gmd:CI_OnlineResource>
+									</gmd:onlineResource>
+								</gmd:CI_Contact>
+							</gmd:contactInfo>
+							<gmd:role>
+								<gmd:CI_RoleCode
+									codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+									codeListValue="author">author</gmd:CI_RoleCode>
+							</gmd:role>
 						</gmd:CI_ResponsibleParty>
 					</gmd:citedResponsibleParty>
 				</gmd:CI_Citation>
@@ -198,7 +212,8 @@
 			<gmd:citation>
 				<gmd:CI_Citation>
 					<gmd:title>
-						<gco:CharacterString>USGS Barnegat Bay Hydrodynamic Model for March-September 2012</gco:CharacterString>
+						<gco:CharacterString>USGS Barnegat Bay Hydrodynamic Model for
+							March-September 2012</gco:CharacterString>
 					</gmd:title>
 					<gmd:date>
 						<gmd:CI_Date>
@@ -206,8 +221,9 @@
 								<gco:Date>2015-04-01</gco:Date>
 							</gmd:date>
 							<gmd:dateType>
-								<gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
-                                             codeListValue="creation">creation</gmd:CI_DateTypeCode>
+								<gmd:CI_DateTypeCode
+									codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+									codeListValue="creation">creation</gmd:CI_DateTypeCode>
 							</gmd:dateType>
 						</gmd:CI_Date>
 					</gmd:date>
@@ -217,8 +233,9 @@
 								<gco:Date>2018-02-01</gco:Date>
 							</gmd:date>
 							<gmd:dateType>
-								<gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
-                                             codeListValue="publication">publication</gmd:CI_DateTypeCode>
+								<gmd:CI_DateTypeCode
+									codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+									codeListValue="publication">publication</gmd:CI_DateTypeCode>
 							</gmd:dateType>
 						</gmd:CI_Date>
 					</gmd:date>
@@ -228,8 +245,9 @@
 								<gco:Date>2015-04-01</gco:Date>
 							</gmd:date>
 							<gmd:dateType>
-								<gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
-                                             codeListValue="revision">revision</gmd:CI_DateTypeCode>
+								<gmd:CI_DateTypeCode
+									codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+									codeListValue="revision">revision</gmd:CI_DateTypeCode>
 							</gmd:dateType>
 						</gmd:CI_Date>
 					</gmd:date>
@@ -281,7 +299,8 @@
 												<gco:CharacterString>WWW:LINK</gco:CharacterString>
 											</gmd:protocol>
 											<gmd:applicationProfile>
-												<gco:CharacterString>web browser</gco:CharacterString>
+												<gco:CharacterString>web
+												browser</gco:CharacterString>
 											</gmd:applicationProfile>
 											<gmd:name>
 												<gco:CharacterString/>
@@ -290,16 +309,19 @@
 												<gco:CharacterString/>
 											</gmd:description>
 											<gmd:function>
-												<gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
-                                                               codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+												<gmd:CI_OnLineFunctionCode
+												codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
+												codeListValue="information"
+												>information</gmd:CI_OnLineFunctionCode>
 											</gmd:function>
 										</gmd:CI_OnlineResource>
 									</gmd:onlineResource>
 								</gmd:CI_Contact>
 							</gmd:contactInfo>
 							<gmd:role>
-								<gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
-                                         codeListValue="originator">originator</gmd:CI_RoleCode>
+								<gmd:CI_RoleCode
+									codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+									codeListValue="originator">originator</gmd:CI_RoleCode>
 							</gmd:role>
 						</gmd:CI_ResponsibleParty>
 					</gmd:citedResponsibleParty>
@@ -330,7 +352,8 @@
 												<gco:CharacterString>WWW:LINK</gco:CharacterString>
 											</gmd:protocol>
 											<gmd:applicationProfile>
-												<gco:CharacterString>web browser</gco:CharacterString>
+												<gco:CharacterString>web
+												browser</gco:CharacterString>
 											</gmd:applicationProfile>
 											<gmd:name>
 												<gco:CharacterString/>
@@ -339,16 +362,20 @@
 												<gco:CharacterString/>
 											</gmd:description>
 											<gmd:function>
-												<gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
-                                                               codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+												<gmd:CI_OnLineFunctionCode
+												codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
+												codeListValue="information"
+												>information</gmd:CI_OnLineFunctionCode>
 											</gmd:function>
 										</gmd:CI_OnlineResource>
 									</gmd:onlineResource>
 								</gmd:CI_Contact>
 							</gmd:contactInfo>
 							<gmd:role>
-								<gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
-                                         codeListValue="principalInvestigator">principalInvestigator</gmd:CI_RoleCode>
+								<gmd:CI_RoleCode
+									codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+									codeListValue="principalInvestigator"
+									>principalInvestigator</gmd:CI_RoleCode>
 							</gmd:role>
 						</gmd:CI_ResponsibleParty>
 					</gmd:citedResponsibleParty>
@@ -358,27 +385,66 @@
 								<gco:CharacterString>U.S. Geological Survey</gco:CharacterString>
 							</gmd:organisationName>
 							<gmd:role>
-								<gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
-                                         codeListValue="publisher">publisher</gmd:CI_RoleCode>
+								<gmd:CI_RoleCode
+									codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+									codeListValue="publisher">publisher</gmd:CI_RoleCode>
 							</gmd:role>
 						</gmd:CI_ResponsibleParty>
 					</gmd:citedResponsibleParty>
 					<gmd:otherCitationDetails>
-						<gco:CharacterString>A selection of model output fields are also available at the USGS Oceanographic Data and Model Portal, https://cmgdata.usgsportals.net . Geospatial vertical resolution is variable due to the sigma coordinate system of the numerical model.</gco:CharacterString>
+						<gco:CharacterString>A selection of model output fields are also available
+							at the USGS Oceanographic Data and Model Portal,
+							https://cmgdata.usgsportals.net . Geospatial vertical resolution is
+							variable due to the sigma coordinate system of the numerical
+							model.</gco:CharacterString>
 					</gmd:otherCitationDetails>
 				</gmd:CI_Citation>
 			</gmd:citation>
 			<gmd:abstract>
-				<gco:CharacterString>Simulation of hydrodynamic circulation in Barnegat Bay for the period from 03-01-2012 to 10-01-2012. The bathymetry of the model was based on the National Ocean Service Hydrographic Survey data, and updated with recent bathymetric measurements. At the landward end (western boundary), we specified point sources of freshwater in accordance with USGS streamflow measurements at 7 gauges, and a radiation boundary condition that allows tidal energy to propagate landward. On the seaward end, tidal water level and velocity amplitudes from the ADCIRC tidal constituents database for the North Atlantic were applied. These were supplemented by the subtidal water level and subtidal barotropic velocity from the ESPreSSO model, which covers the Mid-Atlantic Bight at 6 kilometer resolution. At the ocean boundary, a combination of Chapman, Flather, and gradient boundary conditions were used. Salinity and temperature was also supplied by the ESPreSSO model. A radiation condition with nudging on a 6-hour timescale for tracers allowed for relaxation of the model solution relative to the forcing data, which prevented sharp gradients at the seaward boundary and subsequent oscillations in the solution. At the ocean-atmosphere interface we applied meteorological forcing from North American Mesoscale Model. The bulk flux parameterization routine was used with 3-hour wind velocity, air pressure, long and shortwave radiation, relative humidity, and rain inputs. For more details on the model set up see Defne and Ganju, 2015. Reference: Defne, Zafer, and Ganju, N. K., 2015, Quantifying the residence time and flushing characteristics of a shallow, back-barrier estuary: application of hydrodynamic and particle tracking models, Estuaries and Coasts, 38, 1719-1734</gco:CharacterString>
+				<gco:CharacterString>Simulation of hydrodynamic circulation in Barnegat Bay for the
+					period from 03-01-2012 to 10-01-2012. The bathymetry of the model was based on
+					the National Ocean Service Hydrographic Survey data, and updated with recent
+					bathymetric measurements. At the landward end (western boundary), we specified
+					point sources of freshwater in accordance with USGS streamflow measurements at 7
+					gauges, and a radiation boundary condition that allows tidal energy to propagate
+					landward. On the seaward end, tidal water level and velocity amplitudes from the
+					ADCIRC tidal constituents database for the North Atlantic were applied. These
+					were supplemented by the subtidal water level and subtidal barotropic velocity
+					from the ESPreSSO model, which covers the Mid-Atlantic Bight at 6 kilometer
+					resolution. At the ocean boundary, a combination of Chapman, Flather, and
+					gradient boundary conditions were used. Salinity and temperature was also
+					supplied by the ESPreSSO model. A radiation condition with nudging on a 6-hour
+					timescale for tracers allowed for relaxation of the model solution relative to
+					the forcing data, which prevented sharp gradients at the seaward boundary and
+					subsequent oscillations in the solution. At the ocean-atmosphere interface we
+					applied meteorological forcing from North American Mesoscale Model. The bulk
+					flux parameterization routine was used with 3-hour wind velocity, air pressure,
+					long and shortwave radiation, relative humidity, and rain inputs. For more
+					details on the model set up see Defne and Ganju, 2015. Reference: Defne, Zafer,
+					and Ganju, N. K., 2015, Quantifying the residence time and flushing
+					characteristics of a shallow, back-barrier estuary: application of hydrodynamic
+					and particle tracking models, Estuaries and Coasts, 38,
+					1719-1734</gco:CharacterString>
 			</gmd:abstract>
 			<gmd:purpose>
-				<gco:CharacterString>This simulation was designed to provide hydrodynamic modeling results on a native grid and time step to support the scientific research on hydrodynamic circulation and water quality in Barnegat Bay. These model results may also be reused to support any prospective research work where appropriate.</gco:CharacterString>
+				<gco:CharacterString>This simulation was designed to provide hydrodynamic modeling
+					results on a native grid and time step to support the scientific research on
+					hydrodynamic circulation and water quality in Barnegat Bay. These model results
+					may also be reused to support any prospective research work where
+					appropriate.</gco:CharacterString>
 			</gmd:purpose>
 			<gmd:credit>
-				<gco:CharacterString>Funding was provided by the Coastal and Marine Geology Program of the U.S. Geological Survey and the New Jersey Department of Environmental Protection. Assistance was provided by John Warner for numerical modeling, Jennifer Miselis and Brian Andrews for model grid. Hydrologic data were collected by the New Jersey Water Science Center of the U.S. Geological Survey </gco:CharacterString>
+				<gco:CharacterString>Funding was provided by the Coastal and Marine Geology Program
+					of the U.S. Geological Survey and the New Jersey Department of Environmental
+					Protection. Assistance was provided by John Warner for numerical modeling,
+					Jennifer Miselis and Brian Andrews for model grid. Hydrologic data were
+					collected by the New Jersey Water Science Center of the U.S. Geological Survey
+				</gco:CharacterString>
 			</gmd:credit>
 			<gmd:status>
-				<gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed" codeSpace="001">completed</gmd:MD_ProgressCode>
+				<gmd:MD_ProgressCode
+					codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode"
+					codeListValue="completed" codeSpace="001">completed</gmd:MD_ProgressCode>
 			</gmd:status>
 			<gmd:pointOfContact>
 				<gmd:CI_ResponsibleParty>
@@ -415,42 +481,52 @@
 										<gco:CharacterString/>
 									</gmd:description>
 									<gmd:function>
-										<gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
-                                                         codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+										<gmd:CI_OnLineFunctionCode
+											codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
+											codeListValue="information"
+											>information</gmd:CI_OnLineFunctionCode>
 									</gmd:function>
 								</gmd:CI_OnlineResource>
 							</gmd:onlineResource>
 						</gmd:CI_Contact>
 					</gmd:contactInfo>
 					<gmd:role>
-						<gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
-                                   codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+						<gmd:CI_RoleCode
+							codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+							codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
 					</gmd:role>
 				</gmd:CI_ResponsibleParty>
 			</gmd:pointOfContact>
 			<gmd:descriptiveKeywords>
 				<gmd:MD_Keywords>
 					<gmd:keyword>
-						<gco:CharacterString>Earth Science Services &gt; Models &gt; Ocean General Circulation Models (OGCM)/Regional Ocean Models</gco:CharacterString>
+						<gco:CharacterString>Earth Science Services &gt; Models &gt; Ocean General
+							Circulation Models (OGCM)/Regional Ocean Models</gco:CharacterString>
 					</gmd:keyword>
 					<gmd:keyword>
-						<gco:CharacterString> Earth Science Services &gt; Models &gt; Weather Research/Forecast Models</gco:CharacterString>
+						<gco:CharacterString> Earth Science Services &gt; Models &gt; Weather
+							Research/Forecast Models</gco:CharacterString>
 					</gmd:keyword>
 					<gmd:keyword>
-						<gco:CharacterString> Earth Science &gt; Oceans &gt; Ocean Temperature &gt; Potential Temperature</gco:CharacterString>
+						<gco:CharacterString> Earth Science &gt; Oceans &gt; Ocean Temperature &gt;
+							Potential Temperature</gco:CharacterString>
 					</gmd:keyword>
 					<gmd:keyword>
-						<gco:CharacterString> Earth Science &gt; Oceans &gt; Salinity/Density &gt; Salinity</gco:CharacterString>
+						<gco:CharacterString> Earth Science &gt; Oceans &gt; Salinity/Density &gt;
+							Salinity</gco:CharacterString>
 					</gmd:keyword>
 					<gmd:keyword>
-						<gco:CharacterString> Earth Science &gt; Oceans &gt; Sea Surface Topography &gt; Sea Surface Height</gco:CharacterString>
+						<gco:CharacterString> Earth Science &gt; Oceans &gt; Sea Surface Topography
+							&gt; Sea Surface Height</gco:CharacterString>
 					</gmd:keyword>
 					<gmd:keyword>
-						<gco:CharacterString> Earth Science &gt; Oceans &gt; Ocean Circulation &gt; Ocean Currents</gco:CharacterString>
+						<gco:CharacterString> Earth Science &gt; Oceans &gt; Ocean Circulation &gt;
+							Ocean Currents</gco:CharacterString>
 					</gmd:keyword>
 					<gmd:type>
-						<gmd:MD_KeywordTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode"
-                                          codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+						<gmd:MD_KeywordTypeCode
+							codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode"
+							codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
 					</gmd:type>
 					<gmd:thesaurusName>
 						<gmd:CI_Citation>
@@ -465,18 +541,23 @@
 			<gmd:descriptiveKeywords>
 				<gmd:MD_Keywords>
 					<gmd:keyword>
-						<gco:CharacterString>Location > Continent > North America > United States Of America</gco:CharacterString>
+						<gco:CharacterString>Location > Continent > North America > United States Of
+							America</gco:CharacterString>
 					</gmd:keyword>
 					<gmd:keyword>
-						<gco:CharacterString>Location > Continent > North America > United States Of America > New Jersey</gco:CharacterString>
+						<gco:CharacterString>Location > Continent > North America > United States Of
+							America > New Jersey</gco:CharacterString>
 					</gmd:keyword>
 					<gmd:type>
-						<gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place">place</gmd:MD_KeywordTypeCode>
+						<gmd:MD_KeywordTypeCode
+							codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode"
+							codeListValue="place">place</gmd:MD_KeywordTypeCode>
 					</gmd:type>
 					<gmd:thesaurusName>
 						<gmd:CI_Citation>
 							<gmd:title>
-								<gco:CharacterString>NASA/GCMD Location Keywords</gco:CharacterString>
+								<gco:CharacterString>NASA/GCMD Location
+									Keywords</gco:CharacterString>
 							</gmd:title>
 							<gmd:date>
 								<gmd:CI_Date>
@@ -484,21 +565,25 @@
 										<gco:Date>2009-01-01</gco:Date>
 									</gmd:date>
 									<gmd:dateType>
-										<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision"/>
+										<gmd:CI_DateTypeCode
+											codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+											codeListValue="revision"/>
 									</gmd:dateType>
 								</gmd:CI_Date>
 							</gmd:date>
 						</gmd:CI_Citation>
 					</gmd:thesaurusName>
 				</gmd:MD_Keywords>
-			</gmd:descriptiveKeywords>			<gmd:descriptiveKeywords>
+			</gmd:descriptiveKeywords>
+			<gmd:descriptiveKeywords>
 				<gmd:MD_Keywords>
 					<gmd:keyword>
 						<gco:CharacterString>CMG_Portal</gco:CharacterString>
 					</gmd:keyword>
 					<gmd:type>
-						<gmd:MD_KeywordTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode"
-                                          codeListValue="project">project</gmd:MD_KeywordTypeCode>
+						<gmd:MD_KeywordTypeCode
+							codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode"
+							codeListValue="project">project</gmd:MD_KeywordTypeCode>
 					</gmd:type>
 					<gmd:thesaurusName gco:nilReason="unknown"/>
 				</gmd:MD_Keywords>
@@ -506,11 +591,13 @@
 			<gmd:descriptiveKeywords>
 				<gmd:MD_Keywords>
 					<gmd:keyword>
-						<gco:CharacterString>U.S. Geological Survey - ScienceBase</gco:CharacterString>
+						<gco:CharacterString>U.S. Geological Survey -
+							ScienceBase</gco:CharacterString>
 					</gmd:keyword>
 					<gmd:type>
-						<gmd:MD_KeywordTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode"
-                                          codeListValue="dataCenter">dataCenter</gmd:MD_KeywordTypeCode>
+						<gmd:MD_KeywordTypeCode
+							codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode"
+							codeListValue="dataCenter">dataCenter</gmd:MD_KeywordTypeCode>
 					</gmd:type>
 					<gmd:thesaurusName gco:nilReason="unknown"/>
 				</gmd:MD_Keywords>
@@ -551,13 +638,15 @@
 						<gco:CharacterString>time</gco:CharacterString>
 					</gmd:keyword>
 					<gmd:type>
-						<gmd:MD_KeywordTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode"
-                                          codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+						<gmd:MD_KeywordTypeCode
+							codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode"
+							codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
 					</gmd:type>
 					<gmd:thesaurusName>
 						<gmd:CI_Citation>
 							<gmd:title>
-								<gco:CharacterString>CF Standard Name Table v48</gco:CharacterString>
+								<gco:CharacterString>CF Standard Name Table
+									v48</gco:CharacterString>
 							</gmd:title>
 							<gmd:date gco:nilReason="unknown"/>
 						</gmd:CI_Citation>
@@ -567,10 +656,19 @@
 			<gmd:resourceConstraints>
 				<gmd:MD_LegalConstraints>
 					<gmd:useLimitation>
-						<gco:CharacterString>The data may be used and redistributed for free but is not intended for legal use, since it may contain inaccuracies. Neither the data Contributor, nor the United States Government, nor any of their employees or contractors, makes any warranty, express or implied, including warranties of merchantability and fitness for a particular purpose, or assumes any legal liability for the accuracy, completeness, or usefulness, of this information.</gco:CharacterString>
+						<gco:CharacterString>The data may be used and redistributed for free but is
+							not intended for legal use, since it may contain inaccuracies. Neither
+							the data Contributor, nor the United States Government, nor any of their
+							employees or contractors, makes any warranty, express or implied,
+							including warranties of merchantability and fitness for a particular
+							purpose, or assumes any legal liability for the accuracy, completeness,
+							or usefulness, of this information.</gco:CharacterString>
 					</gmd:useLimitation>
 					<gmd:otherConstraints>
-						<gco:CharacterString>Please cite this as: Defne, Zafer, and Ganju, N.K., 2018, USGS Barnegat Bay Hydrodynamic Model for March-September 2012: U.S. Geological Survey data release, https://doi.org/10.5066/F7SB44QS</gco:CharacterString>
+						<gco:CharacterString>Please cite this as: Defne, Zafer, and Ganju, N.K.,
+							2018, USGS Barnegat Bay Hydrodynamic Model for March-September 2012:
+							U.S. Geological Survey data release,
+							https://doi.org/10.5066/F7SB44QS</gco:CharacterString>
 					</gmd:otherConstraints>
 				</gmd:MD_LegalConstraints>
 			</gmd:resourceConstraints>
@@ -585,40 +683,49 @@
 							<gmd:citedResponsibleParty>
 								<gmd:CI_ResponsibleParty>
 									<gmd:organisationName>
-										<gco:CharacterString>U.S. Geological Survey</gco:CharacterString>
+										<gco:CharacterString>U.S. Geological
+											Survey</gco:CharacterString>
 									</gmd:organisationName>
 									<gmd:contactInfo>
 										<gmd:CI_Contact>
 											<gmd:onlineResource>
 												<gmd:CI_OnlineResource>
-													<gmd:linkage>
-														<gmd:URL>https://cmgdata.usgsportals.net/</gmd:URL>
-													</gmd:linkage>
-													<gmd:protocol>
-														<gco:CharacterString>http</gco:CharacterString>
-													</gmd:protocol>
-													<gmd:description>
-														<gco:CharacterString>U.S. Geological Survey Coastal Marine Geology (CMG) Portal provides model and measurement data together with related geospatial data pertaining to USGS CMG Program activites. </gco:CharacterString>
-													</gmd:description>
+												<gmd:linkage>
+												<gmd:URL>https://cmgdata.usgsportals.net/</gmd:URL>
+												</gmd:linkage>
+												<gmd:protocol>
+												<gco:CharacterString>http</gco:CharacterString>
+												</gmd:protocol>
+												<gmd:description>
+												<gco:CharacterString>U.S. Geological Survey
+												Coastal Marine Geology (CMG) Portal provides model
+												and measurement data together with related
+												geospatial data pertaining to USGS CMG Program
+												activites. </gco:CharacterString>
+												</gmd:description>
 												</gmd:CI_OnlineResource>
 											</gmd:onlineResource>
 										</gmd:CI_Contact>
 									</gmd:contactInfo>
 									<gmd:role>
-										<gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
-                             codeListValue="publisher">publisher</gmd:CI_RoleCode>
+										<gmd:CI_RoleCode
+											codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+											codeListValue="publisher">publisher</gmd:CI_RoleCode>
 									</gmd:role>
 								</gmd:CI_ResponsibleParty>
 							</gmd:citedResponsibleParty>
 						</gmd:CI_Citation>
 					</gmd:aggregateDataSetName>
 					<gmd:associationType>
-						<gmd:DS_AssociationTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#DS_AssociationTypeCode"
-                                              codeListValue="largerWorkCitation">largerWorkCitation</gmd:DS_AssociationTypeCode>
+						<gmd:DS_AssociationTypeCode
+							codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#DS_AssociationTypeCode"
+							codeListValue="largerWorkCitation"
+							>largerWorkCitation</gmd:DS_AssociationTypeCode>
 					</gmd:associationType>
 					<gmd:initiativeType>
-						<gmd:DS_InitiativeTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#DS_InitiativeTypeCode"
-                                             codeListValue="project">project</gmd:DS_InitiativeTypeCode>
+						<gmd:DS_InitiativeTypeCode
+							codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#DS_InitiativeTypeCode"
+							codeListValue="project">project</gmd:DS_InitiativeTypeCode>
 					</gmd:initiativeType>
 				</gmd:MD_AggregateInformation>
 			</gmd:aggregationInfo>
@@ -627,7 +734,9 @@
 					<gmd:aggregateDataSetName>
 						<gmd:CI_Citation>
 							<gmd:title>
-								<gco:CharacterString>Toward a Comprehensive Water-Quality Modeling of Barnegat Bay: Development of ROMS to WASP Coupler</gco:CharacterString>
+								<gco:CharacterString>Toward a Comprehensive Water-Quality Modeling
+									of Barnegat Bay: Development of ROMS to WASP
+									Coupler</gco:CharacterString>
 							</gmd:title>
 							<gmd:date gco:nilReason="inapplicable"/>
 							<gmd:citedResponsibleParty>
@@ -636,37 +745,52 @@
 										<gmd:CI_Contact>
 											<gmd:onlineResource>
 												<gmd:CI_OnlineResource>
-													<gmd:linkage>
-														<gmd:URL>https://doi.org/10.2112/SI78-004.1</gmd:URL>
-													</gmd:linkage>
-													<gmd:protocol>
-														<gco:CharacterString>http</gco:CharacterString>
-													</gmd:protocol>
-													<gmd:description>
-														<gco:CharacterString>A subsample of this data release, USGS Barnegat Bay Hydrodynamic Model for March-September 2012, was used to develop a coupler between the Regional Ocean Modeling System (ROMS) and the Water Quality Analysis Simulation Program (WASP). The subsample is exclusive to the Toms River subdomain and covers July–August 2012. 
-														
-														Suggested Citation: Defne, Z.; Spitz, F.J.; DePaul, V., and Wool, T.A., 2017. Toward a comprehensive water-quality modeling of Barnegat Bay: Development of ROMS to WASP coupler. In: Buchanan, G.A.; Belton, T.J., and Paudel, B. (eds.), A Comprehensive Assessment of Barnegat Bay-Little Egg Harbor, New Jersey.
-														</gco:CharacterString>
-													</gmd:description>
+												<gmd:linkage>
+												<gmd:URL>https://doi.org/10.2112/SI78-004.1</gmd:URL>
+												</gmd:linkage>
+												<gmd:protocol>
+												<gco:CharacterString>http</gco:CharacterString>
+												</gmd:protocol>
+												<gmd:description>
+												<gco:CharacterString>A subsample of this data
+												release, USGS Barnegat Bay Hydrodynamic Model for
+												March-September 2012, was used to develop a
+												coupler between the Regional Ocean Modeling System
+												(ROMS) and the Water Quality Analysis Simulation
+												Program (WASP). The subsample is exclusive to the
+												Toms River subdomain and covers July–August 2012.
+												Suggested Citation: Defne, Z.; Spitz, F.J.;
+												DePaul, V., and Wool, T.A., 2017. Toward a
+												comprehensive water-quality modeling of Barnegat
+												Bay: Development of ROMS to WASP coupler. In:
+												Buchanan, G.A.; Belton, T.J., and Paudel, B.
+												(eds.), A Comprehensive Assessment of Barnegat
+												Bay-Little Egg Harbor, New Jersey.
+												</gco:CharacterString>
+												</gmd:description>
 												</gmd:CI_OnlineResource>
 											</gmd:onlineResource>
 										</gmd:CI_Contact>
 									</gmd:contactInfo>
 									<gmd:role>
-										<gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
-                             codeListValue="publisher">publisher</gmd:CI_RoleCode>
+										<gmd:CI_RoleCode
+											codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+											codeListValue="publisher">publisher</gmd:CI_RoleCode>
 									</gmd:role>
 								</gmd:CI_ResponsibleParty>
 							</gmd:citedResponsibleParty>
 						</gmd:CI_Citation>
 					</gmd:aggregateDataSetName>
 					<gmd:associationType>
-						<gmd:DS_AssociationTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#DS_AssociationTypeCode"
-                                              codeListValue="crossReference">crossReference</gmd:DS_AssociationTypeCode>
+						<gmd:DS_AssociationTypeCode
+							codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#DS_AssociationTypeCode"
+							codeListValue="crossReference"
+							>crossReference</gmd:DS_AssociationTypeCode>
 					</gmd:associationType>
 					<gmd:initiativeType>
-						<gmd:DS_InitiativeTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#DS_InitiativeTypeCode"
-                                             codeListValue="process">process</gmd:DS_InitiativeTypeCode>
+						<gmd:DS_InitiativeTypeCode
+							codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#DS_InitiativeTypeCode"
+							codeListValue="process">process</gmd:DS_InitiativeTypeCode>
 					</gmd:initiativeType>
 				</gmd:MD_AggregateInformation>
 			</gmd:aggregationInfo>
@@ -715,7 +839,10 @@
 							<gmd:maximumValue>
 								<gco:Real>-25</gco:Real>
 							</gmd:maximumValue>
-							<gmd:verticalCRS xlink:href="http://www.epsg-registry.org/export.htm?gml=urn:ogc:def:datum:EPSG::5103" xlink:title="North American Vertical Datum 1988" xlink:actuate="onRequest"/>
+							<gmd:verticalCRS
+								xlink:href="http://www.epsg-registry.org/export.htm?gml=urn:ogc:def:datum:EPSG::5103"
+								xlink:title="North American Vertical Datum 1988"
+								xlink:actuate="onRequest"/>
 						</gmd:EX_VerticalExtent>
 					</gmd:verticalElement>
 				</gmd:EX_Extent>
@@ -727,7 +854,8 @@
 			<gmd:citation>
 				<gmd:CI_Citation>
 					<gmd:title>
-						<gco:CharacterString>USGS Barnegat Bay Hydrodynamic Model for March-September 2012</gco:CharacterString>
+						<gco:CharacterString>USGS Barnegat Bay Hydrodynamic Model for
+							March-September 2012</gco:CharacterString>
 					</gmd:title>
 					<gmd:date>
 						<gmd:CI_Date>
@@ -735,8 +863,9 @@
 								<gco:Date>2015-04-01</gco:Date>
 							</gmd:date>
 							<gmd:dateType>
-								<gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
-                                             codeListValue="creation">creation</gmd:CI_DateTypeCode>
+								<gmd:CI_DateTypeCode
+									codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+									codeListValue="creation">creation</gmd:CI_DateTypeCode>
 							</gmd:dateType>
 						</gmd:CI_Date>
 					</gmd:date>
@@ -746,15 +875,39 @@
 								<gco:Date>2018-02-01</gco:Date>
 							</gmd:date>
 							<gmd:dateType>
-								<gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
-                                             codeListValue="publication">publication</gmd:CI_DateTypeCode>
+								<gmd:CI_DateTypeCode
+									codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+									codeListValue="publication">publication</gmd:CI_DateTypeCode>
 							</gmd:dateType>
 						</gmd:CI_Date>
 					</gmd:date>
 				</gmd:CI_Citation>
 			</gmd:citation>
 			<gmd:abstract>
-				<gco:CharacterString>Simulation of hydrodynamic circulation in Barnegat Bay for the period from 03-01-2012 to 10-01-2012. The bathymetry of the model was based on the National Ocean Service Hydrographic Survey data, and updated with recent bathymetric measurements. At the landward end (western boundary), we specified point sources of freshwater in accordance with USGS streamflow measurements at 7 gauges, and a radiation boundary condition that allows tidal energy to propagate landward. On the seaward end, tidal water level and velocity amplitudes from the ADCIRC tidal constituents database for the North Atlantic were applied. These were supplemented by the subtidal water level and subtidal barotropic velocity from the ESPreSSO model, which covers the Mid-Atlantic Bight at 6 kilometer resolution. At the ocean boundary, a combination of Chapman, Flather, and gradient boundary conditions were used. Salinity and temperature was also supplied by the ESPreSSO model. A radiation condition with nudging on a 6-hour timescale for tracers allowed for relaxation of the model solution relative to the forcing data, which prevented sharp gradients at the seaward boundary and subsequent oscillations in the solution. At the ocean-atmosphere interface we applied meteorological forcing from North American Mesoscale Model. The bulk flux parameterization routine was used with 3-hour wind velocity, air pressure, long and shortwave radiation, relative humidity, and rain inputs. For more details on the model set up see Defne and Ganju, 2015. Reference: Defne, Zafer, and Ganju, N. K., 2015, Quantifying the residence time and flushing characteristics of a shallow, back-barrier estuary: application of hydrodynamic and particle tracking models, Estuaries and Coasts, 38, 1719-1734</gco:CharacterString>
+				<gco:CharacterString>Simulation of hydrodynamic circulation in Barnegat Bay for the
+					period from 03-01-2012 to 10-01-2012. The bathymetry of the model was based on
+					the National Ocean Service Hydrographic Survey data, and updated with recent
+					bathymetric measurements. At the landward end (western boundary), we specified
+					point sources of freshwater in accordance with USGS streamflow measurements at 7
+					gauges, and a radiation boundary condition that allows tidal energy to propagate
+					landward. On the seaward end, tidal water level and velocity amplitudes from the
+					ADCIRC tidal constituents database for the North Atlantic were applied. These
+					were supplemented by the subtidal water level and subtidal barotropic velocity
+					from the ESPreSSO model, which covers the Mid-Atlantic Bight at 6 kilometer
+					resolution. At the ocean boundary, a combination of Chapman, Flather, and
+					gradient boundary conditions were used. Salinity and temperature was also
+					supplied by the ESPreSSO model. A radiation condition with nudging on a 6-hour
+					timescale for tracers allowed for relaxation of the model solution relative to
+					the forcing data, which prevented sharp gradients at the seaward boundary and
+					subsequent oscillations in the solution. At the ocean-atmosphere interface we
+					applied meteorological forcing from North American Mesoscale Model. The bulk
+					flux parameterization routine was used with 3-hour wind velocity, air pressure,
+					long and shortwave radiation, relative humidity, and rain inputs. For more
+					details on the model set up see Defne and Ganju, 2015. Reference: Defne, Zafer,
+					and Ganju, N. K., 2015, Quantifying the residence time and flushing
+					characteristics of a shallow, back-barrier estuary: application of hydrodynamic
+					and particle tracking models, Estuaries and Coasts, 38,
+					1719-1734</gco:CharacterString>
 			</gmd:abstract>
 			<srv:serviceType>
 				<gco:LocalName>THREDDS OPeNDAP</gco:LocalName>
@@ -804,8 +957,9 @@
 				</gmd:EX_Extent>
 			</srv:extent>
 			<srv:couplingType>
-				<srv:SV_CouplingType codeList="http://www.tc211.org/ISO19139/resources/codeList.xml#SV_CouplingType"
-                                 codeListValue="tight">tight</srv:SV_CouplingType>
+				<srv:SV_CouplingType
+					codeList="http://www.tc211.org/ISO19139/resources/codeList.xml#SV_CouplingType"
+					codeListValue="tight">tight</srv:SV_CouplingType>
 			</srv:couplingType>
 			<srv:containsOperations>
 				<srv:SV_OperationMetadata>
@@ -828,8 +982,9 @@
 								<gco:CharacterString>THREDDS OPeNDAP</gco:CharacterString>
 							</gmd:description>
 							<gmd:function>
-								<gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
-                                                   codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+								<gmd:CI_OnLineFunctionCode
+									codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
+									codeListValue="download">download</gmd:CI_OnLineFunctionCode>
 							</gmd:function>
 						</gmd:CI_OnlineResource>
 					</srv:connectPoint>
@@ -843,7 +998,8 @@
 			<gmd:citation>
 				<gmd:CI_Citation>
 					<gmd:title>
-						<gco:CharacterString>USGS Barnegat Bay Hydrodynamic Model for March-September 2012</gco:CharacterString>
+						<gco:CharacterString>USGS Barnegat Bay Hydrodynamic Model for
+							March-September 2012</gco:CharacterString>
 					</gmd:title>
 					<gmd:date>
 						<gmd:CI_Date>
@@ -851,8 +1007,9 @@
 								<gco:Date>2015-04-01</gco:Date>
 							</gmd:date>
 							<gmd:dateType>
-								<gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
-                                             codeListValue="creation">creation</gmd:CI_DateTypeCode>
+								<gmd:CI_DateTypeCode
+									codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+									codeListValue="creation">creation</gmd:CI_DateTypeCode>
 							</gmd:dateType>
 						</gmd:CI_Date>
 					</gmd:date>
@@ -862,15 +1019,39 @@
 								<gco:Date>2018-02-01</gco:Date>
 							</gmd:date>
 							<gmd:dateType>
-								<gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
-                                             codeListValue="publication">publication</gmd:CI_DateTypeCode>
+								<gmd:CI_DateTypeCode
+									codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+									codeListValue="publication">publication</gmd:CI_DateTypeCode>
 							</gmd:dateType>
 						</gmd:CI_Date>
 					</gmd:date>
 				</gmd:CI_Citation>
 			</gmd:citation>
 			<gmd:abstract>
-				<gco:CharacterString>Simulation of hydrodynamic circulation in Barnegat Bay for the period from 03-01-2012 to 10-01-2012. The bathymetry of the model was based on the National Ocean Service Hydrographic Survey data, and updated with recent bathymetric measurements. At the landward end (western boundary), we specified point sources of freshwater in accordance with USGS streamflow measurements at 7 gauges, and a radiation boundary condition that allows tidal energy to propagate landward. On the seaward end, tidal water level and velocity amplitudes from the ADCIRC tidal constituents database for the North Atlantic were applied. These were supplemented by the subtidal water level and subtidal barotropic velocity from the ESPreSSO model, which covers the Mid-Atlantic Bight at 6 kilometer resolution. At the ocean boundary, a combination of Chapman, Flather, and gradient boundary conditions were used. Salinity and temperature was also supplied by the ESPreSSO model. A radiation condition with nudging on a 6-hour timescale for tracers allowed for relaxation of the model solution relative to the forcing data, which prevented sharp gradients at the seaward boundary and subsequent oscillations in the solution. At the ocean-atmosphere interface we applied meteorological forcing from North American Mesoscale Model. The bulk flux parameterization routine was used with 3-hour wind velocity, air pressure, long and shortwave radiation, relative humidity, and rain inputs. For more details on the model set up see Defne and Ganju, 2015. Reference: Defne, Zafer, and Ganju, N. K., 2015, Quantifying the residence time and flushing characteristics of a shallow, back-barrier estuary: application of hydrodynamic and particle tracking models, Estuaries and Coasts, 38, 1719-1734</gco:CharacterString>
+				<gco:CharacterString>Simulation of hydrodynamic circulation in Barnegat Bay for the
+					period from 03-01-2012 to 10-01-2012. The bathymetry of the model was based on
+					the National Ocean Service Hydrographic Survey data, and updated with recent
+					bathymetric measurements. At the landward end (western boundary), we specified
+					point sources of freshwater in accordance with USGS streamflow measurements at 7
+					gauges, and a radiation boundary condition that allows tidal energy to propagate
+					landward. On the seaward end, tidal water level and velocity amplitudes from the
+					ADCIRC tidal constituents database for the North Atlantic were applied. These
+					were supplemented by the subtidal water level and subtidal barotropic velocity
+					from the ESPreSSO model, which covers the Mid-Atlantic Bight at 6 kilometer
+					resolution. At the ocean boundary, a combination of Chapman, Flather, and
+					gradient boundary conditions were used. Salinity and temperature was also
+					supplied by the ESPreSSO model. A radiation condition with nudging on a 6-hour
+					timescale for tracers allowed for relaxation of the model solution relative to
+					the forcing data, which prevented sharp gradients at the seaward boundary and
+					subsequent oscillations in the solution. At the ocean-atmosphere interface we
+					applied meteorological forcing from North American Mesoscale Model. The bulk
+					flux parameterization routine was used with 3-hour wind velocity, air pressure,
+					long and shortwave radiation, relative humidity, and rain inputs. For more
+					details on the model set up see Defne and Ganju, 2015. Reference: Defne, Zafer,
+					and Ganju, N. K., 2015, Quantifying the residence time and flushing
+					characteristics of a shallow, back-barrier estuary: application of hydrodynamic
+					and particle tracking models, Estuaries and Coasts, 38,
+					1719-1734</gco:CharacterString>
 			</gmd:abstract>
 			<srv:serviceType>
 				<gco:LocalName>Open Geospatial Consortium Web Map Service (WMS)</gco:LocalName>
@@ -920,8 +1101,9 @@
 				</gmd:EX_Extent>
 			</srv:extent>
 			<srv:couplingType>
-				<srv:SV_CouplingType codeList="http://www.tc211.org/ISO19139/resources/codeList.xml#SV_CouplingType"
-                                 codeListValue="tight">tight</srv:SV_CouplingType>
+				<srv:SV_CouplingType
+					codeList="http://www.tc211.org/ISO19139/resources/codeList.xml#SV_CouplingType"
+					codeListValue="tight">tight</srv:SV_CouplingType>
 			</srv:couplingType>
 			<srv:containsOperations>
 				<srv:SV_OperationMetadata>
@@ -941,11 +1123,13 @@
 								<gco:CharacterString>OGC-WMS</gco:CharacterString>
 							</gmd:name>
 							<gmd:description>
-								<gco:CharacterString>Open Geospatial Consortium Web Map Service (WMS)</gco:CharacterString>
+								<gco:CharacterString>Open Geospatial Consortium Web Map Service
+									(WMS)</gco:CharacterString>
 							</gmd:description>
 							<gmd:function>
-								<gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
-                                                   codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+								<gmd:CI_OnLineFunctionCode
+									codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
+									codeListValue="download">download</gmd:CI_OnLineFunctionCode>
 							</gmd:function>
 						</gmd:CI_OnlineResource>
 					</srv:connectPoint>
@@ -959,7 +1143,8 @@
 			<gmd:citation>
 				<gmd:CI_Citation>
 					<gmd:title>
-						<gco:CharacterString>USGS Barnegat Bay Hydrodynamic Model for March-September 2012</gco:CharacterString>
+						<gco:CharacterString>USGS Barnegat Bay Hydrodynamic Model for
+							March-September 2012</gco:CharacterString>
 					</gmd:title>
 					<gmd:date>
 						<gmd:CI_Date>
@@ -967,8 +1152,9 @@
 								<gco:Date>2015-04-01</gco:Date>
 							</gmd:date>
 							<gmd:dateType>
-								<gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
-                                             codeListValue="creation">creation</gmd:CI_DateTypeCode>
+								<gmd:CI_DateTypeCode
+									codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+									codeListValue="creation">creation</gmd:CI_DateTypeCode>
 							</gmd:dateType>
 						</gmd:CI_Date>
 					</gmd:date>
@@ -978,15 +1164,39 @@
 								<gco:Date>2018-02-01</gco:Date>
 							</gmd:date>
 							<gmd:dateType>
-								<gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
-                                             codeListValue="publication">publication</gmd:CI_DateTypeCode>
+								<gmd:CI_DateTypeCode
+									codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+									codeListValue="publication">publication</gmd:CI_DateTypeCode>
 							</gmd:dateType>
 						</gmd:CI_Date>
 					</gmd:date>
 				</gmd:CI_Citation>
 			</gmd:citation>
 			<gmd:abstract>
-				<gco:CharacterString>Simulation of hydrodynamic circulation in Barnegat Bay for the period from 03-01-2012 to 10-01-2012. The bathymetry of the model was based on the National Ocean Service Hydrographic Survey data, and updated with recent bathymetric measurements. At the landward end (western boundary), we specified point sources of freshwater in accordance with USGS streamflow measurements at 7 gauges, and a radiation boundary condition that allows tidal energy to propagate landward. On the seaward end, tidal water level and velocity amplitudes from the ADCIRC tidal constituents database for the North Atlantic were applied. These were supplemented by the subtidal water level and subtidal barotropic velocity from the ESPreSSO model, which covers the Mid-Atlantic Bight at 6 kilometer resolution. At the ocean boundary, a combination of Chapman, Flather, and gradient boundary conditions were used. Salinity and temperature was also supplied by the ESPreSSO model. A radiation condition with nudging on a 6-hour timescale for tracers allowed for relaxation of the model solution relative to the forcing data, which prevented sharp gradients at the seaward boundary and subsequent oscillations in the solution. At the ocean-atmosphere interface we applied meteorological forcing from North American Mesoscale Model. The bulk flux parameterization routine was used with 3-hour wind velocity, air pressure, long and shortwave radiation, relative humidity, and rain inputs. For more details on the model set up see Defne and Ganju, 2015. Reference: Defne, Zafer, and Ganju, N. K., 2015, Quantifying the residence time and flushing characteristics of a shallow, back-barrier estuary: application of hydrodynamic and particle tracking models, Estuaries and Coasts, 38, 1719-1734</gco:CharacterString>
+				<gco:CharacterString>Simulation of hydrodynamic circulation in Barnegat Bay for the
+					period from 03-01-2012 to 10-01-2012. The bathymetry of the model was based on
+					the National Ocean Service Hydrographic Survey data, and updated with recent
+					bathymetric measurements. At the landward end (western boundary), we specified
+					point sources of freshwater in accordance with USGS streamflow measurements at 7
+					gauges, and a radiation boundary condition that allows tidal energy to propagate
+					landward. On the seaward end, tidal water level and velocity amplitudes from the
+					ADCIRC tidal constituents database for the North Atlantic were applied. These
+					were supplemented by the subtidal water level and subtidal barotropic velocity
+					from the ESPreSSO model, which covers the Mid-Atlantic Bight at 6 kilometer
+					resolution. At the ocean boundary, a combination of Chapman, Flather, and
+					gradient boundary conditions were used. Salinity and temperature was also
+					supplied by the ESPreSSO model. A radiation condition with nudging on a 6-hour
+					timescale for tracers allowed for relaxation of the model solution relative to
+					the forcing data, which prevented sharp gradients at the seaward boundary and
+					subsequent oscillations in the solution. At the ocean-atmosphere interface we
+					applied meteorological forcing from North American Mesoscale Model. The bulk
+					flux parameterization routine was used with 3-hour wind velocity, air pressure,
+					long and shortwave radiation, relative humidity, and rain inputs. For more
+					details on the model set up see Defne and Ganju, 2015. Reference: Defne, Zafer,
+					and Ganju, N. K., 2015, Quantifying the residence time and flushing
+					characteristics of a shallow, back-barrier estuary: application of hydrodynamic
+					and particle tracking models, Estuaries and Coasts, 38,
+					1719-1734</gco:CharacterString>
 			</gmd:abstract>
 			<srv:serviceType>
 				<gco:LocalName>THREDDS NetCDF Subset Service</gco:LocalName>
@@ -1036,8 +1246,9 @@
 				</gmd:EX_Extent>
 			</srv:extent>
 			<srv:couplingType>
-				<srv:SV_CouplingType codeList="http://www.tc211.org/ISO19139/resources/codeList.xml#SV_CouplingType"
-                                 codeListValue="tight">tight</srv:SV_CouplingType>
+				<srv:SV_CouplingType
+					codeList="http://www.tc211.org/ISO19139/resources/codeList.xml#SV_CouplingType"
+					codeListValue="tight">tight</srv:SV_CouplingType>
 			</srv:couplingType>
 			<srv:containsOperations>
 				<srv:SV_OperationMetadata>
@@ -1057,11 +1268,13 @@
 								<gco:CharacterString>THREDDS_NetCDF_Subset</gco:CharacterString>
 							</gmd:name>
 							<gmd:description>
-								<gco:CharacterString>THREDDS NetCDF Subset Service</gco:CharacterString>
+								<gco:CharacterString>THREDDS NetCDF Subset
+									Service</gco:CharacterString>
 							</gmd:description>
 							<gmd:function>
-								<gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
-                                                   codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+								<gmd:CI_OnLineFunctionCode
+									codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
+									codeListValue="download">download</gmd:CI_OnLineFunctionCode>
 							</gmd:function>
 						</gmd:CI_OnlineResource>
 					</srv:connectPoint>
@@ -1075,7 +1288,8 @@
 			<gmd:citation>
 				<gmd:CI_Citation>
 					<gmd:title>
-						<gco:CharacterString>USGS Barnegat Bay Hydrodynamic Model for March-September 2012</gco:CharacterString>
+						<gco:CharacterString>USGS Barnegat Bay Hydrodynamic Model for
+							March-September 2012</gco:CharacterString>
 					</gmd:title>
 					<gmd:date>
 						<gmd:CI_Date>
@@ -1083,8 +1297,9 @@
 								<gco:Date>2015-04-01</gco:Date>
 							</gmd:date>
 							<gmd:dateType>
-								<gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
-                                             codeListValue="creation">creation</gmd:CI_DateTypeCode>
+								<gmd:CI_DateTypeCode
+									codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+									codeListValue="creation">creation</gmd:CI_DateTypeCode>
 							</gmd:dateType>
 						</gmd:CI_Date>
 					</gmd:date>
@@ -1094,15 +1309,39 @@
 								<gco:Date>2018-02-01</gco:Date>
 							</gmd:date>
 							<gmd:dateType>
-								<gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
-                                             codeListValue="publication">publication</gmd:CI_DateTypeCode>
+								<gmd:CI_DateTypeCode
+									codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+									codeListValue="publication">publication</gmd:CI_DateTypeCode>
 							</gmd:dateType>
 						</gmd:CI_Date>
 					</gmd:date>
 				</gmd:CI_Citation>
 			</gmd:citation>
 			<gmd:abstract>
-				<gco:CharacterString>Simulation of hydrodynamic circulation in Barnegat Bay for the period from 03-01-2012 to 10-01-2012. The bathymetry of the model was based on the National Ocean Service Hydrographic Survey data, and updated with recent bathymetric measurements. At the landward end (western boundary), we specified point sources of freshwater in accordance with USGS streamflow measurements at 7 gauges, and a radiation boundary condition that allows tidal energy to propagate landward. On the seaward end, tidal water level and velocity amplitudes from the ADCIRC tidal constituents database for the North Atlantic were applied. These were supplemented by the subtidal water level and subtidal barotropic velocity from the ESPreSSO model, which covers the Mid-Atlantic Bight at 6 kilometer resolution. At the ocean boundary, a combination of Chapman, Flather, and gradient boundary conditions were used. Salinity and temperature was also supplied by the ESPreSSO model. A radiation condition with nudging on a 6-hour timescale for tracers allowed for relaxation of the model solution relative to the forcing data, which prevented sharp gradients at the seaward boundary and subsequent oscillations in the solution. At the ocean-atmosphere interface we applied meteorological forcing from North American Mesoscale Model. The bulk flux parameterization routine was used with 3-hour wind velocity, air pressure, long and shortwave radiation, relative humidity, and rain inputs. For more details on the model set up see Defne and Ganju, 2015. Reference: Defne, Zafer, and Ganju, N. K., 2015, Quantifying the residence time and flushing characteristics of a shallow, back-barrier estuary: application of hydrodynamic and particle tracking models, Estuaries and Coasts, 38, 1719-1734</gco:CharacterString>
+				<gco:CharacterString>Simulation of hydrodynamic circulation in Barnegat Bay for the
+					period from 03-01-2012 to 10-01-2012. The bathymetry of the model was based on
+					the National Ocean Service Hydrographic Survey data, and updated with recent
+					bathymetric measurements. At the landward end (western boundary), we specified
+					point sources of freshwater in accordance with USGS streamflow measurements at 7
+					gauges, and a radiation boundary condition that allows tidal energy to propagate
+					landward. On the seaward end, tidal water level and velocity amplitudes from the
+					ADCIRC tidal constituents database for the North Atlantic were applied. These
+					were supplemented by the subtidal water level and subtidal barotropic velocity
+					from the ESPreSSO model, which covers the Mid-Atlantic Bight at 6 kilometer
+					resolution. At the ocean boundary, a combination of Chapman, Flather, and
+					gradient boundary conditions were used. Salinity and temperature was also
+					supplied by the ESPreSSO model. A radiation condition with nudging on a 6-hour
+					timescale for tracers allowed for relaxation of the model solution relative to
+					the forcing data, which prevented sharp gradients at the seaward boundary and
+					subsequent oscillations in the solution. At the ocean-atmosphere interface we
+					applied meteorological forcing from North American Mesoscale Model. The bulk
+					flux parameterization routine was used with 3-hour wind velocity, air pressure,
+					long and shortwave radiation, relative humidity, and rain inputs. For more
+					details on the model set up see Defne and Ganju, 2015. Reference: Defne, Zafer,
+					and Ganju, N. K., 2015, Quantifying the residence time and flushing
+					characteristics of a shallow, back-barrier estuary: application of hydrodynamic
+					and particle tracking models, Estuaries and Coasts, 38,
+					1719-1734</gco:CharacterString>
 			</gmd:abstract>
 			<srv:serviceType>
 				<gco:LocalName>THREDDS HTTP Service</gco:LocalName>
@@ -1152,8 +1391,9 @@
 				</gmd:EX_Extent>
 			</srv:extent>
 			<srv:couplingType>
-				<srv:SV_CouplingType codeList="http://www.tc211.org/ISO19139/resources/codeList.xml#SV_CouplingType"
-                                 codeListValue="tight">tight</srv:SV_CouplingType>
+				<srv:SV_CouplingType
+					codeList="http://www.tc211.org/ISO19139/resources/codeList.xml#SV_CouplingType"
+					codeListValue="tight">tight</srv:SV_CouplingType>
 			</srv:couplingType>
 			<srv:containsOperations>
 				<srv:SV_OperationMetadata>
@@ -1176,8 +1416,9 @@
 								<gco:CharacterString>THREDDS HTTP Service</gco:CharacterString>
 							</gmd:description>
 							<gmd:function>
-								<gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
-                                                   codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+								<gmd:CI_OnLineFunctionCode
+									codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
+									codeListValue="download">download</gmd:CI_OnLineFunctionCode>
 							</gmd:function>
 						</gmd:CI_OnlineResource>
 					</srv:connectPoint>
@@ -1192,7 +1433,9 @@
 				<gco:RecordType>Grid Cell</gco:RecordType>
 			</gmd:attributeDescription>
 			<gmd:contentType>
-				<gmd:MD_CoverageContentTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode" codeListValue="modelResult">modelResult</gmd:MD_CoverageContentTypeCode>
+				<gmd:MD_CoverageContentTypeCode
+					codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode"
+					codeListValue="modelResult">modelResult</gmd:MD_CoverageContentTypeCode>
 			</gmd:contentType>
 			<gmd:dimension>
 				<gmd:MD_Band>
@@ -1255,7 +1498,9 @@
 					<gmd:descriptor>
 						<gco:CharacterString>size of long time-steps</gco:CharacterString>
 					</gmd:descriptor>
-					<gmd:units xlink:href="https://raw.githubusercontent.com/Unidata/UDUNITS-2/master/lib/udunits2-common.xml#sec"/>
+					<gmd:units
+						xlink:href="https://raw.githubusercontent.com/Unidata/UDUNITS-2/master/lib/udunits2-common.xml#sec"
+					/>
 				</gmd:MD_Band>
 			</gmd:dimension>
 			<gmd:dimension>
@@ -1277,7 +1522,9 @@
 					<gmd:descriptor>
 						<gco:CharacterString>size of short time-steps</gco:CharacterString>
 					</gmd:descriptor>
-					<gmd:units xlink:href="https://raw.githubusercontent.com/Unidata/UDUNITS-2/master/lib/udunits2-common.xml#sec"/>
+					<gmd:units
+						xlink:href="https://raw.githubusercontent.com/Unidata/UDUNITS-2/master/lib/udunits2-common.xml#sec"
+					/>
 				</gmd:MD_Band>
 			</gmd:dimension>
 			<gmd:dimension>
@@ -1297,9 +1544,12 @@
 						</gco:MemberName>
 					</gmd:sequenceIdentifier>
 					<gmd:descriptor>
-						<gco:CharacterString>time stamp assigned to model initilization</gco:CharacterString>
+						<gco:CharacterString>time stamp assigned to model
+							initilization</gco:CharacterString>
 					</gmd:descriptor>
-					<gmd:units xlink:href="https://raw.githubusercontent.com/Unidata/UDUNITS-2/master/lib/udunits2-accepted.xml#day"/>
+					<gmd:units
+						xlink:href="https://raw.githubusercontent.com/Unidata/UDUNITS-2/master/lib/udunits2-accepted.xml#day"
+					/>
 				</gmd:MD_Band>
 			</gmd:dimension>
 			<gmd:dimension>
@@ -1319,7 +1569,8 @@
 						</gco:MemberName>
 					</gmd:sequenceIdentifier>
 					<gmd:descriptor>
-						<gco:CharacterString>number of time-steps between history records</gco:CharacterString>
+						<gco:CharacterString>number of time-steps between history
+							records</gco:CharacterString>
 					</gmd:descriptor>
 					<gmd:units gco:nilReason="inapplicable"/>
 				</gmd:MD_Band>
@@ -1341,7 +1592,8 @@
 						</gco:MemberName>
 					</gmd:sequenceIdentifier>
 					<gmd:descriptor>
-						<gco:CharacterString>number of time-steps between the creation of history files</gco:CharacterString>
+						<gco:CharacterString>number of time-steps between the creation of history
+							files</gco:CharacterString>
 					</gmd:descriptor>
 					<gmd:units gco:nilReason="inapplicable"/>
 				</gmd:MD_Band>
@@ -1363,7 +1615,8 @@
 						</gco:MemberName>
 					</gmd:sequenceIdentifier>
 					<gmd:descriptor>
-						<gco:CharacterString>number of time-steps between restart records</gco:CharacterString>
+						<gco:CharacterString>number of time-steps between restart
+							records</gco:CharacterString>
 					</gmd:descriptor>
 					<gmd:units gco:nilReason="inapplicable"/>
 				</gmd:MD_Band>
@@ -1385,7 +1638,8 @@
 						</gco:MemberName>
 					</gmd:sequenceIdentifier>
 					<gmd:descriptor>
-						<gco:CharacterString>starting time-step for accumulation of time-averaged fields</gco:CharacterString>
+						<gco:CharacterString>starting time-step for accumulation of time-averaged
+							fields</gco:CharacterString>
 					</gmd:descriptor>
 					<gmd:units gco:nilReason="inapplicable"/>
 				</gmd:MD_Band>
@@ -1407,7 +1661,8 @@
 						</gco:MemberName>
 					</gmd:sequenceIdentifier>
 					<gmd:descriptor>
-						<gco:CharacterString>number of time-steps between time-averaged records</gco:CharacterString>
+						<gco:CharacterString>number of time-steps between time-averaged
+							records</gco:CharacterString>
 					</gmd:descriptor>
 					<gmd:units gco:nilReason="inapplicable"/>
 				</gmd:MD_Band>
@@ -1429,7 +1684,8 @@
 						</gco:MemberName>
 					</gmd:sequenceIdentifier>
 					<gmd:descriptor>
-						<gco:CharacterString>number of time-steps between the creation of average files</gco:CharacterString>
+						<gco:CharacterString>number of time-steps between the creation of average
+							files</gco:CharacterString>
 					</gmd:descriptor>
 					<gmd:units gco:nilReason="inapplicable"/>
 				</gmd:MD_Band>
@@ -1451,7 +1707,8 @@
 						</gco:MemberName>
 					</gmd:sequenceIdentifier>
 					<gmd:descriptor>
-						<gco:CharacterString>Power-law shape barotropic filter parameter</gco:CharacterString>
+						<gco:CharacterString>Power-law shape barotropic filter
+							parameter</gco:CharacterString>
 					</gmd:descriptor>
 					<gmd:units gco:nilReason="inapplicable"/>
 				</gmd:MD_Band>
@@ -1473,7 +1730,8 @@
 						</gco:MemberName>
 					</gmd:sequenceIdentifier>
 					<gmd:descriptor>
-						<gco:CharacterString>Power-law shape barotropic filter parameter</gco:CharacterString>
+						<gco:CharacterString>Power-law shape barotropic filter
+							parameter</gco:CharacterString>
 					</gmd:descriptor>
 					<gmd:units gco:nilReason="inapplicable"/>
 				</gmd:MD_Band>
@@ -1495,7 +1753,8 @@
 						</gco:MemberName>
 					</gmd:sequenceIdentifier>
 					<gmd:descriptor>
-						<gco:CharacterString>Power-law shape barotropic filter parameter</gco:CharacterString>
+						<gco:CharacterString>Power-law shape barotropic filter
+							parameter</gco:CharacterString>
 					</gmd:descriptor>
 					<gmd:units gco:nilReason="inapplicable"/>
 				</gmd:MD_Band>
@@ -1517,9 +1776,12 @@
 						</gco:MemberName>
 					</gmd:sequenceIdentifier>
 					<gmd:descriptor>
-						<gco:CharacterString>background vertical mixing coefficient for tracers</gco:CharacterString>
+						<gco:CharacterString>background vertical mixing coefficient for
+							tracers</gco:CharacterString>
 					</gmd:descriptor>
-					<gmd:units xlink:href="https://raw.githubusercontent.com/Unidata/UDUNITS-2/master/lib/udunits2-common.xml#stokes"/>
+					<gmd:units
+						xlink:href="https://raw.githubusercontent.com/Unidata/UDUNITS-2/master/lib/udunits2-common.xml#stokes"
+					/>
 				</gmd:MD_Band>
 			</gmd:dimension>
 			<gmd:dimension>
@@ -1539,9 +1801,12 @@
 						</gco:MemberName>
 					</gmd:sequenceIdentifier>
 					<gmd:descriptor>
-						<gco:CharacterString>background vertical mixing coefficient for momentum</gco:CharacterString>
+						<gco:CharacterString>background vertical mixing coefficient for
+							momentum</gco:CharacterString>
 					</gmd:descriptor>
-					<gmd:units xlink:href="https://raw.githubusercontent.com/Unidata/UDUNITS-2/master/lib/udunits2-common.xml#stokes"/>
+					<gmd:units
+						xlink:href="https://raw.githubusercontent.com/Unidata/UDUNITS-2/master/lib/udunits2-common.xml#stokes"
+					/>
 				</gmd:MD_Band>
 			</gmd:dimension>
 			<gmd:dimension>
@@ -1561,9 +1826,12 @@
 						</gco:MemberName>
 					</gmd:sequenceIdentifier>
 					<gmd:descriptor>
-						<gco:CharacterString>background vertical mixing coefficient for turbulent energy</gco:CharacterString>
+						<gco:CharacterString>background vertical mixing coefficient for turbulent
+							energy</gco:CharacterString>
 					</gmd:descriptor>
-					<gmd:units xlink:href="https://raw.githubusercontent.com/Unidata/UDUNITS-2/master/lib/udunits2-common.xml#stokes"/>
+					<gmd:units
+						xlink:href="https://raw.githubusercontent.com/Unidata/UDUNITS-2/master/lib/udunits2-common.xml#stokes"
+					/>
 				</gmd:MD_Band>
 			</gmd:dimension>
 			<gmd:dimension>
@@ -1583,9 +1851,12 @@
 						</gco:MemberName>
 					</gmd:sequenceIdentifier>
 					<gmd:descriptor>
-						<gco:CharacterString>background vertical mixing coefficient for length scale</gco:CharacterString>
+						<gco:CharacterString>background vertical mixing coefficient for length
+							scale</gco:CharacterString>
 					</gmd:descriptor>
-					<gmd:units xlink:href="https://raw.githubusercontent.com/Unidata/UDUNITS-2/master/lib/udunits2-common.xml#stokes"/>
+					<gmd:units
+						xlink:href="https://raw.githubusercontent.com/Unidata/UDUNITS-2/master/lib/udunits2-common.xml#stokes"
+					/>
 				</gmd:MD_Band>
 			</gmd:dimension>
 			<gmd:dimension>
@@ -1651,7 +1922,9 @@
 					<gmd:descriptor>
 						<gco:CharacterString>bottom roughness</gco:CharacterString>
 					</gmd:descriptor>
-					<gmd:units xlink:href="https://raw.githubusercontent.com/Unidata/UDUNITS-2/master/lib/udunits2-base.xml#meter"/>
+					<gmd:units
+						xlink:href="https://raw.githubusercontent.com/Unidata/UDUNITS-2/master/lib/udunits2-base.xml#meter"
+					/>
 				</gmd:MD_Band>
 			</gmd:dimension>
 			<gmd:dimension>
@@ -1673,7 +1946,9 @@
 					<gmd:descriptor>
 						<gco:CharacterString>surface roughness</gco:CharacterString>
 					</gmd:descriptor>
-					<gmd:units xlink:href="https://raw.githubusercontent.com/Unidata/UDUNITS-2/master/lib/udunits2-base.xml#meter"/>
+					<gmd:units
+						xlink:href="https://raw.githubusercontent.com/Unidata/UDUNITS-2/master/lib/udunits2-base.xml#meter"
+					/>
 				</gmd:MD_Band>
 			</gmd:dimension>
 			<gmd:dimension>
@@ -1825,7 +2100,8 @@
 						</gco:MemberName>
 					</gmd:sequenceIdentifier>
 					<gmd:descriptor>
-						<gco:CharacterString>buoyancy production coefficient (minus)</gco:CharacterString>
+						<gco:CharacterString>buoyancy production coefficient
+							(minus)</gco:CharacterString>
 					</gmd:descriptor>
 				</gmd:MD_Band>
 			</gmd:dimension>
@@ -1846,7 +2122,8 @@
 						</gco:MemberName>
 					</gmd:sequenceIdentifier>
 					<gmd:descriptor>
-						<gco:CharacterString>buoyancy production coefficient (plus)</gco:CharacterString>
+						<gco:CharacterString>buoyancy production coefficient
+							(plus)</gco:CharacterString>
 					</gmd:descriptor>
 					<gmd:units gco:nilReason="inapplicable"/>
 				</gmd:MD_Band>
@@ -1912,7 +2189,8 @@
 						</gco:MemberName>
 					</gmd:sequenceIdentifier>
 					<gmd:descriptor>
-						<gco:CharacterString>minimum value of specific turbulent kinetic energy</gco:CharacterString>
+						<gco:CharacterString>minimum value of specific turbulent kinetic
+							energy</gco:CharacterString>
 					</gmd:descriptor>
 				</gmd:MD_Band>
 			</gmd:dimension>
@@ -1954,7 +2232,8 @@
 						</gco:MemberName>
 					</gmd:sequenceIdentifier>
 					<gmd:descriptor>
-						<gco:CharacterString>Charnok factor for surface roughness</gco:CharacterString>
+						<gco:CharacterString>Charnok factor for surface
+							roughness</gco:CharacterString>
 					</gmd:descriptor>
 				</gmd:MD_Band>
 			</gmd:dimension>
@@ -1975,7 +2254,8 @@
 						</gco:MemberName>
 					</gmd:sequenceIdentifier>
 					<gmd:descriptor>
-						<gco:CharacterString>wave amplitude factor for surface roughness</gco:CharacterString>
+						<gco:CharacterString>wave amplitude factor for surface
+							roughness</gco:CharacterString>
 					</gmd:descriptor>
 				</gmd:MD_Band>
 			</gmd:dimension>
@@ -1996,7 +2276,8 @@
 						</gco:MemberName>
 					</gmd:sequenceIdentifier>
 					<gmd:descriptor>
-						<gco:CharacterString>surface flux from wave dissipation</gco:CharacterString>
+						<gco:CharacterString>surface flux from wave
+							dissipation</gco:CharacterString>
 					</gmd:descriptor>
 				</gmd:MD_Band>
 			</gmd:dimension>
@@ -2017,7 +2298,8 @@
 						</gco:MemberName>
 					</gmd:sequenceIdentifier>
 					<gmd:descriptor>
-						<gco:CharacterString>surface flux due to Craig and Banner wave breaking</gco:CharacterString>
+						<gco:CharacterString>surface flux due to Craig and Banner wave
+							breaking</gco:CharacterString>
 					</gmd:descriptor>
 				</gmd:MD_Band>
 			</gmd:dimension>
@@ -2038,7 +2320,8 @@
 						</gco:MemberName>
 					</gmd:sequenceIdentifier>
 					<gmd:descriptor>
-						<gco:CharacterString>free-surface nudging/relaxation inverse time scale</gco:CharacterString>
+						<gco:CharacterString>free-surface nudging/relaxation inverse time
+							scale</gco:CharacterString>
 					</gmd:descriptor>
 					<gmd:units xlink:href="http://www.xml-cml.org/unit/nonSi.xml#day-1"/>
 				</gmd:MD_Band>
@@ -2060,7 +2343,8 @@
 						</gco:MemberName>
 					</gmd:sequenceIdentifier>
 					<gmd:descriptor>
-						<gco:CharacterString>2D momentum nudging/relaxation inverse time scale</gco:CharacterString>
+						<gco:CharacterString>2D momentum nudging/relaxation inverse time
+							scale</gco:CharacterString>
 					</gmd:descriptor>
 					<gmd:units xlink:href="http://www.xml-cml.org/unit/nonSi.xml#day-1"/>
 				</gmd:MD_Band>
@@ -2082,7 +2366,8 @@
 						</gco:MemberName>
 					</gmd:sequenceIdentifier>
 					<gmd:descriptor>
-						<gco:CharacterString>3D momentum nudging/relaxation inverse time scale</gco:CharacterString>
+						<gco:CharacterString>3D momentum nudging/relaxation inverse time
+							scale</gco:CharacterString>
 					</gmd:descriptor>
 					<gmd:units xlink:href="http://www.xml-cml.org/unit/nonSi.xml#day-1"/>
 				</gmd:MD_Band>
@@ -2104,7 +2389,8 @@
 						</gco:MemberName>
 					</gmd:sequenceIdentifier>
 					<gmd:descriptor>
-						<gco:CharacterString>Tracers nudging/relaxation inverse time scale</gco:CharacterString>
+						<gco:CharacterString>Tracers nudging/relaxation inverse time
+							scale</gco:CharacterString>
 					</gmd:descriptor>
 					<gmd:units xlink:href="http://www.xml-cml.org/unit/nonSi.xml#day-1"/>
 				</gmd:MD_Band>
@@ -2126,7 +2412,8 @@
 						</gco:MemberName>
 					</gmd:sequenceIdentifier>
 					<gmd:descriptor>
-						<gco:CharacterString>free-surface inflow, nudging inverse time scale</gco:CharacterString>
+						<gco:CharacterString>free-surface inflow, nudging inverse time
+							scale</gco:CharacterString>
 					</gmd:descriptor>
 					<gmd:units xlink:href="http://www.xml-cml.org/unit/nonSi.xml#s-1"/>
 				</gmd:MD_Band>
@@ -2148,7 +2435,8 @@
 						</gco:MemberName>
 					</gmd:sequenceIdentifier>
 					<gmd:descriptor>
-						<gco:CharacterString>free-surface outflow, nudging inverse time scale</gco:CharacterString>
+						<gco:CharacterString>free-surface outflow, nudging inverse time
+							scale</gco:CharacterString>
 					</gmd:descriptor>
 					<gmd:units xlink:href="http://www.xml-cml.org/unit/nonSi.xml#s-1"/>
 				</gmd:MD_Band>
@@ -2170,7 +2458,8 @@
 						</gco:MemberName>
 					</gmd:sequenceIdentifier>
 					<gmd:descriptor>
-						<gco:CharacterString>2D momentum inflow, nudging inverse time scale</gco:CharacterString>
+						<gco:CharacterString>2D momentum inflow, nudging inverse time
+							scale</gco:CharacterString>
 					</gmd:descriptor>
 					<gmd:units xlink:href="http://www.xml-cml.org/unit/nonSi.xml#s-1"/>
 				</gmd:MD_Band>
@@ -2192,7 +2481,8 @@
 						</gco:MemberName>
 					</gmd:sequenceIdentifier>
 					<gmd:descriptor>
-						<gco:CharacterString>2D momentum outflow, nudging inverse time scale</gco:CharacterString>
+						<gco:CharacterString>2D momentum outflow, nudging inverse time
+							scale</gco:CharacterString>
 					</gmd:descriptor>
 					<gmd:units xlink:href="http://www.xml-cml.org/unit/nonSi.xml#s-1"/>
 				</gmd:MD_Band>
@@ -2214,7 +2504,8 @@
 						</gco:MemberName>
 					</gmd:sequenceIdentifier>
 					<gmd:descriptor>
-						<gco:CharacterString>tracers inflow, nudging inverse time scale</gco:CharacterString>
+						<gco:CharacterString>tracers inflow, nudging inverse time
+							scale</gco:CharacterString>
 					</gmd:descriptor>
 					<gmd:units xlink:href="http://www.xml-cml.org/unit/nonSi.xml#s-1"/>
 				</gmd:MD_Band>
@@ -2236,7 +2527,8 @@
 						</gco:MemberName>
 					</gmd:sequenceIdentifier>
 					<gmd:descriptor>
-						<gco:CharacterString>tracers outflow, nudging inverse time scale</gco:CharacterString>
+						<gco:CharacterString>tracers outflow, nudging inverse time
+							scale</gco:CharacterString>
 					</gmd:descriptor>
 					<gmd:units xlink:href="http://www.xml-cml.org/unit/nonSi.xml#s-1"/>
 				</gmd:MD_Band>
@@ -2258,7 +2550,8 @@
 						</gco:MemberName>
 					</gmd:sequenceIdentifier>
 					<gmd:descriptor>
-						<gco:CharacterString>3D momentum inflow, nudging inverse time scale</gco:CharacterString>
+						<gco:CharacterString>3D momentum inflow, nudging inverse time
+							scale</gco:CharacterString>
 					</gmd:descriptor>
 					<gmd:units xlink:href="http://www.xml-cml.org/unit/nonSi.xml#s-1"/>
 				</gmd:MD_Band>
@@ -2280,7 +2573,8 @@
 						</gco:MemberName>
 					</gmd:sequenceIdentifier>
 					<gmd:descriptor>
-						<gco:CharacterString>3D momentum outflow, nudging inverse time scale</gco:CharacterString>
+						<gco:CharacterString>3D momentum outflow, nudging inverse time
+							scale</gco:CharacterString>
 					</gmd:descriptor>
 					<gmd:units xlink:href="http://www.xml-cml.org/unit/nonSi.xml#s-1"/>
 				</gmd:MD_Band>
@@ -2302,7 +2596,8 @@
 						</gco:MemberName>
 					</gmd:sequenceIdentifier>
 					<gmd:descriptor>
-						<gco:CharacterString>mean density used in Boussinesq approximation</gco:CharacterString>
+						<gco:CharacterString>mean density used in Boussinesq
+							approximation</gco:CharacterString>
 					</gmd:descriptor>
 					<gmd:units xlink:href="http://www.xml-cml.org/unit/si.xml#kg.m-3"/>
 				</gmd:MD_Band>
@@ -2324,7 +2619,8 @@
 						</gco:MemberName>
 					</gmd:sequenceIdentifier>
 					<gmd:descriptor>
-						<gco:CharacterString>background density used in linear equation of state</gco:CharacterString>
+						<gco:CharacterString>background density used in linear equation of
+							state</gco:CharacterString>
 					</gmd:descriptor>
 					<gmd:units xlink:href="http://www.xml-cml.org/unit/si.xml#kg.m-3"/>
 				</gmd:MD_Band>
@@ -2412,7 +2708,8 @@
 						</gco:MemberName>
 					</gmd:sequenceIdentifier>
 					<gmd:descriptor>
-						<gco:CharacterString>momentum point sources and sink activation switch</gco:CharacterString>
+						<gco:CharacterString>momentum point sources and sink activation
+							switch</gco:CharacterString>
 					</gmd:descriptor>
 					<gmd:units gco:nilReason="inapplicable"/>
 				</gmd:MD_Band>
@@ -2434,7 +2731,8 @@
 						</gco:MemberName>
 					</gmd:sequenceIdentifier>
 					<gmd:descriptor>
-						<gco:CharacterString>mass point sources and sink activation switch</gco:CharacterString>
+						<gco:CharacterString>mass point sources and sink activation
+							switch</gco:CharacterString>
 					</gmd:descriptor>
 					<gmd:units gco:nilReason="inapplicable"/>
 				</gmd:MD_Band>
@@ -2456,7 +2754,8 @@
 						</gco:MemberName>
 					</gmd:sequenceIdentifier>
 					<gmd:descriptor>
-						<gco:CharacterString>tracer point sources and sink activation switch</gco:CharacterString>
+						<gco:CharacterString>tracer point sources and sink activation
+							switch</gco:CharacterString>
 					</gmd:descriptor>
 					<gmd:units gco:nilReason="inapplicable"/>
 				</gmd:MD_Band>
@@ -2478,7 +2777,8 @@
 						</gco:MemberName>
 					</gmd:sequenceIdentifier>
 					<gmd:descriptor>
-						<gco:CharacterString>sea surface height climatology processing switch</gco:CharacterString>
+						<gco:CharacterString>sea surface height climatology processing
+							switch</gco:CharacterString>
 					</gmd:descriptor>
 					<gmd:units gco:nilReason="inapplicable"/>
 				</gmd:MD_Band>
@@ -2500,7 +2800,8 @@
 						</gco:MemberName>
 					</gmd:sequenceIdentifier>
 					<gmd:descriptor>
-						<gco:CharacterString>2D momentum climatology processing switch</gco:CharacterString>
+						<gco:CharacterString>2D momentum climatology processing
+							switch</gco:CharacterString>
 					</gmd:descriptor>
 					<gmd:units gco:nilReason="inapplicable"/>
 				</gmd:MD_Band>
@@ -2522,7 +2823,8 @@
 						</gco:MemberName>
 					</gmd:sequenceIdentifier>
 					<gmd:descriptor>
-						<gco:CharacterString>3D momentum climatology processing switch</gco:CharacterString>
+						<gco:CharacterString>3D momentum climatology processing
+							switch</gco:CharacterString>
 					</gmd:descriptor>
 					<gmd:units gco:nilReason="inapplicable"/>
 				</gmd:MD_Band>
@@ -2544,7 +2846,8 @@
 						</gco:MemberName>
 					</gmd:sequenceIdentifier>
 					<gmd:descriptor>
-						<gco:CharacterString>tracer climatology processing switch</gco:CharacterString>
+						<gco:CharacterString>tracer climatology processing
+							switch</gco:CharacterString>
 					</gmd:descriptor>
 					<gmd:units gco:nilReason="inapplicable"/>
 				</gmd:MD_Band>
@@ -2566,7 +2869,8 @@
 						</gco:MemberName>
 					</gmd:sequenceIdentifier>
 					<gmd:descriptor>
-						<gco:CharacterString>2D momentum climatology nudging activation switch</gco:CharacterString>
+						<gco:CharacterString>2D momentum climatology nudging activation
+							switch</gco:CharacterString>
 					</gmd:descriptor>
 					<gmd:units gco:nilReason="inapplicable"/>
 				</gmd:MD_Band>
@@ -2588,7 +2892,8 @@
 						</gco:MemberName>
 					</gmd:sequenceIdentifier>
 					<gmd:descriptor>
-						<gco:CharacterString>3D momentum climatology nudging activation switch</gco:CharacterString>
+						<gco:CharacterString>3D momentum climatology nudging activation
+							switch</gco:CharacterString>
 					</gmd:descriptor>
 					<gmd:units gco:nilReason="inapplicable"/>
 				</gmd:MD_Band>
@@ -2610,7 +2915,8 @@
 						</gco:MemberName>
 					</gmd:sequenceIdentifier>
 					<gmd:descriptor>
-						<gco:CharacterString>tracer climatology nudging activation switch</gco:CharacterString>
+						<gco:CharacterString>tracer climatology nudging activation
+							switch</gco:CharacterString>
 					</gmd:descriptor>
 					<gmd:units gco:nilReason="inapplicable"/>
 				</gmd:MD_Band>
@@ -2656,7 +2962,9 @@
 					<gmd:descriptor>
 						<gco:CharacterString>domain length in the XI-direction</gco:CharacterString>
 					</gmd:descriptor>
-					<gmd:units xlink:href="https://raw.githubusercontent.com/Unidata/UDUNITS-2/master/lib/udunits2-base.xml#meter"/>
+					<gmd:units
+						xlink:href="https://raw.githubusercontent.com/Unidata/UDUNITS-2/master/lib/udunits2-base.xml#meter"
+					/>
 				</gmd:MD_Band>
 			</gmd:dimension>
 			<gmd:dimension>
@@ -2676,9 +2984,12 @@
 						</gco:MemberName>
 					</gmd:sequenceIdentifier>
 					<gmd:descriptor>
-						<gco:CharacterString>domain length in the ETA-direction</gco:CharacterString>
+						<gco:CharacterString>domain length in the
+							ETA-direction</gco:CharacterString>
 					</gmd:descriptor>
-					<gmd:units xlink:href="https://raw.githubusercontent.com/Unidata/UDUNITS-2/master/lib/udunits2-base.xml#meter"/>
+					<gmd:units
+						xlink:href="https://raw.githubusercontent.com/Unidata/UDUNITS-2/master/lib/udunits2-base.xml#meter"
+					/>
 				</gmd:MD_Band>
 			</gmd:dimension>
 			<gmd:dimension>
@@ -2698,7 +3009,8 @@
 						</gco:MemberName>
 					</gmd:sequenceIdentifier>
 					<gmd:descriptor>
-						<gco:CharacterString>vertical terrain-following transformation equation</gco:CharacterString>
+						<gco:CharacterString>vertical terrain-following transformation
+							equation</gco:CharacterString>
 					</gmd:descriptor>
 					<gmd:units gco:nilReason="inapplicable"/>
 				</gmd:MD_Band>
@@ -2720,7 +3032,8 @@
 						</gco:MemberName>
 					</gmd:sequenceIdentifier>
 					<gmd:descriptor>
-						<gco:CharacterString>vertical terrain-following stretching function</gco:CharacterString>
+						<gco:CharacterString>vertical terrain-following stretching
+							function</gco:CharacterString>
 					</gmd:descriptor>
 					<gmd:units gco:nilReason="inapplicable"/>
 				</gmd:MD_Band>
@@ -2742,7 +3055,8 @@
 						</gco:MemberName>
 					</gmd:sequenceIdentifier>
 					<gmd:descriptor>
-						<gco:CharacterString>S-coordinate surface control parameter</gco:CharacterString>
+						<gco:CharacterString>S-coordinate surface control
+							parameter</gco:CharacterString>
 					</gmd:descriptor>
 					<gmd:units gco:nilReason="inapplicable"/>
 				</gmd:MD_Band>
@@ -2764,7 +3078,8 @@
 						</gco:MemberName>
 					</gmd:sequenceIdentifier>
 					<gmd:descriptor>
-						<gco:CharacterString>S-coordinate bottom control parameter</gco:CharacterString>
+						<gco:CharacterString>S-coordinate bottom control
+							parameter</gco:CharacterString>
 					</gmd:descriptor>
 					<gmd:units gco:nilReason="inapplicable"/>
 				</gmd:MD_Band>
@@ -2786,9 +3101,12 @@
 						</gco:MemberName>
 					</gmd:sequenceIdentifier>
 					<gmd:descriptor>
-						<gco:CharacterString>S-coordinate surface/bottom layer width</gco:CharacterString>
+						<gco:CharacterString>S-coordinate surface/bottom layer
+							width</gco:CharacterString>
 					</gmd:descriptor>
-					<gmd:units xlink:href="https://raw.githubusercontent.com/Unidata/UDUNITS-2/master/lib/udunits2-base.xml#meter"/>
+					<gmd:units
+						xlink:href="https://raw.githubusercontent.com/Unidata/UDUNITS-2/master/lib/udunits2-base.xml#meter"
+					/>
 				</gmd:MD_Band>
 			</gmd:dimension>
 			<gmd:dimension>
@@ -2808,9 +3126,12 @@
 						</gco:MemberName>
 					</gmd:sequenceIdentifier>
 					<gmd:descriptor>
-						<gco:CharacterString>S-coordinate parameter, critical depth</gco:CharacterString>
+						<gco:CharacterString>S-coordinate parameter, critical
+							depth</gco:CharacterString>
 					</gmd:descriptor>
-					<gmd:units xlink:href="https://raw.githubusercontent.com/Unidata/UDUNITS-2/master/lib/udunits2-base.xml#meter"/>
+					<gmd:units
+						xlink:href="https://raw.githubusercontent.com/Unidata/UDUNITS-2/master/lib/udunits2-base.xml#meter"
+					/>
 				</gmd:MD_Band>
 			</gmd:dimension>
 			<gmd:dimension>
@@ -2830,7 +3151,8 @@
 						</gco:MemberName>
 					</gmd:sequenceIdentifier>
 					<gmd:descriptor>
-						<gco:CharacterString>S-coordinate stretching curves at RHO-points</gco:CharacterString>
+						<gco:CharacterString>S-coordinate stretching curves at
+							RHO-points</gco:CharacterString>
 					</gmd:descriptor>
 					<gmd:units gco:nilReason="inapplicable"/>
 				</gmd:MD_Band>
@@ -2852,7 +3174,8 @@
 						</gco:MemberName>
 					</gmd:sequenceIdentifier>
 					<gmd:descriptor>
-						<gco:CharacterString>S-coordinate stretching curves at W-points</gco:CharacterString>
+						<gco:CharacterString>S-coordinate stretching curves at
+							W-points</gco:CharacterString>
 					</gmd:descriptor>
 					<gmd:units gco:nilReason="inapplicable"/>
 				</gmd:MD_Band>
@@ -2876,7 +3199,9 @@
 					<gmd:descriptor>
 						<gco:CharacterString>bathymetry at RHO-points</gco:CharacterString>
 					</gmd:descriptor>
-					<gmd:units xlink:href="https://raw.githubusercontent.com/Unidata/UDUNITS-2/master/lib/udunits2-base.xml#meter"/>
+					<gmd:units
+						xlink:href="https://raw.githubusercontent.com/Unidata/UDUNITS-2/master/lib/udunits2-base.xml#meter"
+					/>
 				</gmd:MD_Band>
 			</gmd:dimension>
 			<gmd:dimension>
@@ -2918,7 +3243,8 @@
 						</gco:MemberName>
 					</gmd:sequenceIdentifier>
 					<gmd:descriptor>
-						<gco:CharacterString>curvilinear coordinate metric in XI</gco:CharacterString>
+						<gco:CharacterString>curvilinear coordinate metric in
+							XI</gco:CharacterString>
 					</gmd:descriptor>
 					<gmd:units xlink:href="http://www.xml-cml.org/unit/si.xml#m-1"/>
 				</gmd:MD_Band>
@@ -2940,7 +3266,8 @@
 						</gco:MemberName>
 					</gmd:sequenceIdentifier>
 					<gmd:descriptor>
-						<gco:CharacterString>curvilinear coordinate metric in ETA</gco:CharacterString>
+						<gco:CharacterString>curvilinear coordinate metric in
+							ETA</gco:CharacterString>
 					</gmd:descriptor>
 					<gmd:units xlink:href="http://www.xml-cml.org/unit/si.xml#m-1"/>
 				</gmd:MD_Band>
@@ -2964,7 +3291,9 @@
 					<gmd:descriptor>
 						<gco:CharacterString>angle between XI-axis and EAST</gco:CharacterString>
 					</gmd:descriptor>
-					<gmd:units xlink:href="https://raw.githubusercontent.com/Unidata/UDUNITS-2/master/lib/udunits2-derived.xml#radian"/>
+					<gmd:units
+						xlink:href="https://raw.githubusercontent.com/Unidata/UDUNITS-2/master/lib/udunits2-derived.xml#radian"
+					/>
 				</gmd:MD_Band>
 			</gmd:dimension>
 			<gmd:dimension>
@@ -3138,9 +3467,12 @@
 						</gco:MemberName>
 					</gmd:sequenceIdentifier>
 					<gmd:descriptor>
-						<gco:CharacterString>free-surface (sea_surface_height_above_geopotential_datum)</gco:CharacterString>
+						<gco:CharacterString>free-surface
+							(sea_surface_height_above_geopotential_datum)</gco:CharacterString>
 					</gmd:descriptor>
-					<gmd:units xlink:href="https://raw.githubusercontent.com/Unidata/UDUNITS-2/master/lib/udunits2-base.xml#meter"/>
+					<gmd:units
+						xlink:href="https://raw.githubusercontent.com/Unidata/UDUNITS-2/master/lib/udunits2-base.xml#meter"
+					/>
 				</gmd:MD_Band>
 			</gmd:dimension>
 			<gmd:dimension>
@@ -3160,7 +3492,8 @@
 						</gco:MemberName>
 					</gmd:sequenceIdentifier>
 					<gmd:descriptor>
-						<gco:CharacterString>vertically integrated u-momentum component (barotropic_sea_water_x_velocity)</gco:CharacterString>
+						<gco:CharacterString>vertically integrated u-momentum component
+							(barotropic_sea_water_x_velocity)</gco:CharacterString>
 					</gmd:descriptor>
 					<gmd:units xlink:href="http://www.xml-cml.org/unit/si.xml#m.s-1"/>
 				</gmd:MD_Band>
@@ -3182,7 +3515,8 @@
 						</gco:MemberName>
 					</gmd:sequenceIdentifier>
 					<gmd:descriptor>
-						<gco:CharacterString>vertically integrated v-momentum component (barotropic_sea_water_y_velocity)</gco:CharacterString>
+						<gco:CharacterString>vertically integrated v-momentum component
+							(barotropic_sea_water_y_velocity)</gco:CharacterString>
 					</gmd:descriptor>
 					<gmd:units xlink:href="http://www.xml-cml.org/unit/si.xml#m.s-1"/>
 				</gmd:MD_Band>
@@ -3204,7 +3538,8 @@
 						</gco:MemberName>
 					</gmd:sequenceIdentifier>
 					<gmd:descriptor>
-						<gco:CharacterString>u-momentum component (sea_water_x_velocity)</gco:CharacterString>
+						<gco:CharacterString>u-momentum component
+							(sea_water_x_velocity)</gco:CharacterString>
 					</gmd:descriptor>
 					<gmd:units xlink:href="http://www.xml-cml.org/unit/si.xml#m.s-1"/>
 				</gmd:MD_Band>
@@ -3226,7 +3561,8 @@
 						</gco:MemberName>
 					</gmd:sequenceIdentifier>
 					<gmd:descriptor>
-						<gco:CharacterString>v-momentum component (sea_water_y_velocity)</gco:CharacterString>
+						<gco:CharacterString>v-momentum component
+							(sea_water_y_velocity)</gco:CharacterString>
 					</gmd:descriptor>
 					<gmd:units xlink:href="http://www.xml-cml.org/unit/si.xml#m.s-1"/>
 				</gmd:MD_Band>
@@ -3270,7 +3606,8 @@
 						</gco:MemberName>
 					</gmd:sequenceIdentifier>
 					<gmd:descriptor>
-						<gco:CharacterString>potential temperature (sea_water_potential_temperature)</gco:CharacterString>
+						<gco:CharacterString>potential temperature
+							(sea_water_potential_temperature)</gco:CharacterString>
 					</gmd:descriptor>
 					<gmd:units xlink:href="http://www.xml-cml.org/unit/nonSi.xml#degreesC"/>
 				</gmd:MD_Band>
@@ -3335,9 +3672,12 @@
 						</gco:MemberName>
 					</gmd:sequenceIdentifier>
 					<gmd:descriptor>
-						<gco:CharacterString>salinity vertical diffusion coefficient</gco:CharacterString>
+						<gco:CharacterString>salinity vertical diffusion
+							coefficient</gco:CharacterString>
 					</gmd:descriptor>
-					<gmd:units xlink:href="https://raw.githubusercontent.com/Unidata/UDUNITS-2/master/lib/udunits2-common.xml#stokes"/>
+					<gmd:units
+						xlink:href="https://raw.githubusercontent.com/Unidata/UDUNITS-2/master/lib/udunits2-common.xml#stokes"
+					/>
 				</gmd:MD_Band>
 			</gmd:dimension>
 			<gmd:dimension>
@@ -3359,7 +3699,9 @@
 					<gmd:descriptor>
 						<gco:CharacterString>bottom u-momentum stress</gco:CharacterString>
 					</gmd:descriptor>
-					<gmd:units xlink:href="https://raw.githubusercontent.com/Unidata/UDUNITS-2/master/lib/udunits2-derived.xml#pascal"/>
+					<gmd:units
+						xlink:href="https://raw.githubusercontent.com/Unidata/UDUNITS-2/master/lib/udunits2-derived.xml#pascal"
+					/>
 				</gmd:MD_Band>
 			</gmd:dimension>
 			<gmd:dimension>
@@ -3381,7 +3723,9 @@
 					<gmd:descriptor>
 						<gco:CharacterString>bottom v-momentum stress</gco:CharacterString>
 					</gmd:descriptor>
-					<gmd:units xlink:href="https://raw.githubusercontent.com/Unidata/UDUNITS-2/master/lib/udunits2-derived.xml#pascal"/>
+					<gmd:units
+						xlink:href="https://raw.githubusercontent.com/Unidata/UDUNITS-2/master/lib/udunits2-derived.xml#pascal"
+					/>
 				</gmd:MD_Band>
 			</gmd:dimension>
 			<gmd:dimension>
@@ -3422,7 +3766,8 @@
 						</gco:MemberName>
 					</gmd:sequenceIdentifier>
 					<gmd:descriptor>
-						<gco:CharacterString>S-coordinate at RHO-points (ocean_s_coordinate_g1)</gco:CharacterString>
+						<gco:CharacterString>S-coordinate at RHO-points
+							(ocean_s_coordinate_g1)</gco:CharacterString>
 					</gmd:descriptor>
 					<gmd:units gco:nilReason="inapplicable"/>
 				</gmd:MD_Band>
@@ -3444,7 +3789,8 @@
 						</gco:MemberName>
 					</gmd:sequenceIdentifier>
 					<gmd:descriptor>
-						<gco:CharacterString>S-coordinate at W-points (ocean_s_coordinate_g1)</gco:CharacterString>
+						<gco:CharacterString>S-coordinate at W-points
+							(ocean_s_coordinate_g1)</gco:CharacterString>
 					</gmd:descriptor>
 					<gmd:units gco:nilReason="inapplicable"/>
 				</gmd:MD_Band>
@@ -3466,9 +3812,12 @@
 						</gco:MemberName>
 					</gmd:sequenceIdentifier>
 					<gmd:descriptor>
-						<gco:CharacterString>longitude of RHO-points (longitude)</gco:CharacterString>
+						<gco:CharacterString>longitude of RHO-points
+							(longitude)</gco:CharacterString>
 					</gmd:descriptor>
-					<gmd:units xlink:href="https://raw.githubusercontent.com/Unidata/UDUNITS-2/master/lib/udunits2-common.xml#degree_east"/>
+					<gmd:units
+						xlink:href="https://raw.githubusercontent.com/Unidata/UDUNITS-2/master/lib/udunits2-common.xml#degree_east"
+					/>
 				</gmd:MD_Band>
 			</gmd:dimension>
 			<gmd:dimension>
@@ -3490,7 +3839,9 @@
 					<gmd:descriptor>
 						<gco:CharacterString>latitude of RHO-points (latitude)</gco:CharacterString>
 					</gmd:descriptor>
-					<gmd:units xlink:href="https://raw.githubusercontent.com/Unidata/UDUNITS-2/master/lib/udunits2-common.xml#degree_north"/>
+					<gmd:units
+						xlink:href="https://raw.githubusercontent.com/Unidata/UDUNITS-2/master/lib/udunits2-common.xml#degree_north"
+					/>
 				</gmd:MD_Band>
 			</gmd:dimension>
 			<gmd:dimension>
@@ -3512,7 +3863,9 @@
 					<gmd:descriptor>
 						<gco:CharacterString>longitude of U-points (longitude)</gco:CharacterString>
 					</gmd:descriptor>
-					<gmd:units xlink:href="https://raw.githubusercontent.com/Unidata/UDUNITS-2/master/lib/udunits2-common.xml#degree_east"/>
+					<gmd:units
+						xlink:href="https://raw.githubusercontent.com/Unidata/UDUNITS-2/master/lib/udunits2-common.xml#degree_east"
+					/>
 				</gmd:MD_Band>
 			</gmd:dimension>
 			<gmd:dimension>
@@ -3534,7 +3887,9 @@
 					<gmd:descriptor>
 						<gco:CharacterString>latitude of U-points (latitude)</gco:CharacterString>
 					</gmd:descriptor>
-					<gmd:units xlink:href="https://raw.githubusercontent.com/Unidata/UDUNITS-2/master/lib/udunits2-common.xml#degree_north"/>
+					<gmd:units
+						xlink:href="https://raw.githubusercontent.com/Unidata/UDUNITS-2/master/lib/udunits2-common.xml#degree_north"
+					/>
 				</gmd:MD_Band>
 			</gmd:dimension>
 			<gmd:dimension>
@@ -3556,7 +3911,9 @@
 					<gmd:descriptor>
 						<gco:CharacterString>longitude of V-points (longitude)</gco:CharacterString>
 					</gmd:descriptor>
-					<gmd:units xlink:href="https://raw.githubusercontent.com/Unidata/UDUNITS-2/master/lib/udunits2-common.xml#degree_east"/>
+					<gmd:units
+						xlink:href="https://raw.githubusercontent.com/Unidata/UDUNITS-2/master/lib/udunits2-common.xml#degree_east"
+					/>
 				</gmd:MD_Band>
 			</gmd:dimension>
 			<gmd:dimension>
@@ -3578,7 +3935,9 @@
 					<gmd:descriptor>
 						<gco:CharacterString>latitude of V-points (latitude)</gco:CharacterString>
 					</gmd:descriptor>
-					<gmd:units xlink:href="https://raw.githubusercontent.com/Unidata/UDUNITS-2/master/lib/udunits2-common.xml#degree_north"/>
+					<gmd:units
+						xlink:href="https://raw.githubusercontent.com/Unidata/UDUNITS-2/master/lib/udunits2-common.xml#degree_north"
+					/>
 				</gmd:MD_Band>
 			</gmd:dimension>
 			<gmd:dimension>
@@ -3598,9 +3957,12 @@
 						</gco:MemberName>
 					</gmd:sequenceIdentifier>
 					<gmd:descriptor>
-						<gco:CharacterString>longitude of PSI-points (longitude)</gco:CharacterString>
+						<gco:CharacterString>longitude of PSI-points
+							(longitude)</gco:CharacterString>
 					</gmd:descriptor>
-					<gmd:units xlink:href="https://raw.githubusercontent.com/Unidata/UDUNITS-2/master/lib/udunits2-common.xml#degree_east"/>
+					<gmd:units
+						xlink:href="https://raw.githubusercontent.com/Unidata/UDUNITS-2/master/lib/udunits2-common.xml#degree_east"
+					/>
 				</gmd:MD_Band>
 			</gmd:dimension>
 			<gmd:dimension>
@@ -3622,7 +3984,9 @@
 					<gmd:descriptor>
 						<gco:CharacterString>latitude of PSI-points (latitude)</gco:CharacterString>
 					</gmd:descriptor>
-					<gmd:units xlink:href="https://raw.githubusercontent.com/Unidata/UDUNITS-2/master/lib/udunits2-common.xml#degree_north"/>
+					<gmd:units
+						xlink:href="https://raw.githubusercontent.com/Unidata/UDUNITS-2/master/lib/udunits2-common.xml#degree_north"
+					/>
 				</gmd:MD_Band>
 			</gmd:dimension>
 			<gmd:dimension>
@@ -3644,7 +4008,9 @@
 					<gmd:descriptor>
 						<gco:CharacterString>time since initialization (time)</gco:CharacterString>
 					</gmd:descriptor>
-					<gmd:units xlink:href="https://raw.githubusercontent.com/Unidata/UDUNITS-2/master/lib/udunits2-common.xml#seconds%20since%202012-03-01%2000%3A00%3A00"/>
+					<gmd:units
+						xlink:href="https://raw.githubusercontent.com/Unidata/UDUNITS-2/master/lib/udunits2-common.xml#seconds%20since%202012-03-01%2000%3A00%3A00"
+					/>
 				</gmd:MD_Band>
 			</gmd:dimension>
 		</gmi:MI_CoverageDescription>
@@ -3657,7 +4023,8 @@
 						<gmd:CI_ResponsibleParty>
 							<gmd:individualName gco:nilReason="missing"/>
 							<gmd:organisationName>
-								<gco:CharacterString>U.S. Geological Survey - ScienceBase</gco:CharacterString>
+								<gco:CharacterString>U.S. Geological Survey -
+									ScienceBase</gco:CharacterString>
 							</gmd:organisationName>
 							<gmd:contactInfo>
 								<gmd:CI_Contact>
@@ -3678,8 +4045,9 @@
 								</gmd:CI_Contact>
 							</gmd:contactInfo>
 							<gmd:role>
-								<gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
-                                         codeListValue="distributor">distributor</gmd:CI_RoleCode>
+								<gmd:CI_RoleCode
+									codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+									codeListValue="distributor">distributor</gmd:CI_RoleCode>
 							</gmd:role>
 						</gmd:CI_ResponsibleParty>
 					</gmd:distributorContact>
@@ -3705,13 +4073,19 @@
 										<gco:CharacterString>Web Browser</gco:CharacterString>
 									</gmd:applicationProfile>
 									<gmd:name>
-										<gco:CharacterString>ScienceBase Item Summary Page</gco:CharacterString>
+										<gco:CharacterString>ScienceBase Item Summary
+											Page</gco:CharacterString>
 									</gmd:name>
 									<gmd:description>
-										<gco:CharacterString>Link to the ScienceBase Item Summary page for the item described by this metadata record</gco:CharacterString>
+										<gco:CharacterString>Link to the ScienceBase Item Summary
+											page for the item described by this metadata
+											record</gco:CharacterString>
 									</gmd:description>
 									<gmd:function>
-										<gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+										<gmd:CI_OnLineFunctionCode
+											codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
+											codeListValue="information"
+											>information</gmd:CI_OnLineFunctionCode>
 									</gmd:function>
 								</gmd:CI_OnlineResource>
 							</gmd:onLine>
@@ -3727,11 +4101,16 @@
 										<gco:CharacterString>File Information</gco:CharacterString>
 									</gmd:name>
 									<gmd:description>
-										<gco:CharacterString>This URL provides a standard OPeNDAP html interface for selecting data from this dataset. Change the extension to .info for a description of the dataset.</gco:CharacterString>
+										<gco:CharacterString>This URL provides a standard OPeNDAP
+											html interface for selecting data from this dataset.
+											Change the extension to .info for a description of the
+											dataset.</gco:CharacterString>
 									</gmd:description>
 									<gmd:function>
-										<gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
-                                                         codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+										<gmd:CI_OnLineFunctionCode
+											codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
+											codeListValue="download"
+											>download</gmd:CI_OnLineFunctionCode>
 									</gmd:function>
 								</gmd:CI_OnlineResource>
 							</gmd:onLine>
@@ -3748,13 +4127,18 @@
 										<gco:CharacterString>WWW:LINK</gco:CharacterString>
 									</gmd:protocol>
 									<gmd:name>
-										<gco:CharacterString>Viewer Information</gco:CharacterString>
+										<gco:CharacterString>Viewer
+											Information</gco:CharacterString>
 									</gmd:name>
 									<gmd:description>
-										<gco:CharacterString>This URL points to Godiva2, a browser based viewer.</gco:CharacterString>
+										<gco:CharacterString>This URL points to Godiva2, a browser
+											based viewer.</gco:CharacterString>
 									</gmd:description>
 									<gmd:function>
-										<gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+										<gmd:CI_OnLineFunctionCode
+											codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
+											codeListValue="information"
+											>information</gmd:CI_OnLineFunctionCode>
 									</gmd:function>
 								</gmd:CI_OnlineResource>
 							</gmd:onLine>
@@ -3769,15 +4153,17 @@
 			<gmd:scope>
 				<gmd:DQ_Scope>
 					<gmd:level>
-						<gmd:MD_ScopeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_ScopeCode"
-                                    codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+						<gmd:MD_ScopeCode
+							codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_ScopeCode"
+							codeListValue="dataset">dataset</gmd:MD_ScopeCode>
 					</gmd:level>
 				</gmd:DQ_Scope>
 			</gmd:scope>
 			<gmd:lineage>
 				<gmd:LI_Lineage>
 					<gmd:statement>
-						<gco:CharacterString>ROMS/TOMS, Version 3.7, Tuesday - April 7, 2015 -  6:17:54 PM</gco:CharacterString>
+						<gco:CharacterString>ROMS/TOMS, Version 3.7, Tuesday - April 7, 2015 -
+							6:17:54 PM</gco:CharacterString>
 					</gmd:statement>
 				</gmd:LI_Lineage>
 			</gmd:lineage>
@@ -3787,7 +4173,9 @@
 		<gmd:MD_MaintenanceInformation>
 			<gmd:maintenanceAndUpdateFrequency gco:nilReason="notPlanned"/>
 			<gmd:maintenanceNote>
-				<gco:CharacterString>This record was translated from NcML using UnidataDD2MI.xsl Version 2.3.2. (2017-11-02T10:37:40.108-04:00) and revised manually (2018-01-01)</gco:CharacterString>
+				<gco:CharacterString>This record was translated from NcML using UnidataDD2MI.xsl
+					Version 2.3.2. (2017-11-02T10:37:40.108-04:00) and revised manually
+					(2018-01-01)</gco:CharacterString>
 			</gmd:maintenanceNote>
 		</gmd:MD_MaintenanceInformation>
 	</gmd:metadataMaintenance>
