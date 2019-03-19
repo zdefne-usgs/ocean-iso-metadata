@@ -12,4 +12,5 @@ The following pages summarize the steps to create an ISO metadata for ocean mode
 
 3. [Editing the ISO xml](https://github.com/zdefne-usgs/ocean-iso-metadata/wiki/3.-Edit-ISO-xml)
 
-Link to [additional resources and references](https://github.com/zdefne-usgs/ocean-iso-metadata/wiki/Resources)
+### References
+[Additional resources and references](https://github.com/zdefne-usgs/ocean-iso-metadata/wiki/Resources)
