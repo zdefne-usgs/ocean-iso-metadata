@@ -283,7 +283,7 @@
                             </xsl:if>
                             <xsl:if test="count($timeVariableName)">
                                 <xsl:call-template name="writeDimension">
-                                    <xsl:with-param name="dimensionType" select="'temporal'"/>
+                                    <xsl:with-param name="dimensionType" select="'time'"/>
                                     <xsl:with-param name="dimensionUnits" select="$temporalUnits[1]"/>
                                     <xsl:with-param name="dimensionResolution" select="$timeResolution[1]"/>
                                     <xsl:with-param name="dimensionSize" select="/nc:netcdf/nc:dimension[contains(@name,$timeVariableName)]/@length"/>
