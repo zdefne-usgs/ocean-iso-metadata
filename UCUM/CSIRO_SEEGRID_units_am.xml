@@ -698,7 +698,7 @@ or both.  </gml:description>
 				<gml:DerivedUnit gml:id="m_s">
 					<gml:identifier codeSpace="http://urn.opengis.net/">urn:ogc:def:uom:OGC::m_s</gml:identifier>
 					<gml:name>meters per second</gml:name>
-					<gml:name codeSpace="http://unitsofmeasure.org/ucum.html#section-Alphabetic-Index">m/s</gml:name>
+					<gml:name codeSpace="http://unitsofmeasure.org/ucum.html#section-Alphabetic-Index">m.s-1</gml:name>
 					<gml:quantityType>velocity</gml:quantityType>
 					<gml:catalogSymbol>m/s</gml:catalogSymbol>
 					<gml:derivationUnitTerm uom="#m" exponent="1"/>
@@ -712,7 +712,7 @@ or both.  </gml:description>
 					<gml:name>meters per second per second</gml:name>
 					<gml:name codeSpace="http://unitsofmeasure.org/ucum.html#section-Alphabetic-Index">m.s-2</gml:name>
 					<gml:quantityType>acceleration</gml:quantityType>
-					<gml:catalogSymbol>m/m2</gml:catalogSymbol>
+					<gml:catalogSymbol>m/s2</gml:catalogSymbol>
 					<gml:derivationUnitTerm uom="#m" exponent="1"/>
 					<gml:derivationUnitTerm uom="#s" exponent="-2"/>
 				</gml:DerivedUnit>
