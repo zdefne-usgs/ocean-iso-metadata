@@ -1,0 +1,1344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ncml:netcdf xmlns:ncml="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="http://gamone.whoi.edu/thredds/dodsC/sand/usgs/Projects/BBLEH/run076/roms_his.ncml">
+  <ncml:attribute name="file" value="his_bbleh_0115.nc" />
+  <ncml:attribute name="format" value="netCDF-3 64bit offset file" />
+  <ncml:attribute name="Conventions" value="CF-1.6, SGRID-0.1, ACDD-1.3" />
+  <ncml:attribute name="type" value="ROMS/TOMS history file" />
+  <ncml:attribute name="title" value="USGS Barnegat Bay hydrodynamic model for Hurricane Sandy (Storm)" />
+  <ncml:attribute name="rst_file" value="bbleh_rst.nc" />
+  <ncml:attribute name="his_base" value="his_bbleh" />
+  <ncml:attribute name="avg_base" value="avg_bbleh" />
+  <ncml:attribute name="grd_file" value="/sand/usgs/users/zdefne/run076/grid/bbleh_grid_073d.nc" />
+  <ncml:attribute name="ini_file" value="./PART3/bbleh_rst.nc" />
+  <ncml:attribute name="frc_file_01" value="/sand/usgs/users/zdefne/run076/forcing/forcing_tidal/bbleh_tide_072.nc" />
+  <ncml:attribute name="frc_file_02" value="/sand/usgs/users/zdefne/run076/forcing/forcing_bulk/bbleh_bulk_072_wind_5.nc" />
+  <ncml:attribute name="frc_file_03" value="/sand/usgs/users/zdefne/run076/forcing/forcing_bulk/bbleh_bulk_072_nowind.nc" />
+  <ncml:attribute name="bry_file_01" value="/sand/usgs/users/zdefne/run076/forcing/forcing_boundary/bbleh_bry_072nest2.nc" />
+  <ncml:attribute name="script_file" value="" />
+  <ncml:attribute name="NLM_LBC" value="&#xA;EDGE:         WEST   SOUTH  EAST   NORTH  &#xA;zeta:         Gra    Cha    Cha    Cha    &#xA;ubar:         Rad    Fla    Fla    Fla    &#xA;vbar:         Rad    Fla    Fla    Fla    &#xA;u:            Rad    Rad    Rad    Rad    &#xA;v:            Rad    Rad    Rad    Rad    &#xA;temp:         Rad    RadNud RadNud RadNud &#xA;salt:         Rad    RadNud RadNud RadNud &#xA;sand_01:      Gra    Gra    Gra    Gra    &#xA;sand_02:      Gra    Gra    Gra    Gra    &#xA;sand_03:      Gra    Gra    Gra    Gra    &#xA;sand_04:      Gra    Gra    Gra    Gra    &#xA;tke:          Rad    Rad    Rad    Rad    &#xA;ubar_stokes:  Clo    Gra    Gra    Gra    &#xA;vbar_stokes:  Clo    Gra    Gra    Gra    &#xA;u_stokes:     Clo    Gra    Gra    Gra    &#xA;v_stokes:     Clo    Gra    Gra    Gra" />
+  <ncml:attribute name="svn_url" value="https:://myroms.org/svn/src" />
+  <ncml:attribute name="svn_rev" value="956M" />
+  <ncml:attribute name="code_dir" value="/home/zdefne/models/COAWST956t" />
+  <ncml:attribute name="header_dir" value="/scratch/zdefne/Projects/run076" />
+  <ncml:attribute name="header_file" value="bbleh_073.h" />
+  <ncml:attribute name="os" value="Linux" />
+  <ncml:attribute name="cpu" value="x86_64" />
+  <ncml:attribute name="compiler_system" value="pgi" />
+  <ncml:attribute name="compiler_command" value="/usr/local/openmpi-1.4.3_pgi-11.5-0/bin/mpif90" />
+  <ncml:attribute name="compiler_flags" value=" -fastsse -Mipa=fast -tp k8-64 -Mfree" />
+  <ncml:attribute name="tiling" value="005x012" />
+  <ncml:attribute name="history" value="ROMS/TOMS, Version 3.7, Wednesday - January 4, 2017 - 10:14:53 AM" />
+  <ncml:attribute name="ana_file" value="ROMS/Functionals/ana_btflux.h, ROMS/Functionals/ana_cloud.h, ROMS/Functionals/ana_stflux.h" />
+  <ncml:attribute name="CPP_options" value="BBLEH, ADD_FSOBC, ADD_M2OBC, ANA_BPFLUX, ANA_BSFLUX, ANA_BTFLUX, ANA_CLOUD, ANA_SPFLUX, ANA_SSFLUX, ASSUMED_SHAPE, ATM_PRESS, AVERAGES, BEDLOAD_SOULSBY, BULK_FLUXES, COOL_SKIN, CURVGRID, DJ_GRADPS, DOUBLE_PRECISION, GLS_MIXING, KANTHA_CLAYSON, LONGWAVE, MASKING, MCT_LIB, MPI, WEC_VF, WDISS_WAVEMOD, NONLINEAR, !NONLIN_EOS, NO_LBC_ATT, N2S2_HORAVG, OUT_DOUBLE, POWER_LAW, PROFILE, K_GSCHEME, RADIATION_2D, RAMP_TIDES, !RST_SINGLE, SALINITY, SEDIMENT, SUSPLOAD, NONCOHESIVE_BED1, SOLVE3D, SPLINES, SSH_TIDES, SSW_BBL, SSW_CALC_ZNOT, SWAN_COUPLING, TS_MPDATA, TS_MPDATA_LIMIT, UV_ADV, UV_COR, UV_U3HADVECTION, UV_C4VADVECTION, UV_KIRBY, UV_TIDES, VAR_RHO_2D, WAVES_OCEAN, WET_DRY" />
+  <ncml:attribute name="cdm_data_type" value="Grid" />
+  <ncml:attribute name="id" value="USGS_BBLEH_SANDY_076" />
+  <ncml:attribute name="summary" value="Simulation of hydrodynamic circulation and sediment transport in Barnegat Bay during Hurricane Sandy 2012 with full storm forcing. See parent item for more information on model set-up. For more information see: https://doi.org/10.5066/[[DOI-number]] ." />
+  <ncml:attribute name="project" value="CMG_Portal" />
+  <ncml:attribute name="creator_email" value="zdefne@usgs.gov" />
+  <ncml:attribute name="creator_url" value="https://www.usgs.gov/staff-profiles/zafer-defne" />
+  <ncml:attribute name="creator_name" value="Zafer Defne" />
+  <ncml:attribute name="publisher_email" value="sciencebase@usgs.gov" />
+  <ncml:attribute name="publisher_url" value="https://www.sciencebase.gov" />
+  <ncml:attribute name="publisher_name" value="U.S. Geological Survey - ScienceBase" />
+  <ncml:attribute name="contributor_role" value="principalInvestigator" />
+  <ncml:attribute name="contributor_email" value="nganju@usgs.gov" />
+  <ncml:attribute name="contributor_url" value="https://www.usgs.gov/staff-profiles/neil-kamal-ganju" />
+  <ncml:attribute name="contributor_name" value="Neil Ganju" />
+  <ncml:attribute name="naming_authority" value="gov.usgs.cmgp.whsc" />
+  <ncml:attribute name="license" value="The data may be used and redistributed for free but is not intended for legal use, since it may contain inaccuracies. Neither the data Contributor, nor the United States Government, nor any of their employees or contractors, makes any warranty, express or implied, including warranties of merchantability and fitness for a particular purpose, or assumes any legal liability for the accuracy, completeness, or usefulness, of this information." />
+  <ncml:attribute name="references" value="http://woodshole.er.usgs.gov/project-pages/estuaries/,http://woodshole.er.usgs.gov/operations/modeling/COAWST/" />
+  <ncml:attribute name="_CoordSysBuilder" value="ucar.nc2.dataset.conv.CF1Convention" />
+  <ncml:dimension name="xi_rho" length="160" />
+  <ncml:dimension name="xi_u" length="159" />
+  <ncml:dimension name="xi_v" length="160" />
+  <ncml:dimension name="xi_psi" length="159" />
+  <ncml:dimension name="eta_rho" length="800" />
+  <ncml:dimension name="eta_u" length="800" />
+  <ncml:dimension name="eta_v" length="799" />
+  <ncml:dimension name="eta_psi" length="799" />
+  <ncml:dimension name="N" length="7" />
+  <ncml:dimension name="s_rho" length="7" />
+  <ncml:dimension name="s_w" length="8" />
+  <ncml:dimension name="tracer" length="6" />
+  <ncml:dimension name="NST" length="4" />
+  <ncml:dimension name="Nbed" length="1" />
+  <ncml:dimension name="boundary" length="4" />
+  <ncml:dimension name="ocean_time" length="864" />
+  <group xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" name="CFMetadata">
+    <attribute name="geospatial_lon_min" value="-74.43735" type="float" />
+    <attribute name="geospatial_lat_min" value="39.44436" type="float" />
+    <attribute name="geospatial_lon_max" value="-74.00272" type="float" />
+    <attribute name="geospatial_lat_max" value="40.14103" type="float" />
+    <attribute name="geospatial_lon_units" value="degree_east" />
+    <attribute name="geospatial_lat_units" value="degree_north" />
+    <attribute name="geospatial_lon_resolution" value="3.3955425900402528E-6" />
+    <attribute name="geospatial_lat_resolution" value="5.442750963047043E-6" />
+    <attribute name="time_coverage_start" value="2012-10-27T00:30:00Z" />
+    <attribute name="time_coverage_end" value="2012-11-14T00:00:00Z" />
+    <attribute name="time_coverage_units" value="seconds" />
+    <attribute name="time_coverage_resolution" value="1800.0" />
+    <attribute name="time_coverage_duration" value="P0Y0M17DT23H30M0.000S" />
+  </group>
+  <group xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" name="NCISOMetadata">
+    <attribute name="metadata_creation" value="2019-04-18" />
+    <attribute name="nciso_version" value="2.2.3" />
+  </group>
+  <group xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" name="THREDDSMetadata">
+    <attribute name="id" value="sand/usgs/Projects/BBLEH/run076/roms_his.ncml" />
+    <attribute name="full_name" value="run076/roms_his.ncml" />
+    <group name="services">
+      <attribute name="opendap_service" value="http://gamone.whoi.edu/thredds/dodsC/sand/usgs/Projects/BBLEH/run076/roms_his.ncml" />
+      <attribute name="httpserver_service" value="http://gamone.whoi.edu/thredds/fileServer/sand/usgs/Projects/BBLEH/run076/roms_his.ncml" />
+      <attribute name="nccs_service" value="http://gamone.whoi.edu/thredds/ncss/grid/sand/usgs/Projects/BBLEH/run076/roms_his.ncml/dataset.html" />
+      <attribute name="wms_service" value="http://gamone.whoi.edu/thredds/wms/sand/usgs/Projects/BBLEH/run076/roms_his.ncml?service=WMS&amp;version=1.3.0&amp;request=GetCapabilities" />
+    </group>
+    <group name="dates">
+      <attribute name="date" value="2019-03-22T19:44:54Z" type="modified" />
+    </group>
+  </group>
+  <ncml:variable name="ntimes" shape="" type="int">
+    <ncml:attribute name="long_name" value="number of long time-steps" />
+  </ncml:variable>
+  <ncml:variable name="ndtfast" shape="" type="int">
+    <ncml:attribute name="long_name" value="number of short time-steps" />
+  </ncml:variable>
+  <ncml:variable name="dt" shape="" type="double">
+    <ncml:attribute name="long_name" value="size of long time-steps" />
+    <ncml:attribute name="units" value="second" />
+  </ncml:variable>
+  <ncml:variable name="dtfast" shape="" type="double">
+    <ncml:attribute name="long_name" value="size of short time-steps" />
+    <ncml:attribute name="units" value="second" />
+  </ncml:variable>
+  <ncml:variable name="dstart" shape="" type="double">
+    <ncml:attribute name="long_name" value="time stamp assigned to model initilization" />
+    <ncml:attribute name="units" value="days since 2012-09-17 00:00:00" />
+  </ncml:variable>
+  <ncml:variable name="nHIS" shape="" type="int">
+    <ncml:attribute name="long_name" value="number of time-steps between history records" />
+  </ncml:variable>
+  <ncml:variable name="ndefHIS" shape="" type="int">
+    <ncml:attribute name="long_name" value="number of time-steps between the creation of history files" />
+  </ncml:variable>
+  <ncml:variable name="nRST" shape="" type="int">
+    <ncml:attribute name="long_name" value="number of time-steps between restart records" />
+    <ncml:attribute name="cycle" value="only latest two records are maintained" />
+  </ncml:variable>
+  <ncml:variable name="ntsAVG" shape="" type="int">
+    <ncml:attribute name="long_name" value="starting time-step for accumulation of time-averaged fields" />
+  </ncml:variable>
+  <ncml:variable name="nAVG" shape="" type="int">
+    <ncml:attribute name="long_name" value="number of time-steps between time-averaged records" />
+  </ncml:variable>
+  <ncml:variable name="ndefAVG" shape="" type="int">
+    <ncml:attribute name="long_name" value="number of time-steps between the creation of average files" />
+  </ncml:variable>
+  <ncml:variable name="Falpha" shape="" type="double">
+    <ncml:attribute name="long_name" value="Power-law shape barotropic filter parameter" />
+  </ncml:variable>
+  <ncml:variable name="Fbeta" shape="" type="double">
+    <ncml:attribute name="long_name" value="Power-law shape barotropic filter parameter" />
+  </ncml:variable>
+  <ncml:variable name="Fgamma" shape="" type="double">
+    <ncml:attribute name="long_name" value="Power-law shape barotropic filter parameter" />
+  </ncml:variable>
+  <ncml:variable name="Akt_bak" shape="tracer" type="double">
+    <ncml:attribute name="long_name" value="background vertical mixing coefficient for tracers" />
+    <ncml:attribute name="units" value="meter2 second-1" />
+  </ncml:variable>
+  <ncml:variable name="Akv_bak" shape="" type="double">
+    <ncml:attribute name="long_name" value="background vertical mixing coefficient for momentum" />
+    <ncml:attribute name="units" value="meter2 second-1" />
+  </ncml:variable>
+  <ncml:variable name="Akk_bak" shape="" type="double">
+    <ncml:attribute name="long_name" value="background vertical mixing coefficient for turbulent energy" />
+    <ncml:attribute name="units" value="meter2 second-1" />
+  </ncml:variable>
+  <ncml:variable name="Akp_bak" shape="" type="double">
+    <ncml:attribute name="long_name" value="background vertical mixing coefficient for length scale" />
+    <ncml:attribute name="units" value="meter2 second-1" />
+  </ncml:variable>
+  <ncml:variable name="rdrg" shape="" type="double">
+    <ncml:attribute name="long_name" value="linear drag coefficient" />
+    <ncml:attribute name="units" value="meter second-1" />
+  </ncml:variable>
+  <ncml:variable name="rdrg2" shape="" type="double">
+    <ncml:attribute name="long_name" value="quadratic drag coefficient" />
+  </ncml:variable>
+  <ncml:variable name="Zob" shape="" type="double">
+    <ncml:attribute name="long_name" value="bottom roughness" />
+    <ncml:attribute name="units" value="meter" />
+  </ncml:variable>
+  <ncml:variable name="Zos" shape="" type="double">
+    <ncml:attribute name="long_name" value="surface roughness" />
+    <ncml:attribute name="units" value="meter" />
+  </ncml:variable>
+  <ncml:variable name="gls_p" shape="" type="double">
+    <ncml:attribute name="long_name" value="stability exponent" />
+  </ncml:variable>
+  <ncml:variable name="gls_m" shape="" type="double">
+    <ncml:attribute name="long_name" value="turbulent kinetic energy exponent" />
+  </ncml:variable>
+  <ncml:variable name="gls_n" shape="" type="double">
+    <ncml:attribute name="long_name" value="turbulent length scale exponent" />
+  </ncml:variable>
+  <ncml:variable name="gls_cmu0" shape="" type="double">
+    <ncml:attribute name="long_name" value="stability coefficient" />
+  </ncml:variable>
+  <ncml:variable name="gls_c1" shape="" type="double">
+    <ncml:attribute name="long_name" value="shear production coefficient" />
+  </ncml:variable>
+  <ncml:variable name="gls_c2" shape="" type="double">
+    <ncml:attribute name="long_name" value="dissipation coefficient" />
+  </ncml:variable>
+  <ncml:variable name="gls_c3m" shape="" type="double">
+    <ncml:attribute name="long_name" value="buoyancy production coefficient (minus)" />
+  </ncml:variable>
+  <ncml:variable name="gls_c3p" shape="" type="double">
+    <ncml:attribute name="long_name" value="buoyancy production coefficient (plus)" />
+  </ncml:variable>
+  <ncml:variable name="gls_sigk" shape="" type="double">
+    <ncml:attribute name="long_name" value="constant Schmidt number for TKE" />
+  </ncml:variable>
+  <ncml:variable name="gls_sigp" shape="" type="double">
+    <ncml:attribute name="long_name" value="constant Schmidt number for PSI" />
+  </ncml:variable>
+  <ncml:variable name="gls_Kmin" shape="" type="double">
+    <ncml:attribute name="long_name" value="minimum value of specific turbulent kinetic energy" />
+  </ncml:variable>
+  <ncml:variable name="gls_Pmin" shape="" type="double">
+    <ncml:attribute name="long_name" value="minimum Value of dissipation" />
+  </ncml:variable>
+  <ncml:variable name="Charnok_alpha" shape="" type="double">
+    <ncml:attribute name="long_name" value="Charnok factor for surface roughness" />
+  </ncml:variable>
+  <ncml:variable name="Zos_hsig_alpha" shape="" type="double">
+    <ncml:attribute name="long_name" value="wave amplitude factor for surface roughness" />
+  </ncml:variable>
+  <ncml:variable name="sz_alpha" shape="" type="double">
+    <ncml:attribute name="long_name" value="surface flux from wave dissipation" />
+  </ncml:variable>
+  <ncml:variable name="CrgBan_cw" shape="" type="double">
+    <ncml:attribute name="long_name" value="surface flux due to Craig and Banner wave breaking" />
+  </ncml:variable>
+  <ncml:variable name="wec_alpha" shape="" type="double">
+    <ncml:attribute name="long_name" value="coefficient for roller/breaking wave dissipation" />
+  </ncml:variable>
+  <ncml:variable name="Znudg" shape="" type="double">
+    <ncml:attribute name="long_name" value="free-surface nudging/relaxation inverse time scale" />
+    <ncml:attribute name="units" value="day-1" />
+  </ncml:variable>
+  <ncml:variable name="M2nudg" shape="" type="double">
+    <ncml:attribute name="long_name" value="2D momentum nudging/relaxation inverse time scale" />
+    <ncml:attribute name="units" value="day-1" />
+  </ncml:variable>
+  <ncml:variable name="M3nudg" shape="" type="double">
+    <ncml:attribute name="long_name" value="3D momentum nudging/relaxation inverse time scale" />
+    <ncml:attribute name="units" value="day-1" />
+  </ncml:variable>
+  <ncml:variable name="Tnudg" shape="tracer" type="double">
+    <ncml:attribute name="long_name" value="Tracers nudging/relaxation inverse time scale" />
+    <ncml:attribute name="units" value="day-1" />
+  </ncml:variable>
+  <ncml:variable name="FSobc_in" shape="boundary" type="double">
+    <ncml:attribute name="long_name" value="free-surface inflow, nudging inverse time scale" />
+    <ncml:attribute name="units" value="second-1" />
+  </ncml:variable>
+  <ncml:variable name="FSobc_out" shape="boundary" type="double">
+    <ncml:attribute name="long_name" value="free-surface outflow, nudging inverse time scale" />
+    <ncml:attribute name="units" value="second-1" />
+  </ncml:variable>
+  <ncml:variable name="M2obc_in" shape="boundary" type="double">
+    <ncml:attribute name="long_name" value="2D momentum inflow, nudging inverse time scale" />
+    <ncml:attribute name="units" value="second-1" />
+  </ncml:variable>
+  <ncml:variable name="M2obc_out" shape="boundary" type="double">
+    <ncml:attribute name="long_name" value="2D momentum outflow, nudging inverse time scale" />
+    <ncml:attribute name="units" value="second-1" />
+  </ncml:variable>
+  <ncml:variable name="Tobc_in" shape="boundary tracer" type="double">
+    <ncml:attribute name="long_name" value="tracers inflow, nudging inverse time scale" />
+    <ncml:attribute name="units" value="second-1" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="False" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+  </ncml:variable>
+  <ncml:variable name="Tobc_out" shape="boundary tracer" type="double">
+    <ncml:attribute name="long_name" value="tracers outflow, nudging inverse time scale" />
+    <ncml:attribute name="units" value="second-1" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="False" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+  </ncml:variable>
+  <ncml:variable name="M3obc_in" shape="boundary" type="double">
+    <ncml:attribute name="long_name" value="3D momentum inflow, nudging inverse time scale" />
+    <ncml:attribute name="units" value="second-1" />
+  </ncml:variable>
+  <ncml:variable name="M3obc_out" shape="boundary" type="double">
+    <ncml:attribute name="long_name" value="3D momentum outflow, nudging inverse time scale" />
+    <ncml:attribute name="units" value="second-1" />
+  </ncml:variable>
+  <ncml:variable name="rho0" shape="" type="double">
+    <ncml:attribute name="long_name" value="mean density used in Boussinesq approximation" />
+    <ncml:attribute name="units" value="kilogram meter-3" />
+  </ncml:variable>
+  <ncml:variable name="R0" shape="" type="double">
+    <ncml:attribute name="long_name" value="background density used in linear equation of state" />
+    <ncml:attribute name="units" value="kilogram meter-3" />
+  </ncml:variable>
+  <ncml:variable name="Tcoef" shape="" type="double">
+    <ncml:attribute name="long_name" value="thermal expansion coefficient" />
+    <ncml:attribute name="units" value="Celsius-1" />
+  </ncml:variable>
+  <ncml:variable name="Scoef" shape="" type="double">
+    <ncml:attribute name="long_name" value="Saline contraction coefficient" />
+  </ncml:variable>
+  <ncml:variable name="gamma2" shape="" type="double">
+    <ncml:attribute name="long_name" value="slipperiness parameter" />
+  </ncml:variable>
+  <ncml:variable name="LuvSrc" shape="" type="int">
+    <ncml:attribute name="long_name" value="momentum point sources and sink activation switch" />
+    <ncml:attribute name="flag_values" type="int" value="0 1" />
+    <ncml:attribute name="flag_meanings" value=".FALSE. .TRUE." />
+  </ncml:variable>
+  <ncml:variable name="LwSrc" shape="" type="int">
+    <ncml:attribute name="long_name" value="mass point sources and sink activation switch" />
+    <ncml:attribute name="flag_values" type="int" value="0 1" />
+    <ncml:attribute name="flag_meanings" value=".FALSE. .TRUE." />
+  </ncml:variable>
+  <ncml:variable name="LtracerSrc" shape="tracer" type="int">
+    <ncml:attribute name="long_name" value="tracer point sources and sink activation switch" />
+    <ncml:attribute name="flag_values" type="int" value="0 1" />
+    <ncml:attribute name="flag_meanings" value=".FALSE. .TRUE." />
+  </ncml:variable>
+  <ncml:variable name="LsshCLM" shape="" type="int">
+    <ncml:attribute name="long_name" value="sea surface height climatology processing switch" />
+    <ncml:attribute name="flag_values" type="int" value="0 1" />
+    <ncml:attribute name="flag_meanings" value=".FALSE. .TRUE." />
+  </ncml:variable>
+  <ncml:variable name="Lm2CLM" shape="" type="int">
+    <ncml:attribute name="long_name" value="2D momentum climatology processing switch" />
+    <ncml:attribute name="flag_values" type="int" value="0 1" />
+    <ncml:attribute name="flag_meanings" value=".FALSE. .TRUE." />
+  </ncml:variable>
+  <ncml:variable name="Lm3CLM" shape="" type="int">
+    <ncml:attribute name="long_name" value="3D momentum climatology processing switch" />
+    <ncml:attribute name="flag_values" type="int" value="0 1" />
+    <ncml:attribute name="flag_meanings" value=".FALSE. .TRUE." />
+  </ncml:variable>
+  <ncml:variable name="LtracerCLM" shape="tracer" type="int">
+    <ncml:attribute name="long_name" value="tracer climatology processing switch" />
+    <ncml:attribute name="flag_values" type="int" value="0 1" />
+    <ncml:attribute name="flag_meanings" value=".FALSE. .TRUE." />
+  </ncml:variable>
+  <ncml:variable name="LnudgeM2CLM" shape="" type="int">
+    <ncml:attribute name="long_name" value="2D momentum climatology nudging activation switch" />
+    <ncml:attribute name="flag_values" type="int" value="0 1" />
+    <ncml:attribute name="flag_meanings" value=".FALSE. .TRUE." />
+  </ncml:variable>
+  <ncml:variable name="LnudgeM3CLM" shape="" type="int">
+    <ncml:attribute name="long_name" value="3D momentum climatology nudging activation switch" />
+    <ncml:attribute name="flag_values" type="int" value="0 1" />
+    <ncml:attribute name="flag_meanings" value=".FALSE. .TRUE." />
+  </ncml:variable>
+  <ncml:variable name="LnudgeTCLM" shape="tracer" type="int">
+    <ncml:attribute name="long_name" value="tracer climatology nudging activation switch" />
+    <ncml:attribute name="flag_values" type="int" value="0 1" />
+    <ncml:attribute name="flag_meanings" value=".FALSE. .TRUE." />
+  </ncml:variable>
+  <ncml:variable name="minlayer_thick" shape="" type="double">
+    <ncml:attribute name="long_name" value="depositional bed layer minimum thickness" />
+    <ncml:attribute name="units" value="meter" />
+  </ncml:variable>
+  <ncml:variable name="newlayer_thick" shape="" type="double">
+    <ncml:attribute name="long_name" value="depositional bed thickness criteria to crate a new layer" />
+    <ncml:attribute name="units" value="meter" />
+  </ncml:variable>
+  <ncml:variable name="bedload_coeff" shape="" type="double">
+    <ncml:attribute name="long_name" value="bedload transport rate coefficient" />
+  </ncml:variable>
+  <ncml:variable name="Sd50" shape="NST" type="double">
+    <ncml:attribute name="long_name" value="median sediment grain diameter used in uniform initial conditions" />
+    <ncml:attribute name="units" value="millimeter" />
+  </ncml:variable>
+  <ncml:variable name="Srho" shape="NST" type="double">
+    <ncml:attribute name="long_name" value="sediment grain density used in uniform initial conditions" />
+    <ncml:attribute name="units" value="kilogram meter-3" />
+  </ncml:variable>
+  <ncml:variable name="Csed" shape="NST" type="double">
+    <ncml:attribute name="long_name" value="sediment concentration used in uniform initial conditions" />
+    <ncml:attribute name="units" value="kilogram meter-3" />
+  </ncml:variable>
+  <ncml:variable name="Wsed" shape="NST" type="double">
+    <ncml:attribute name="long_name" value="sediment particle settling velocity" />
+    <ncml:attribute name="units" value="millimeter second-1" />
+  </ncml:variable>
+  <ncml:variable name="Erate" shape="NST" type="double">
+    <ncml:attribute name="long_name" value="sediment surface layer erosing rate" />
+    <ncml:attribute name="units" value="kilogram meter-2 second-1" />
+  </ncml:variable>
+  <ncml:variable name="tau_ce" shape="NST" type="double">
+    <ncml:attribute name="long_name" value="sediment critical shear for erosion" />
+    <ncml:attribute name="units" value="Newton meter-2" />
+  </ncml:variable>
+  <ncml:variable name="tau_cd" shape="NST" type="double">
+    <ncml:attribute name="long_name" value="sediment critical shear for deposition" />
+    <ncml:attribute name="units" value="Newton meter-2" />
+  </ncml:variable>
+  <ncml:variable name="poros" shape="NST" type="double">
+    <ncml:attribute name="long_name" value="sediment porosity" />
+  </ncml:variable>
+  <ncml:variable name="spherical" shape="" type="int">
+    <ncml:attribute name="long_name" value="grid type logical switch" />
+    <ncml:attribute name="flag_values" type="int" value="0 1" />
+    <ncml:attribute name="flag_meanings" value="Cartesian spherical" />
+  </ncml:variable>
+  <ncml:variable name="xl" shape="" type="double">
+    <ncml:attribute name="long_name" value="domain length in the XI-direction" />
+    <ncml:attribute name="units" value="meter" />
+  </ncml:variable>
+  <ncml:variable name="el" shape="" type="double">
+    <ncml:attribute name="long_name" value="domain length in the ETA-direction" />
+    <ncml:attribute name="units" value="meter" />
+  </ncml:variable>
+  <ncml:variable name="Vtransform" shape="" type="int">
+    <ncml:attribute name="long_name" value="vertical terrain-following transformation equation" />
+  </ncml:variable>
+  <ncml:variable name="Vstretching" shape="" type="int">
+    <ncml:attribute name="long_name" value="vertical terrain-following stretching function" />
+  </ncml:variable>
+  <ncml:variable name="theta_s" shape="" type="double">
+    <ncml:attribute name="long_name" value="S-coordinate surface control parameter" />
+  </ncml:variable>
+  <ncml:variable name="theta_b" shape="" type="double">
+    <ncml:attribute name="long_name" value="S-coordinate bottom control parameter" />
+  </ncml:variable>
+  <ncml:variable name="Tcline" shape="" type="double">
+    <ncml:attribute name="long_name" value="S-coordinate surface/bottom layer width" />
+    <ncml:attribute name="units" value="meter" />
+  </ncml:variable>
+  <ncml:variable name="hc" shape="" type="double">
+    <ncml:attribute name="long_name" value="S-coordinate parameter, critical depth" />
+    <ncml:attribute name="units" value="meter" />
+  </ncml:variable>
+  <ncml:variable name="Cs_r" shape="s_rho" type="double">
+    <ncml:attribute name="long_name" value="S-coordinate stretching curves at RHO-points" />
+    <ncml:attribute name="valid_min" type="double" value="-1.0" />
+    <ncml:attribute name="valid_max" type="double" value="0.0" />
+    <ncml:attribute name="field" value="Cs_r, scalar" />
+  </ncml:variable>
+  <ncml:variable name="Cs_w" shape="s_w" type="double">
+    <ncml:attribute name="long_name" value="S-coordinate stretching curves at W-points" />
+    <ncml:attribute name="valid_min" type="double" value="-1.0" />
+    <ncml:attribute name="valid_max" type="double" value="0.0" />
+    <ncml:attribute name="field" value="Cs_w, scalar" />
+  </ncml:variable>
+  <ncml:variable name="h" shape="eta_rho xi_rho" type="double">
+    <ncml:attribute name="long_name" value="bathymetry at RHO-points" />
+    <ncml:attribute name="units" value="meter" />
+    <ncml:attribute name="coordinates" value="lon_rho lat_rho" />
+    <ncml:attribute name="field" value="bath, scalar" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="True" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="location" value="face" />
+  </ncml:variable>
+  <ncml:variable name="f" shape="eta_rho xi_rho" type="double">
+    <ncml:attribute name="long_name" value="Coriolis parameter at RHO-points" />
+    <ncml:attribute name="units" value="second-1" />
+    <ncml:attribute name="coordinates" value="lon_rho lat_rho" />
+    <ncml:attribute name="field" value="coriolis, scalar" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="False" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="location" value="face" />
+  </ncml:variable>
+  <ncml:variable name="pm" shape="eta_rho xi_rho" type="double">
+    <ncml:attribute name="long_name" value="curvilinear coordinate metric in XI" />
+    <ncml:attribute name="units" value="meter-1" />
+    <ncml:attribute name="coordinates" value="lon_rho lat_rho" />
+    <ncml:attribute name="field" value="pm, scalar" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="False" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="location" value="face" />
+  </ncml:variable>
+  <ncml:variable name="pn" shape="eta_rho xi_rho" type="double">
+    <ncml:attribute name="long_name" value="curvilinear coordinate metric in ETA" />
+    <ncml:attribute name="units" value="meter-1" />
+    <ncml:attribute name="coordinates" value="lon_rho lat_rho" />
+    <ncml:attribute name="field" value="pn, scalar" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="False" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="location" value="face" />
+  </ncml:variable>
+  <ncml:variable name="angle" shape="eta_rho xi_rho" type="double">
+    <ncml:attribute name="long_name" value="angle between XI-axis and EAST" />
+    <ncml:attribute name="units" value="radians" />
+    <ncml:attribute name="coordinates" value="lon_rho lat_rho" />
+    <ncml:attribute name="field" value="angle, scalar" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="False" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="location" value="face" />
+  </ncml:variable>
+  <ncml:variable name="mask_rho" shape="eta_rho xi_rho" type="double">
+    <ncml:attribute name="long_name" value="mask on RHO-points" />
+    <ncml:attribute name="flag_values" type="double" value="0.0 1.0" />
+    <ncml:attribute name="flag_meanings" value="land water" />
+    <ncml:attribute name="coordinates" value="lon_rho lat_rho" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="False" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="location" value="face" />
+  </ncml:variable>
+  <ncml:variable name="mask_u" shape="eta_u xi_u" type="double">
+    <ncml:attribute name="long_name" value="mask on U-points" />
+    <ncml:attribute name="flag_values" type="double" value="0.0 1.0" />
+    <ncml:attribute name="flag_meanings" value="land water" />
+    <ncml:attribute name="coordinates" value="lon_u lat_u" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="False" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="location" value="edge1" />
+  </ncml:variable>
+  <ncml:variable name="mask_v" shape="eta_v xi_v" type="double">
+    <ncml:attribute name="long_name" value="mask on V-points" />
+    <ncml:attribute name="flag_values" type="double" value="0.0 1.0" />
+    <ncml:attribute name="flag_meanings" value="land water" />
+    <ncml:attribute name="coordinates" value="lon_v lat_v" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="False" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="location" value="edge2" />
+  </ncml:variable>
+  <ncml:variable name="mask_psi" shape="eta_psi xi_psi" type="double">
+    <ncml:attribute name="long_name" value="mask on psi-points" />
+    <ncml:attribute name="flag_values" type="double" value="0.0 1.0" />
+    <ncml:attribute name="flag_meanings" value="land water" />
+    <ncml:attribute name="coordinates" value="lon_psi lat_psi" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="False" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+  </ncml:variable>
+  <ncml:variable name="wetdry_mask_rho" shape="ocean_time eta_rho xi_rho" type="double">
+    <ncml:attribute name="long_name" value="wet/dry mask on RHO-points" />
+    <ncml:attribute name="flag_values" type="double" value="0.0 1.0" />
+    <ncml:attribute name="flag_meanings" value="land water" />
+    <ncml:attribute name="time" value="ocean_time" />
+    <ncml:attribute name="coordinates" value="lon_rho lat_rho ocean_time" />
+    <ncml:attribute name="field" value="wetdry_mask_rho, scalar, series" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="False" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="location" value="face" />
+  </ncml:variable>
+  <ncml:variable name="wetdry_mask_u" shape="ocean_time eta_u xi_u" type="double">
+    <ncml:attribute name="long_name" value="wet/dry mask on U-points" />
+    <ncml:attribute name="flag_values" type="double" value="0.0 1.0" />
+    <ncml:attribute name="flag_meanings" value="land water" />
+    <ncml:attribute name="time" value="ocean_time" />
+    <ncml:attribute name="coordinates" value="lon_u lat_u ocean_time" />
+    <ncml:attribute name="field" value="wetdry_mask_u, scalar, series" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="False" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="location" value="edge1" />
+  </ncml:variable>
+  <ncml:variable name="wetdry_mask_v" shape="ocean_time eta_v xi_v" type="double">
+    <ncml:attribute name="long_name" value="wet/dry mask on V-points" />
+    <ncml:attribute name="flag_values" type="double" value="0.0 1.0" />
+    <ncml:attribute name="flag_meanings" value="land water" />
+    <ncml:attribute name="time" value="ocean_time" />
+    <ncml:attribute name="coordinates" value="lon_v lat_v ocean_time" />
+    <ncml:attribute name="field" value="wetdry_mask_v, scalar, series" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="False" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="location" value="edge2" />
+  </ncml:variable>
+  <ncml:variable name="zeta" shape="ocean_time eta_rho xi_rho" type="double">
+    <ncml:attribute name="long_name" value="free-surface" />
+    <ncml:attribute name="units" value="meter" />
+    <ncml:attribute name="time" value="ocean_time" />
+    <ncml:attribute name="coordinates" value="lon_rho lat_rho ocean_time" />
+    <ncml:attribute name="field" value="free-surface, scalar, series" />
+    <ncml:attribute name="standard_name" value="sea_surface_height_above_datum" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="True" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="location" value="face" />
+  </ncml:variable>
+  <ncml:variable name="ubar" shape="ocean_time eta_u xi_u" type="double">
+    <ncml:attribute name="long_name" value="vertically integrated u-momentum component" />
+    <ncml:attribute name="units" value="meter second-1" />
+    <ncml:attribute name="time" value="ocean_time" />
+    <ncml:attribute name="coordinates" value="lon_u lat_u ocean_time" />
+    <ncml:attribute name="field" value="ubar-velocity, scalar, series" />
+    <ncml:attribute name="_FillValue" type="double" value="1.0E37" />
+    <ncml:attribute name="standard_name" value="barotropic_x_sea_water_velocity" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="True" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="location" value="edge1" />
+  </ncml:variable>
+  <ncml:variable name="vbar" shape="ocean_time eta_v xi_v" type="double">
+    <ncml:attribute name="long_name" value="vertically integrated v-momentum component" />
+    <ncml:attribute name="units" value="meter second-1" />
+    <ncml:attribute name="time" value="ocean_time" />
+    <ncml:attribute name="coordinates" value="lon_v lat_v ocean_time" />
+    <ncml:attribute name="field" value="vbar-velocity, scalar, series" />
+    <ncml:attribute name="_FillValue" type="double" value="1.0E37" />
+    <ncml:attribute name="standard_name" value="barotropic_y_sea_water_velocity" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="True" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="location" value="edge2" />
+  </ncml:variable>
+  <ncml:variable name="u" shape="ocean_time s_rho eta_u xi_u" type="double">
+    <ncml:attribute name="long_name" value="u-momentum component" />
+    <ncml:attribute name="units" value="meter second-1" />
+    <ncml:attribute name="time" value="ocean_time" />
+    <ncml:attribute name="coordinates" value="lon_u lat_u s_rho ocean_time" />
+    <ncml:attribute name="field" value="u-velocity, scalar, series" />
+    <ncml:attribute name="_FillValue" type="double" value="1.0E37" />
+    <ncml:attribute name="standard_name" value="x_sea_water_velocity" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="False" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="location" value="edge1" />
+  </ncml:variable>
+  <ncml:variable name="v" shape="ocean_time s_rho eta_v xi_v" type="double">
+    <ncml:attribute name="long_name" value="v-momentum component" />
+    <ncml:attribute name="units" value="meter second-1" />
+    <ncml:attribute name="time" value="ocean_time" />
+    <ncml:attribute name="coordinates" value="lon_v lat_v s_rho ocean_time" />
+    <ncml:attribute name="field" value="v-velocity, scalar, series" />
+    <ncml:attribute name="_FillValue" type="double" value="1.0E37" />
+    <ncml:attribute name="standard_name" value="y_sea_water_velocity" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="False" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="location" value="edge2" />
+  </ncml:variable>
+  <ncml:variable name="w" shape="ocean_time s_w eta_rho xi_rho" type="double">
+    <ncml:attribute name="long_name" value="vertical momentum component" />
+    <ncml:attribute name="units" value="meter second-1" />
+    <ncml:attribute name="time" value="ocean_time" />
+    <ncml:attribute name="coordinates" value="lon_rho lat_rho s_w ocean_time" />
+    <ncml:attribute name="field" value="w-velocity, scalar, series" />
+    <ncml:attribute name="_FillValue" type="double" value="1.0E37" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="False" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="location" value="face" />
+  </ncml:variable>
+  <ncml:variable name="temp" shape="ocean_time s_rho eta_rho xi_rho" type="double">
+    <ncml:attribute name="long_name" value="potential temperature" />
+    <ncml:attribute name="units" value="Celsius" />
+    <ncml:attribute name="time" value="ocean_time" />
+    <ncml:attribute name="coordinates" value="lon_rho lat_rho s_rho ocean_time" />
+    <ncml:attribute name="field" value="temperature, scalar, series" />
+    <ncml:attribute name="_FillValue" type="double" value="1.0E37" />
+    <ncml:attribute name="standard_name" value="sea_water_potential_temperature" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="False" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="location" value="face" />
+  </ncml:variable>
+  <ncml:variable name="salt" shape="ocean_time s_rho eta_rho xi_rho" type="double">
+    <ncml:attribute name="long_name" value="salinity" />
+    <ncml:attribute name="time" value="ocean_time" />
+    <ncml:attribute name="coordinates" value="lon_rho lat_rho s_rho ocean_time" />
+    <ncml:attribute name="field" value="salinity, scalar, series" />
+    <ncml:attribute name="_FillValue" type="double" value="1.0E37" />
+    <ncml:attribute name="standard_name" value="sea_water_salinity" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="False" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="location" value="face" />
+  </ncml:variable>
+  <ncml:variable name="sand_01" shape="ocean_time s_rho eta_rho xi_rho" type="double">
+    <ncml:attribute name="long_name" value="suspended noncohesive sediment, size class 01" />
+    <ncml:attribute name="size_class" value=" 2.5000E-01 millimeter" />
+    <ncml:attribute name="units" value="kilogram meter-3" />
+    <ncml:attribute name="time" value="ocean_time" />
+    <ncml:attribute name="coordinates" value="lon_rho lat_rho s_rho ocean_time" />
+    <ncml:attribute name="field" value="sand_01, scalar, series" />
+    <ncml:attribute name="_FillValue" type="double" value="1.0E37" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="False" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="location" value="face" />
+  </ncml:variable>
+  <ncml:variable name="sand_02" shape="ocean_time s_rho eta_rho xi_rho" type="double">
+    <ncml:attribute name="long_name" value="suspended noncohesive sediment, size class 02" />
+    <ncml:attribute name="size_class" value=" 7.8000E-03 millimeter" />
+    <ncml:attribute name="units" value="kilogram meter-3" />
+    <ncml:attribute name="time" value="ocean_time" />
+    <ncml:attribute name="coordinates" value="lon_rho lat_rho s_rho ocean_time" />
+    <ncml:attribute name="field" value="sand_02, scalar, series" />
+    <ncml:attribute name="_FillValue" type="double" value="1.0E37" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="False" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="location" value="face" />
+  </ncml:variable>
+  <ncml:variable name="sand_03" shape="ocean_time s_rho eta_rho xi_rho" type="double">
+    <ncml:attribute name="long_name" value="suspended noncohesive sediment, size class 03" />
+    <ncml:attribute name="size_class" value=" 5.5000E-02 millimeter" />
+    <ncml:attribute name="units" value="kilogram meter-3" />
+    <ncml:attribute name="time" value="ocean_time" />
+    <ncml:attribute name="coordinates" value="lon_rho lat_rho s_rho ocean_time" />
+    <ncml:attribute name="field" value="sand_03, scalar, series" />
+    <ncml:attribute name="_FillValue" type="double" value="1.0E37" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="False" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="location" value="face" />
+  </ncml:variable>
+  <ncml:variable name="sand_04" shape="ocean_time s_rho eta_rho xi_rho" type="double">
+    <ncml:attribute name="long_name" value="suspended noncohesive sediment, size class 04" />
+    <ncml:attribute name="size_class" value=" 1.2600E-01 millimeter" />
+    <ncml:attribute name="units" value="kilogram meter-3" />
+    <ncml:attribute name="time" value="ocean_time" />
+    <ncml:attribute name="coordinates" value="lon_rho lat_rho s_rho ocean_time" />
+    <ncml:attribute name="field" value="sand_04, scalar, series" />
+    <ncml:attribute name="_FillValue" type="double" value="1.0E37" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="False" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="location" value="face" />
+  </ncml:variable>
+  <ncml:variable name="rho" shape="ocean_time s_rho eta_rho xi_rho" type="double">
+    <ncml:attribute name="long_name" value="density anomaly" />
+    <ncml:attribute name="units" value="kilogram meter-3" />
+    <ncml:attribute name="time" value="ocean_time" />
+    <ncml:attribute name="coordinates" value="lon_rho lat_rho s_rho ocean_time" />
+    <ncml:attribute name="field" value="density, scalar, series" />
+    <ncml:attribute name="_FillValue" type="double" value="1.0E37" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="False" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="location" value="face" />
+  </ncml:variable>
+  <ncml:variable name="AKs" shape="ocean_time s_w eta_rho xi_rho" type="double">
+    <ncml:attribute name="long_name" value="salinity vertical diffusion coefficient" />
+    <ncml:attribute name="units" value="meter2 second-1" />
+    <ncml:attribute name="time" value="ocean_time" />
+    <ncml:attribute name="coordinates" value="lon_rho lat_rho s_w ocean_time" />
+    <ncml:attribute name="field" value="AKs, scalar, series" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="False" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="location" value="face" />
+  </ncml:variable>
+  <ncml:variable name="Uwind_eastward" shape="ocean_time eta_rho xi_rho" type="double">
+    <ncml:attribute name="long_name" value="eastward surface wind component at RHO-points" />
+    <ncml:attribute name="units" value="meter second-1" />
+    <ncml:attribute name="time" value="ocean_time" />
+    <ncml:attribute name="coordinates" value="lon_rho lat_rho ocean_time" />
+    <ncml:attribute name="field" value="Uwind_eastward, scalar, series" />
+    <ncml:attribute name="_FillValue" type="double" value="1.0E37" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="False" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="location" value="face" />
+  </ncml:variable>
+  <ncml:variable name="Vwind_northward" shape="ocean_time eta_rho xi_rho" type="double">
+    <ncml:attribute name="long_name" value="northward surface wind component at RHO-points" />
+    <ncml:attribute name="units" value="meter second-1" />
+    <ncml:attribute name="time" value="ocean_time" />
+    <ncml:attribute name="coordinates" value="lon_rho lat_rho ocean_time" />
+    <ncml:attribute name="field" value="Vwind_northward, scalar, series" />
+    <ncml:attribute name="_FillValue" type="double" value="1.0E37" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="False" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="location" value="face" />
+  </ncml:variable>
+  <ncml:variable name="bustr" shape="ocean_time eta_u xi_u" type="double">
+    <ncml:attribute name="long_name" value="bottom u-momentum stress" />
+    <ncml:attribute name="units" value="newton meter-2" />
+    <ncml:attribute name="time" value="ocean_time" />
+    <ncml:attribute name="coordinates" value="lon_u lat_u ocean_time" />
+    <ncml:attribute name="field" value="bottom u-momentum stress, scalar, series" />
+    <ncml:attribute name="_FillValue" type="double" value="1.0E37" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="False" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="location" value="edge1" />
+  </ncml:variable>
+  <ncml:variable name="bvstr" shape="ocean_time eta_v xi_v" type="double">
+    <ncml:attribute name="long_name" value="bottom v-momentum stress" />
+    <ncml:attribute name="units" value="newton meter-2" />
+    <ncml:attribute name="time" value="ocean_time" />
+    <ncml:attribute name="coordinates" value="lon_v lat_v ocean_time" />
+    <ncml:attribute name="field" value="bottom v-momentum stress, scalar, series" />
+    <ncml:attribute name="_FillValue" type="double" value="1.0E37" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="False" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="location" value="edge2" />
+  </ncml:variable>
+  <ncml:variable name="bustrc" shape="ocean_time eta_rho xi_rho" type="double">
+    <ncml:attribute name="long_name" value="current-induced, bottom u-momentum stress" />
+    <ncml:attribute name="units" value="newton meter-2" />
+    <ncml:attribute name="time" value="ocean_time" />
+    <ncml:attribute name="coordinates" value="lon_rho lat_rho ocean_time" />
+    <ncml:attribute name="field" value="bottom u-momentum stress, scalar, series" />
+    <ncml:attribute name="_FillValue" type="double" value="1.0E37" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="False" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="location" value="face" />
+  </ncml:variable>
+  <ncml:variable name="bvstrc" shape="ocean_time eta_rho xi_rho" type="double">
+    <ncml:attribute name="long_name" value="current-induced, bottom v-momentum stress" />
+    <ncml:attribute name="units" value="newton meter-2" />
+    <ncml:attribute name="time" value="ocean_time" />
+    <ncml:attribute name="coordinates" value="lon_rho lat_rho ocean_time" />
+    <ncml:attribute name="field" value="bottom v-momentum stress, scalar, series" />
+    <ncml:attribute name="_FillValue" type="double" value="1.0E37" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="False" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="location" value="face" />
+  </ncml:variable>
+  <ncml:variable name="bustrw" shape="ocean_time eta_rho xi_rho" type="double">
+    <ncml:attribute name="long_name" value="wind-induced, bottom u-momentum stress" />
+    <ncml:attribute name="units" value="newton meter-2" />
+    <ncml:attribute name="time" value="ocean_time" />
+    <ncml:attribute name="coordinates" value="lon_rho lat_rho ocean_time" />
+    <ncml:attribute name="field" value="bottom u-wave stress, scalar, series" />
+    <ncml:attribute name="_FillValue" type="double" value="1.0E37" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="False" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="location" value="face" />
+  </ncml:variable>
+  <ncml:variable name="bvstrw" shape="ocean_time eta_rho xi_rho" type="double">
+    <ncml:attribute name="long_name" value="wind-induced, bottom v-momentum stress" />
+    <ncml:attribute name="units" value="newton meter-2" />
+    <ncml:attribute name="time" value="ocean_time" />
+    <ncml:attribute name="coordinates" value="lon_rho lat_rho ocean_time" />
+    <ncml:attribute name="field" value="bottom v-wave stress, scalar, series" />
+    <ncml:attribute name="_FillValue" type="double" value="1.0E37" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="False" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="location" value="face" />
+  </ncml:variable>
+  <ncml:variable name="bustrcwmax" shape="ocean_time eta_rho xi_rho" type="double">
+    <ncml:attribute name="long_name" value="maximum wind and current, bottom u-wave stress" />
+    <ncml:attribute name="units" value="newton meter-2" />
+    <ncml:attribute name="time" value="ocean_time" />
+    <ncml:attribute name="coordinates" value="lon_rho lat_rho ocean_time" />
+    <ncml:attribute name="field" value="bustrcwmax, scalar, series" />
+    <ncml:attribute name="_FillValue" type="double" value="1.0E37" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="False" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="location" value="face" />
+  </ncml:variable>
+  <ncml:variable name="bvstrcwmax" shape="ocean_time eta_rho xi_rho" type="double">
+    <ncml:attribute name="long_name" value="maximum wind and current, bottom v-wave stress" />
+    <ncml:attribute name="units" value="newton meter-2" />
+    <ncml:attribute name="time" value="ocean_time" />
+    <ncml:attribute name="coordinates" value="lon_rho lat_rho ocean_time" />
+    <ncml:attribute name="field" value="bustrcwmax, scalar, series" />
+    <ncml:attribute name="_FillValue" type="double" value="1.0E37" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="False" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="location" value="face" />
+  </ncml:variable>
+  <ncml:variable name="bstrcwmax" shape="ocean_time eta_rho xi_rho" type="double">
+    <ncml:attribute name="long_name" value="max wave and current bottom stress magnitude" />
+    <ncml:attribute name="units" value="newton meter-2" />
+    <ncml:attribute name="time" value="ocean_time" />
+    <ncml:attribute name="coordinates" value="lon_rho lat_rho ocean_time" />
+    <ncml:attribute name="field" value="bstrcwmax, scalar, series" />
+    <ncml:attribute name="_FillValue" type="double" value="1.0E37" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="True" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="location" value="face" />
+  </ncml:variable>
+  <ncml:variable name="sandfrac_01" shape="ocean_time Nbed eta_rho xi_rho" type="double">
+    <ncml:attribute name="long_name" value="noncohesive sediment fraction, size class 01" />
+    <ncml:attribute name="size_class" value=" 2.5000E-01 millimeter" />
+    <ncml:attribute name="time" value="ocean_time" />
+    <ncml:attribute name="coordinates" value="lon_rho lat_rho ocean_time Nbed" />
+    <ncml:attribute name="field" value="sandfrac_01, scalar, series" />
+    <ncml:attribute name="_FillValue" type="double" value="1.0E37" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="False" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="location" value="face" />
+  </ncml:variable>
+  <ncml:variable name="sandfrac_02" shape="ocean_time Nbed eta_rho xi_rho" type="double">
+    <ncml:attribute name="long_name" value="noncohesive sediment fraction, size class 02" />
+    <ncml:attribute name="size_class" value=" 7.8000E-03 millimeter" />
+    <ncml:attribute name="time" value="ocean_time" />
+    <ncml:attribute name="coordinates" value="lon_rho lat_rho ocean_time Nbed" />
+    <ncml:attribute name="field" value="sandfrac_02, scalar, series" />
+    <ncml:attribute name="_FillValue" type="double" value="1.0E37" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="False" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="location" value="face" />
+  </ncml:variable>
+  <ncml:variable name="sandfrac_03" shape="ocean_time Nbed eta_rho xi_rho" type="double">
+    <ncml:attribute name="long_name" value="noncohesive sediment fraction, size class 03" />
+    <ncml:attribute name="size_class" value=" 5.5000E-02 millimeter" />
+    <ncml:attribute name="time" value="ocean_time" />
+    <ncml:attribute name="coordinates" value="lon_rho lat_rho ocean_time Nbed" />
+    <ncml:attribute name="field" value="sandfrac_03, scalar, series" />
+    <ncml:attribute name="_FillValue" type="double" value="1.0E37" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="False" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="location" value="face" />
+  </ncml:variable>
+  <ncml:variable name="sandfrac_04" shape="ocean_time Nbed eta_rho xi_rho" type="double">
+    <ncml:attribute name="long_name" value="noncohesive sediment fraction, size class 04" />
+    <ncml:attribute name="size_class" value=" 1.2600E-01 millimeter" />
+    <ncml:attribute name="time" value="ocean_time" />
+    <ncml:attribute name="coordinates" value="lon_rho lat_rho ocean_time Nbed" />
+    <ncml:attribute name="field" value="sandfrac_04, scalar, series" />
+    <ncml:attribute name="_FillValue" type="double" value="1.0E37" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="False" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="location" value="face" />
+  </ncml:variable>
+  <ncml:variable name="sandmass_01" shape="ocean_time Nbed eta_rho xi_rho" type="double">
+    <ncml:attribute name="long_name" value="noncohesive sediment mass, size class 01" />
+    <ncml:attribute name="size_class" value=" 2.5000E-01 millimeter" />
+    <ncml:attribute name="units" value="kilogram meter-2" />
+    <ncml:attribute name="time" value="ocean_time" />
+    <ncml:attribute name="coordinates" value="lon_rho lat_rho ocean_time Nbed" />
+    <ncml:attribute name="field" value="sandmass_01, scalar, series" />
+    <ncml:attribute name="_FillValue" type="double" value="1.0E37" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="False" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="location" value="face" />
+  </ncml:variable>
+  <ncml:variable name="sandmass_02" shape="ocean_time Nbed eta_rho xi_rho" type="double">
+    <ncml:attribute name="long_name" value="noncohesive sediment mass, size class 02" />
+    <ncml:attribute name="size_class" value=" 7.8000E-03 millimeter" />
+    <ncml:attribute name="units" value="kilogram meter-2" />
+    <ncml:attribute name="time" value="ocean_time" />
+    <ncml:attribute name="coordinates" value="lon_rho lat_rho ocean_time Nbed" />
+    <ncml:attribute name="field" value="sandmass_02, scalar, series" />
+    <ncml:attribute name="_FillValue" type="double" value="1.0E37" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="False" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="location" value="face" />
+  </ncml:variable>
+  <ncml:variable name="sandmass_03" shape="ocean_time Nbed eta_rho xi_rho" type="double">
+    <ncml:attribute name="long_name" value="noncohesive sediment mass, size class 03" />
+    <ncml:attribute name="size_class" value=" 5.5000E-02 millimeter" />
+    <ncml:attribute name="units" value="kilogram meter-2" />
+    <ncml:attribute name="time" value="ocean_time" />
+    <ncml:attribute name="coordinates" value="lon_rho lat_rho ocean_time Nbed" />
+    <ncml:attribute name="field" value="sandmass_03, scalar, series" />
+    <ncml:attribute name="_FillValue" type="double" value="1.0E37" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="False" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="location" value="face" />
+  </ncml:variable>
+  <ncml:variable name="sandmass_04" shape="ocean_time Nbed eta_rho xi_rho" type="double">
+    <ncml:attribute name="long_name" value="noncohesive sediment mass, size class 04" />
+    <ncml:attribute name="size_class" value=" 1.2600E-01 millimeter" />
+    <ncml:attribute name="units" value="kilogram meter-2" />
+    <ncml:attribute name="time" value="ocean_time" />
+    <ncml:attribute name="coordinates" value="lon_rho lat_rho ocean_time Nbed" />
+    <ncml:attribute name="field" value="sandmass_04, scalar, series" />
+    <ncml:attribute name="_FillValue" type="double" value="1.0E37" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="False" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="location" value="face" />
+  </ncml:variable>
+  <ncml:variable name="bed_thickness" shape="ocean_time Nbed eta_rho xi_rho" type="double">
+    <ncml:attribute name="long_name" value="sediment bed layer thickness" />
+    <ncml:attribute name="units" value="meter" />
+    <ncml:attribute name="time" value="ocean_time" />
+    <ncml:attribute name="coordinates" value="lon_rho lat_rho ocean_time Nbed" />
+    <ncml:attribute name="field" value="bed_thickness, scalar, series" />
+    <ncml:attribute name="_FillValue" type="double" value="1.0E37" />
+    <ncml:attribute name="standard_name" value="sediment_bed_thickness" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="True" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="location" value="face" />
+  </ncml:variable>
+  <ncml:variable name="grain_diameter" shape="ocean_time eta_rho xi_rho" type="double">
+    <ncml:attribute name="long_name" value="sediment median grain diameter size" />
+    <ncml:attribute name="units" value="meter" />
+    <ncml:attribute name="time" value="ocean_time" />
+    <ncml:attribute name="coordinates" value="lon_rho lat_rho ocean_time" />
+    <ncml:attribute name="field" value="grain_diameter, scalar, series" />
+    <ncml:attribute name="_FillValue" type="double" value="1.0E37" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="False" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="location" value="face" />
+  </ncml:variable>
+  <ncml:variable name="settling_vel" shape="ocean_time eta_rho xi_rho" type="double">
+    <ncml:attribute name="long_name" value="sediment median grain settling velocity" />
+    <ncml:attribute name="units" value="meter second-1" />
+    <ncml:attribute name="time" value="ocean_time" />
+    <ncml:attribute name="coordinates" value="lon_rho lat_rho ocean_time" />
+    <ncml:attribute name="field" value="settling_vel, scalar, series" />
+    <ncml:attribute name="_FillValue" type="double" value="1.0E37" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="False" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="location" value="face" />
+  </ncml:variable>
+  <ncml:variable name="erosion_stress" shape="ocean_time eta_rho xi_rho" type="double">
+    <ncml:attribute name="long_name" value="sediment median critical erosion stress" />
+    <ncml:attribute name="units" value="newton meter-2" />
+    <ncml:attribute name="time" value="ocean_time" />
+    <ncml:attribute name="coordinates" value="lon_rho lat_rho ocean_time" />
+    <ncml:attribute name="field" value="erosion_stress, scalar, series" />
+    <ncml:attribute name="_FillValue" type="double" value="1.0E37" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="False" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="location" value="face" />
+  </ncml:variable>
+  <ncml:variable name="ripple_length" shape="ocean_time eta_rho xi_rho" type="double">
+    <ncml:attribute name="long_name" value="bottom ripple length" />
+    <ncml:attribute name="units" value="meter" />
+    <ncml:attribute name="time" value="ocean_time" />
+    <ncml:attribute name="coordinates" value="lon_rho lat_rho ocean_time" />
+    <ncml:attribute name="field" value="ripple_length, scalar, series" />
+    <ncml:attribute name="_FillValue" type="double" value="1.0E37" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="False" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="location" value="face" />
+  </ncml:variable>
+  <ncml:variable name="ripple_height" shape="ocean_time eta_rho xi_rho" type="double">
+    <ncml:attribute name="long_name" value="bottom ripple height" />
+    <ncml:attribute name="units" value="meter" />
+    <ncml:attribute name="time" value="ocean_time" />
+    <ncml:attribute name="coordinates" value="lon_rho lat_rho ocean_time" />
+    <ncml:attribute name="field" value="ripple_height, scalar, series" />
+    <ncml:attribute name="_FillValue" type="double" value="1.0E37" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="False" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="location" value="face" />
+  </ncml:variable>
+  <ncml:variable name="bed_wave_amp" shape="ocean_time eta_rho xi_rho" type="double">
+    <ncml:attribute name="long_name" value="bed wave excursion amplitude" />
+    <ncml:attribute name="units" value="meter" />
+    <ncml:attribute name="time" value="ocean_time" />
+    <ncml:attribute name="coordinates" value="lon_rho lat_rho ocean_time" />
+    <ncml:attribute name="field" value="bed_wave_amp, scalar, series" />
+    <ncml:attribute name="_FillValue" type="double" value="1.0E37" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="False" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="location" value="face" />
+  </ncml:variable>
+  <ncml:variable name="Zo_app" shape="ocean_time eta_rho xi_rho" type="double">
+    <ncml:attribute name="long_name" value="apparent bottom roughness length" />
+    <ncml:attribute name="units" value="meter" />
+    <ncml:attribute name="time" value="ocean_time" />
+    <ncml:attribute name="coordinates" value="lon_rho lat_rho ocean_time" />
+    <ncml:attribute name="field" value="Zo_app, scalar, series" />
+    <ncml:attribute name="_FillValue" type="double" value="1.0E37" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="False" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="location" value="face" />
+  </ncml:variable>
+  <ncml:variable name="active_layer_thickness" shape="ocean_time eta_rho xi_rho" type="double">
+    <ncml:attribute name="long_name" value="active layer thickness" />
+    <ncml:attribute name="units" value="meter" />
+    <ncml:attribute name="time" value="ocean_time" />
+    <ncml:attribute name="coordinates" value="lon_rho lat_rho ocean_time" />
+    <ncml:attribute name="field" value="active_layer_thickness, scalar, series" />
+    <ncml:attribute name="_FillValue" type="double" value="1.0E37" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="False" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="location" value="face" />
+  </ncml:variable>
+  <ncml:variable name="bed_inund_depth" shape="ocean_time eta_rho xi_rho" type="double">
+    <ncml:attribute name="long_name" value="inundation depth" />
+    <ncml:attribute name="units" value="meter" />
+    <ncml:attribute name="time" value="ocean_time" />
+    <ncml:attribute name="coordinates" value="lon_rho lat_rho ocean_time" />
+    <ncml:attribute name="field" value="bed_inund_depth, scalar, series" />
+    <ncml:attribute name="_FillValue" type="double" value="1.0E37" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="False" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="location" value="face" />
+  </ncml:variable>
+  <ncml:variable name="dep_net" shape="ocean_time eta_rho xi_rho" type="double">
+    <ncml:attribute name="long_name" value="erosion or deposition" />
+    <ncml:attribute name="units" value="meter" />
+    <ncml:attribute name="time" value="ocean_time" />
+    <ncml:attribute name="coordinates" value="lon_rho lat_rho ocean_time" />
+    <ncml:attribute name="field" value="dep_net, scalar, series" />
+    <ncml:attribute name="_FillValue" type="double" value="1.0E37" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="False" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="location" value="face" />
+  </ncml:variable>
+  <ncml:variable name="Hwave" shape="ocean_time eta_rho xi_rho" type="double">
+    <ncml:attribute name="long_name" value="wind-induced significant wave height" />
+    <ncml:attribute name="units" value="meter" />
+    <ncml:attribute name="time" value="ocean_time" />
+    <ncml:attribute name="coordinates" value="lon_rho lat_rho ocean_time" />
+    <ncml:attribute name="field" value="Hwave, scalar, series" />
+    <ncml:attribute name="_FillValue" type="double" value="1.0E37" />
+    <ncml:attribute name="standard_name" value="sea_surface_wave_significant_height" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="True" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="location" value="face" />
+  </ncml:variable>
+  <ncml:variable name="Lwave" shape="ocean_time eta_rho xi_rho" type="double">
+    <ncml:attribute name="long_name" value="wind-induced mean wavelength" />
+    <ncml:attribute name="units" value="meter" />
+    <ncml:attribute name="time" value="ocean_time" />
+    <ncml:attribute name="coordinates" value="lon_rho lat_rho ocean_time" />
+    <ncml:attribute name="field" value="Lwave, scalar, series" />
+    <ncml:attribute name="_FillValue" type="double" value="1.0E37" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="True" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="location" value="face" />
+  </ncml:variable>
+  <ncml:variable name="Dwave" shape="ocean_time eta_rho xi_rho" type="double">
+    <ncml:attribute name="long_name" value="wind-induced wave direction" />
+    <ncml:attribute name="units" value="degrees" />
+    <ncml:attribute name="time" value="ocean_time" />
+    <ncml:attribute name="coordinates" value="lon_rho lat_rho ocean_time" />
+    <ncml:attribute name="field" value="Dwave, scalar, series" />
+    <ncml:attribute name="_FillValue" type="double" value="1.0E37" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="True" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="location" value="face" />
+  </ncml:variable>
+  <ncml:variable name="Pwave_top" shape="ocean_time eta_rho xi_rho" type="double">
+    <ncml:attribute name="long_name" value="wind-induced peak surface wave Period" />
+    <ncml:attribute name="units" value="second" />
+    <ncml:attribute name="time" value="ocean_time" />
+    <ncml:attribute name="coordinates" value="lon_rho lat_rho ocean_time" />
+    <ncml:attribute name="field" value="Pwave_top, scalar, series" />
+    <ncml:attribute name="_FillValue" type="double" value="1.0E37" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="False" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="location" value="face" />
+  </ncml:variable>
+  <ncml:variable name="Pwave_bot" shape="ocean_time eta_rho xi_rho" type="double">
+    <ncml:attribute name="long_name" value="wind-induced bottom wave Period" />
+    <ncml:attribute name="units" value="second" />
+    <ncml:attribute name="time" value="ocean_time" />
+    <ncml:attribute name="coordinates" value="lon_rho lat_rho ocean_time" />
+    <ncml:attribute name="field" value="Pwave_bot, scalar, series" />
+    <ncml:attribute name="_FillValue" type="double" value="1.0E37" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="False" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="location" value="face" />
+  </ncml:variable>
+  <ncml:variable name="Dissip_fric" shape="ocean_time eta_rho xi_rho" type="double">
+    <ncml:attribute name="long_name" value="wave dissipation due to bottom friction" />
+    <ncml:attribute name="units" value="Watts meter-2" />
+    <ncml:attribute name="time" value="ocean_time" />
+    <ncml:attribute name="coordinates" value="lon_rho lat_rho ocean_time" />
+    <ncml:attribute name="field" value="Dissip_fric, scalar, series" />
+    <ncml:attribute name="_FillValue" type="double" value="1.0E37" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="False" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="location" value="face" />
+  </ncml:variable>
+  <ncml:variable name="Dissip_break" shape="ocean_time eta_rho xi_rho" type="double">
+    <ncml:attribute name="long_name" value="wave dissipation due to surface breaking" />
+    <ncml:attribute name="units" value="Watts meter-2" />
+    <ncml:attribute name="time" value="ocean_time" />
+    <ncml:attribute name="coordinates" value="lon_rho lat_rho ocean_time" />
+    <ncml:attribute name="field" value="Dissip_break, scalar, series" />
+    <ncml:attribute name="_FillValue" type="double" value="1.0E37" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="False" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="location" value="face" />
+  </ncml:variable>
+  <ncml:variable name="Dissip_wcap" shape="ocean_time eta_rho xi_rho" type="double">
+    <ncml:attribute name="long_name" value="wave dissipation due to white capping" />
+    <ncml:attribute name="units" value="Watts meter-2" />
+    <ncml:attribute name="time" value="ocean_time" />
+    <ncml:attribute name="coordinates" value="lon_rho lat_rho ocean_time" />
+    <ncml:attribute name="field" value="Dissip_wcap, scalar, series" />
+    <ncml:attribute name="_FillValue" type="double" value="1.0E37" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="False" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="location" value="face" />
+  </ncml:variable>
+  <ncml:variable name="grid" shape="" type="int">
+    <ncml:attribute name="cf_role" value="grid_topology" />
+    <ncml:attribute name="topology_dimension" type="int" value="2" />
+    <ncml:attribute name="node_dimensions" value="xi_psi eta_psi" />
+    <ncml:attribute name="face_dimensions" value="xi_rho: xi_psi (padding: both) eta_rho: eta_psi (padding: both)" />
+    <ncml:attribute name="edge1_dimensions" value="xi_u: xi_psi eta_u: eta_psi (padding: both)" />
+    <ncml:attribute name="edge2_dimensions" value="xi_v: xi_psi (padding: both) eta_v: eta_psi" />
+    <ncml:attribute name="node_coordinates" value="lon_psi lat_psi" />
+    <ncml:attribute name="face_coordinates" value="lon_rho lat_rho" />
+    <ncml:attribute name="edge1_coordinates" value="lon_u lat_u" />
+    <ncml:attribute name="edge2_coordinates" value="lon_v lat_v" />
+    <ncml:attribute name="vertical_dimensions" value="s_rho: s_w (padding: none)" />
+  </ncml:variable>
+  <ncml:variable name="s_rho" shape="s_rho" type="double">
+    <ncml:attribute name="long_name" value="S-coordinate at RHO-points" />
+    <ncml:attribute name="valid_min" type="double" value="-1.0" />
+    <ncml:attribute name="valid_max" type="double" value="0.0" />
+    <ncml:attribute name="positive" value="up" />
+    <ncml:attribute name="standard_name" value="ocean_s_coordinate_g1" />
+    <ncml:attribute name="formula_terms" value="s: s_rho C: Cs_r eta: zeta depth: h depth_c: hc" />
+    <ncml:attribute name="field" value="s_rho, scalar" />
+    <ncml:attribute name="_CoordinateTransformType" value="Vertical" />
+    <ncml:attribute name="_CoordinateAxes" value="s_rho" />
+    <ncml:attribute name="_CoordinateAxisType" value="GeoZ" />
+    <ncml:attribute name="_CoordinateZisPositive" value="up" />
+  </ncml:variable>
+  <ncml:variable name="s_w" shape="s_w" type="double">
+    <ncml:attribute name="long_name" value="S-coordinate at W-points" />
+    <ncml:attribute name="valid_min" type="double" value="-1.0" />
+    <ncml:attribute name="valid_max" type="double" value="0.0" />
+    <ncml:attribute name="positive" value="up" />
+    <ncml:attribute name="standard_name" value="ocean_s_coordinate_g1" />
+    <ncml:attribute name="formula_terms" value="s: s_w C: Cs_w eta: zeta depth: h depth_c: hc" />
+    <ncml:attribute name="field" value="s_w, scalar" />
+    <ncml:attribute name="_CoordinateTransformType" value="Vertical" />
+    <ncml:attribute name="_CoordinateAxes" value="s_w" />
+    <ncml:attribute name="_CoordinateAxisType" value="GeoZ" />
+    <ncml:attribute name="_CoordinateZisPositive" value="up" />
+  </ncml:variable>
+  <ncml:variable name="lon_rho" shape="eta_rho xi_rho" type="double">
+    <ncml:attribute name="long_name" value="longitude of RHO-points" />
+    <ncml:attribute name="units" value="degree_east" />
+    <ncml:attribute name="standard_name" value="longitude" />
+    <ncml:attribute name="field" value="lon_rho, scalar" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="False" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="location" value="face" />
+    <ncml:attribute name="_CoordinateAxisType" value="Lon" />
+  </ncml:variable>
+  <ncml:variable name="lat_rho" shape="eta_rho xi_rho" type="double">
+    <ncml:attribute name="long_name" value="latitude of RHO-points" />
+    <ncml:attribute name="units" value="degree_north" />
+    <ncml:attribute name="standard_name" value="latitude" />
+    <ncml:attribute name="field" value="lat_rho, scalar" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="False" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="location" value="face" />
+    <ncml:attribute name="_CoordinateAxisType" value="Lat" />
+  </ncml:variable>
+  <ncml:variable name="lon_u" shape="eta_u xi_u" type="double">
+    <ncml:attribute name="long_name" value="longitude of U-points" />
+    <ncml:attribute name="units" value="degree_east" />
+    <ncml:attribute name="standard_name" value="longitude" />
+    <ncml:attribute name="field" value="lon_u, scalar" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="False" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="location" value="edge1" />
+    <ncml:attribute name="_CoordinateAxisType" value="Lon" />
+  </ncml:variable>
+  <ncml:variable name="lat_u" shape="eta_u xi_u" type="double">
+    <ncml:attribute name="long_name" value="latitude of U-points" />
+    <ncml:attribute name="units" value="degree_north" />
+    <ncml:attribute name="standard_name" value="latitude" />
+    <ncml:attribute name="field" value="lat_u, scalar" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="False" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="location" value="edge1" />
+    <ncml:attribute name="_CoordinateAxisType" value="Lat" />
+  </ncml:variable>
+  <ncml:variable name="lon_v" shape="eta_v xi_v" type="double">
+    <ncml:attribute name="long_name" value="longitude of V-points" />
+    <ncml:attribute name="units" value="degree_east" />
+    <ncml:attribute name="standard_name" value="longitude" />
+    <ncml:attribute name="field" value="lon_v, scalar" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="False" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="location" value="edge2" />
+    <ncml:attribute name="_CoordinateAxisType" value="Lon" />
+  </ncml:variable>
+  <ncml:variable name="lat_v" shape="eta_v xi_v" type="double">
+    <ncml:attribute name="long_name" value="latitude of V-points" />
+    <ncml:attribute name="units" value="degree_north" />
+    <ncml:attribute name="standard_name" value="latitude" />
+    <ncml:attribute name="field" value="lat_v, scalar" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="False" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="location" value="edge2" />
+    <ncml:attribute name="_CoordinateAxisType" value="Lat" />
+  </ncml:variable>
+  <ncml:variable name="lon_psi" shape="eta_psi xi_psi" type="double">
+    <ncml:attribute name="long_name" value="longitude of PSI-points" />
+    <ncml:attribute name="units" value="degree_east" />
+    <ncml:attribute name="standard_name" value="longitude" />
+    <ncml:attribute name="field" value="lon_psi, scalar" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="False" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="_CoordinateAxisType" value="Lon" />
+  </ncml:variable>
+  <ncml:variable name="lat_psi" shape="eta_psi xi_psi" type="double">
+    <ncml:attribute name="long_name" value="latitude of PSI-points" />
+    <ncml:attribute name="units" value="degree_north" />
+    <ncml:attribute name="standard_name" value="latitude" />
+    <ncml:attribute name="field" value="lat_psi, scalar" />
+    <ncml:attribute name="grid" value="grid" />
+    <ncml:attribute name="display" value="False" />
+    <ncml:attribute name="content_coverage_type" value="modelResult" />
+    <ncml:attribute name="_CoordinateAxisType" value="Lat" />
+  </ncml:variable>
+  <ncml:variable name="ocean_time" shape="ocean_time" type="double">
+    <ncml:attribute name="long_name" value="time since initialization" />
+    <ncml:attribute name="units" value="seconds since 2012-09-17 00:00:00" />
+    <ncml:attribute name="calendar" value="gregorian" />
+    <ncml:attribute name="field" value="time, scalar, series" />
+    <ncml:attribute name="standard_name" value="time" />
+    <ncml:attribute name="_CoordinateAxisType" value="Time" />
+  </ncml:variable>
+  <ncml:variable name="Nbed" shape="Nbed" type="double">
+    <ncml:attribute name="long_name" value="pseudo coordinate at seabed points" />
+    <ncml:attribute name="standard_name" value="ocean_sigma_coordinate" />
+    <ncml:attribute name="positive" value="up" />
+    <ncml:attribute name="formula_terms" value="sigma: Nbed eta: zeta depth: h" />
+    <ncml:attribute name="_CoordinateTransformType" value="Vertical" />
+    <ncml:attribute name="_CoordinateAxes" value="Nbed" />
+    <ncml:attribute name="_CoordinateAxisType" value="GeoZ" />
+    <ncml:attribute name="_CoordinateZisPositive" value="up" />
+    <ncml:values>-1.0</ncml:values>
+  </ncml:variable>
+</ncml:netcdf>
+
