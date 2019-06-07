@@ -1554,9 +1554,12 @@
                     <xsl:when test="$variableUnits">
                         <gmd:units>
                             <xsl:attribute name="xlink:href">
-                                <xsl:value-of select="'https://docs.unidata.ucar.edu/thredds/udunits2/current/udunits2_combined.xml#'"/>
+                                <xsl:value-of select="'https://geoport.usgs.esipfed.org/thredds/fileServer/sand/usgs/Projects/BBLEH/[[folder_name]]/udunits2_combined_whmsc.xml#'"/>
                                 <xsl:value-of select="encode-for-uri($variableUnits)"/>
                             </xsl:attribute>
+                            <xsl:attribute name="xlink:title">
+                                <xsl:value-of select="$variableUnits"/>
+                            </xsl:attribute>                            
                             <xsl:attribute name="xlink:actuate">
                                 <xsl:value-of select="'onRequest'"/>
                             </xsl:attribute>
