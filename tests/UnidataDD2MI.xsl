@@ -940,10 +940,9 @@
                                                 <gmd:CI_OnlineResource>
                                                     <gmd:linkage>
                                                         <gmd:URL>
-                                                            <xsl:value-of select="concat('http://geoport.whoi.edu/thredds/godiva2/godiva2.html?server=',/nc:netcdf/nc:group[@name='THREDDSMetadata']/nc:group[@name='services']/nc:attribute[@name='opendap_service']/@value)"/>
+                                                            <xsl:value-of select="concat('https://geoport.usgs.esipfed.org/thredds/godiva2/godiva2.html?server=',/nc:netcdf/nc:group[@name='THREDDSMetadata']/nc:group[@name='services']/nc:attribute[@name='wms_service']/@value)"/>
                                                         </gmd:URL>
                                                     </gmd:linkage>
-                                                    <!--zdefne-->
                                                     <gmd:protocol>
                                                         <gco:CharacterString>WWW:LINK</gco:CharacterString>
                                                     </gmd:protocol>
