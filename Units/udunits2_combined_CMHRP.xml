@@ -1,4 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<!--File maintained by Zafer Defne and edited by Tarandeep S Kalra-->
+<!--Edited on July 28, 2019-->
+<!--It includes the units file for studying mixing in the model-->
+<!-- Data release corresponds to:-->
+<!--https://doi.org/10.5066/P90KDWTX-->
+<!--https://doi.org/10.5066/P95E8LAS-->
 <unit-system><prefix>
         <value>1e24</value> <name>yotta</name>  <symbol>Y</symbol>
     </prefix>
@@ -110,6 +116,7 @@
         <comment>SI derived unit</comment>
         <dimensionless />
         <name><singular>radian</singular></name>
+        <name><plural>radians</plural></name>
         <symbol>rad</symbol>
         <definition>standard unit of angular measure, an angle that creates an arc in a circle equal in length to that circle's radius (roughly 57.3 degrees); as a ratio of two lengths, it has no dimension</definition>
     </unit>
@@ -2539,6 +2546,12 @@
     </unit>
     <unit>
         <comment>SI derived unit</comment>
+        <def>kg.m^-3</def>
+        <name><plural>kilogram_meter-3</plural></name>
+        <definition>unit for mass per unit volume</definition>
+    </unit>
+    <unit>
+        <comment>SI derived unit</comment>
         <def>kg.m^-2.s-1</def>
         <name><plural>kilogram meter-2 second-1</plural></name>
         <definition>unit for mass per unit area per unit time</definition>
@@ -2551,4 +2564,49 @@
     </aliases>
     <definition>per degree Celsius</definition>
   </unit>
+<!--Corresponding to DOI-https://doi.org/10.5066/P90KDWTX-->
+<!--Corresponding to DOI-https://doi.org/10.5066/P95E8LAS-->
+   <unit>
+        <comment>SI derived unit</comment>
+        <def>1/meter</def>
+        <name><singular>meter-1</singular></name>
+        <definition>per meter</definition>
+    </unit>
+   <unit>
+        <comment>SI derived unit</comment>
+        <def>1/days</def>
+        <name><singular>days-1</singular></name>
+        <definition>per day</definition>
+    </unit>
+   <unit>
+        <comment>SI derived unit</comment>
+        <def>86400 seconds</def>
+        <name><singular>days</singular></name>
+        <definition>time stamp assigned to model initilialization</definition>
+    </unit>
+   <unit>
+        <comment>SI derived unit</comment>
+        <def>N.s^-2</def>
+        <name><singular>Newton second-2</singular></name>
+        <definition>power per unit time</definition>
+    </unit>
+   <unit>
+        <comment>SI derived unit</comment>
+        <def>W.s^-2</def>
+        <name><singular>Watts second-2</singular></name>
+	<definition>rate of change of power</definition>
+    </unit>
+   <unit>
+        <comment>SI derived unit</comment>
+        <def>m^2.s^-1</def>
+        <name><singular>meter2 second-1</singular></name>
+        <definition>diffusion coefficient</definition>
+    </unit>
+   <unit>
+        <comment>SI derived unit</comment>
+        <def>psu</def>
+        <name><singular>psu</singular></name>
+        <definition>practical salinity unit</definition>
+   </unit>
+<!-- -->
 </unit-system>
