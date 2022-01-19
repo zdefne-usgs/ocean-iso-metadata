@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="dods://geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/GTM_inwave_grd8_bry_R7.nc">
+  <attribute name="history" value="Created by updatclim on 06-Oct-2019 08:11:43" />
+  <attribute name="type" value="climate forcing file from http://hycom.coaps.fsu.edu:8080/thredds/dodsC/glb_analysis" />
+  <attribute name="_CoordSysBuilder" value="ucar.nc2.dataset.conv.DefaultConvention" />
+  <dimension name="zeta_time" length="73" />
+  <dimension name="v2d_time" length="73" />
+  <dimension name="v3d_time" length="73" />
+  <dimension name="salt_time" length="73" />
+  <dimension name="temp_time" length="73" />
+  <dimension name="xrho" length="400" />
+  <dimension name="erho" length="300" />
+  <dimension name="xu" length="399" />
+  <dimension name="eu" length="300" />
+  <dimension name="xv" length="400" />
+  <dimension name="ev" length="299" />
+  <dimension name="s_rho" length="5" />
+  <dimension name="xpsi" length="399" />
+  <dimension name="epsi" length="299" />
+  <group name="CFMetadata" />
+  <group name="THREDDSMetadata">
+    <attribute name="id" value="vortexfs1/usgs/Projects/breach/breach_matanzas/00_dir_roms.ncml" />
+    <attribute name="full_name" value="breach_matanzas/00_dir_roms.ncml" />
+    <group name="services">
+      <attribute name="opendap_service" value="https://geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/00_dir_roms.ncml" />
+      <attribute name="nccs_service" value="https://geoport.usgs.esipfed.org/thredds/ncss/grid/vortexfs1/usgs/Projects/breach/breach_matanzas/00_dir_roms.ncml/dataset.html" />
+      <attribute name="wms_service" value="https://geoport.usgs.esipfed.org/thredds/wms/vortexfs1/usgs/Projects/breach/breach_matanzas/00_dir_roms.ncml?service=WMS&amp;version=1.3.0&amp;request=GetCapabilities" />
+    </group>
+    <group name="dates">
+      <attribute name="date" value="2022-01-18T14:47:58.684Z" type="modified" />
+    </group>
+  </group>
+  <group name="NCISOMetadata">
+    <attribute name="metadata_creation" value="2022-01-19" />
+  </group>
+  <variable name="zeta_south" type="double" shape="zeta_time xrho">
+    <attribute name="long_name" value="free-surface southern boundary condition" />
+    <attribute name="units" value="meter" />
+    <attribute name="field" value="zeta_south, scalar, series" />
+  </variable>
+  <variable name="zeta_east" type="double" shape="zeta_time erho">
+    <attribute name="long_name" value="free-surface eastern boundary condition" />
+    <attribute name="units" value="meter" />
+    <attribute name="field" value="zeta_east, scalar, series" />
+  </variable>
+  <variable name="zeta_west" type="double" shape="zeta_time erho">
+    <attribute name="long_name" value="free-surface western boundary condition" />
+    <attribute name="units" value="meter" />
+    <attribute name="field" value="zeta_west, scalar, series" />
+  </variable>
+  <variable name="zeta_north" type="double" shape="zeta_time xrho">
+    <attribute name="long_name" value="free-surface northern boundary condition" />
+    <attribute name="units" value="meter" />
+    <attribute name="field" value="zeta_north, scalar, series" />
+  </variable>
+  <variable name="ubar_south" type="float" shape="v2d_time xu">
+    <attribute name="long_name" value="2D u-momentum southern boundary condition" />
+    <attribute name="units" value="meter second-1" />
+    <attribute name="field" value="ubar_south, scalar, series" />
+  </variable>
+  <variable name="ubar_east" type="float" shape="v2d_time eu">
+    <attribute name="long_name" value="2D u-momentum eastern boundary condition" />
+    <attribute name="units" value="meter second-1" />
+    <attribute name="field" value="ubar_east, scalar, series" />
+  </variable>
+  <variable name="ubar_west" type="float" shape="v2d_time eu">
+    <attribute name="long_name" value="2D u-momentum western boundary condition" />
+    <attribute name="units" value="meter second-1" />
+    <attribute name="field" value="ubar_west, scalar, series" />
+  </variable>
+  <variable name="ubar_north" type="float" shape="v2d_time xu">
+    <attribute name="long_name" value="2D u-momentum northern boundary condition" />
+    <attribute name="units" value="meter second-1" />
+    <attribute name="field" value="ubar_north, scalar, series" />
+  </variable>
+  <variable name="vbar_south" type="float" shape="v2d_time xv">
+    <attribute name="long_name" value="2D v-momentum southern boundary condition" />
+    <attribute name="units" value="meter second-1" />
+    <attribute name="field" value="vbar_south, scalar, series" />
+  </variable>
+  <variable name="vbar_east" type="float" shape="v2d_time ev">
+    <attribute name="long_name" value="2D v-momentum eastern boundary condition" />
+    <attribute name="units" value="meter second-1" />
+    <attribute name="field" value="vbar_east, scalar, series" />
+  </variable>
+  <variable name="vbar_west" type="float" shape="v2d_time ev">
+    <attribute name="long_name" value="2D v-momentum western boundary condition" />
+    <attribute name="units" value="meter second-1" />
+    <attribute name="field" value="vbar_west, scalar, series" />
+  </variable>
+  <variable name="vbar_north" type="float" shape="v2d_time xv">
+    <attribute name="long_name" value="2D v-momentum northern boundary condition" />
+    <attribute name="units" value="meter second-1" />
+    <attribute name="field" value="vbar_north, scalar, series" />
+  </variable>
+  <variable name="u_south" type="float" shape="v3d_time s_rho xu">
+    <attribute name="long_name" value="3D u-momentum southern boundary condition" />
+    <attribute name="units" value="meter second-1" />
+    <attribute name="field" value="u_south, scalar, series" />
+  </variable>
+  <variable name="u_east" type="float" shape="v3d_time s_rho eu">
+    <attribute name="long_name" value="3D u-momentum eastern boundary condition" />
+    <attribute name="units" value="meter second-1" />
+    <attribute name="field" value="u_east, scalar, series" />
+  </variable>
+  <variable name="u_west" type="float" shape="v3d_time s_rho eu">
+    <attribute name="long_name" value="3D u-momentum western boundary condition" />
+    <attribute name="units" value="meter second-1" />
+    <attribute name="field" value="u_west, scalar, series" />
+  </variable>
+  <variable name="u_north" type="float" shape="v3d_time s_rho xu">
+    <attribute name="long_name" value="3D u-momentum northern boundary condition" />
+    <attribute name="units" value="meter second-1" />
+    <attribute name="field" value="u_north, scalar, series" />
+  </variable>
+  <variable name="v_south" type="float" shape="v3d_time s_rho xv">
+    <attribute name="long_name" value="3D v-momentum southern boundary condition" />
+    <attribute name="units" value="meter second-1" />
+    <attribute name="field" value="v_south, scalar, series" />
+  </variable>
+  <variable name="v_east" type="float" shape="v3d_time s_rho ev">
+    <attribute name="long_name" value="3D v-momentum eastern boundary condition" />
+    <attribute name="units" value="meter second-1" />
+    <attribute name="field" value="v_east, scalar, series" />
+  </variable>
+  <variable name="v_west" type="float" shape="v3d_time s_rho ev">
+    <attribute name="long_name" value="3D v-momentum western boundary condition" />
+    <attribute name="units" value="meter second-1" />
+    <attribute name="field" value="v_west, scalar, series" />
+  </variable>
+  <variable name="v_north" type="float" shape="v3d_time s_rho xv">
+    <attribute name="long_name" value="3D v-momentum northern boundary condition" />
+    <attribute name="units" value="meter second-1" />
+    <attribute name="field" value="v_north, scalar, series" />
+  </variable>
+  <variable name="temp_south" type="float" shape="temp_time s_rho xrho">
+    <attribute name="long_name" value="3D temperature southern boundary condition" />
+    <attribute name="units" value="C" />
+    <attribute name="field" value="temp_south, scalar, series" />
+  </variable>
+  <variable name="temp_east" type="float" shape="temp_time s_rho erho">
+    <attribute name="long_name" value="3D temperature eastern boundary condition" />
+    <attribute name="units" value="C" />
+    <attribute name="field" value="temp_east, scalar, series" />
+  </variable>
+  <variable name="temp_west" type="float" shape="temp_time s_rho erho">
+    <attribute name="long_name" value="3D temperature western boundary condition" />
+    <attribute name="units" value="C" />
+    <attribute name="field" value="temp_west, scalar, series" />
+  </variable>
+  <variable name="temp_north" type="float" shape="temp_time s_rho xrho">
+    <attribute name="long_name" value="3D temperature northern boundary condition" />
+    <attribute name="units" value="C" />
+    <attribute name="field" value="temp_north, scalar, series" />
+  </variable>
+  <variable name="salt_south" type="float" shape="salt_time s_rho xrho">
+    <attribute name="long_name" value="3D salinity southern boundary condition" />
+    <attribute name="units" value="psu" />
+    <attribute name="field" value="salt_south, scalar, series" />
+  </variable>
+  <variable name="salt_east" type="float" shape="salt_time s_rho erho">
+    <attribute name="long_name" value="3D salinity eastern boundary condition" />
+    <attribute name="units" value="psu" />
+    <attribute name="field" value="salt_east, scalar, series" />
+  </variable>
+  <variable name="salt_west" type="float" shape="salt_time s_rho erho">
+    <attribute name="long_name" value="3D salinity western boundary condition" />
+    <attribute name="units" value="psu" />
+    <attribute name="field" value="salt_west, scalar, series" />
+  </variable>
+  <variable name="salt_north" type="float" shape="salt_time s_rho xrho">
+    <attribute name="long_name" value="3D salinity northern boundary condition" />
+    <attribute name="units" value="psu" />
+    <attribute name="field" value="salt_north, scalar, series" />
+  </variable>
+  <variable name="zeta_time" type="double" shape="zeta_time">
+    <attribute name="long_name" value="zeta_time" />
+    <attribute name="units" value="days" />
+    <attribute name="field" value="zeta_time, scalar, series" />
+  </variable>
+  <variable name="v2d_time" type="double" shape="v2d_time">
+    <attribute name="long_name" value="v2d_time" />
+    <attribute name="units" value="days" />
+    <attribute name="field" value="v2d_time, scalar, series" />
+  </variable>
+  <variable name="v3d_time" type="double" shape="v3d_time">
+    <attribute name="long_name" value="v3d_time" />
+    <attribute name="units" value="days" />
+    <attribute name="field" value="v3d_time, scalar, series" />
+  </variable>
+  <variable name="salt_time" type="double" shape="salt_time">
+    <attribute name="long_name" value="salt_time" />
+    <attribute name="units" value="days" />
+    <attribute name="field" value="salt_time, scalar, series" />
+  </variable>
+  <variable name="temp_time" type="double" shape="temp_time">
+    <attribute name="long_name" value="temp_time" />
+    <attribute name="units" value="days" />
+    <attribute name="field" value="temp_time, scalar, series" />
+  </variable>
+</netcdf>
+

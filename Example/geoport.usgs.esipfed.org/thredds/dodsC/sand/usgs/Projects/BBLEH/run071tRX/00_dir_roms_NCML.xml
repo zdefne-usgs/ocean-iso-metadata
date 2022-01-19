@@ -1,0 +1,819 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="dods://geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/run071tRX/00_dir_roms.ncml">
+  <attribute name="file" value="his_bbleh_0427.nc" />
+  <attribute name="format" value="netCDF-3 64bit offset file" />
+  <attribute name="Conventions" value="CF-1.6, SGRID-0.1, ACDD-1.3" />
+  <attribute name="type" value="ROMS/TOMS history file" />
+  <attribute name="title" value="USGS Barnegat Bay Hydrodynamic Model for March-September 2012" />
+  <attribute name="rst_file" value="bbleh_rst.nc" />
+  <attribute name="his_base" value="his_bbleh" />
+  <attribute name="avg_base" value="avg_bbleh" />
+  <attribute name="grd_file" value="bbleh_grid_071R34.nc" />
+  <attribute name="ini_file" value="../run071tR/initial/bbleh_ini_071R_base.nc" />
+  <attribute name="frc_file_01" value="../run071tR/forcing/bbleh_tide_071R_base.nc" />
+  <attribute name="frc_file_02" value="../run071tR/forcing/bbleh_bulk_NARR.nc" />
+  <attribute name="bry_file_01" value="../run071tR/forcing/bbleh_bry_071tRdet.nc" />
+  <attribute name="script_file" value="" />
+  <attribute name="NLM_LBC" value="&#xA;EDGE:  WEST   SOUTH  EAST   NORTH  &#xA;zeta:  Gra    Cha    Cha    Cha    &#xA;ubar:  Rad    Fla    Fla    Fla    &#xA;vbar:  Rad    Fla    Fla    Fla    &#xA;u:     Rad    Rad    Rad    Rad    &#xA;v:     Rad    Rad    Rad    Rad    &#xA;temp:  RadNud RadNud RadNud RadNud &#xA;salt:  RadNud RadNud RadNud RadNud &#xA;tke:   Rad    Rad    Rad    Rad" />
+  <attribute name="svn_url" value="https:://myroms.org/svn/src" />
+  <attribute name="svn_rev" value="937M" />
+  <attribute name="code_dir" value="/peach/data1/zdefne/projects/bbleh/run071tR/COAWST937" />
+  <attribute name="header_dir" value="/peach/data1/zdefne/projects/bbleh/run071tRroms" />
+  <attribute name="header_file" value="bbleh_071u3.h" />
+  <attribute name="os" value="Linux" />
+  <attribute name="cpu" value="x86_64" />
+  <attribute name="compiler_system" value="pgi" />
+  <attribute name="compiler_command" value="/share/apps/openmpi/bin/mpif90" />
+  <attribute name="compiler_flags" value=" -fastsse -Mipa=fast -tp k8-64 -Mfree" />
+  <attribute name="tiling" value="006x016" />
+  <attribute name="history" value="ROMS/TOMS, Version 3.7, Tuesday - April 7, 2015 -  6:17:54 PM" />
+  <attribute name="ana_file" value="ROMS/Functionals/ana_btflux.h, ROMS/Functionals/ana_cloud.h, ROMS/Functionals/ana_stflux.h" />
+  <attribute name="CPP_options" value="BBLEH, ADD_FSOBC, ADD_M2OBC, ANA_BSFLUX, ANA_BTFLUX, ANA_CLOUD, ANA_SSFLUX, ASSUMED_SHAPE, ATM_PRESS, AVERAGES, BULK_FLUXES, COOL_SKIN, CURVGRID, DJ_GRADPS, DOUBLE_PRECISION, GLS_MIXING, KANTHA_CLAYSON, LONGWAVE, MASKING, MPI, NONLINEAR, !NONLIN_EOS, NO_LBC_ATT, N2S2_HORAVG, OUT_DOUBLE, POWER_LAW, PROFILE, K_GSCHEME, RADIATION_2D, RAMP_TIDES, !RST_SINGLE, SALINITY, SOLVE3D, SPLINES, SSH_TIDES, TS_U3HADVECTION, TS_C4VADVECTION, UV_ADV, UV_COR, UV_U3HADVECTION, UV_C4VADVECTION, UV_LOGDRAG, UV_TIDES, VAR_RHO_2D, WET_DRY" />
+  <attribute name="cdm_data_type" value="Grid" />
+  <attribute name="id" value="USGS_BBLEH_RUN071TRX" />
+  <attribute name="summary" value="Simulation of hydrodynamic circulation in Barnegat Bay for the period from 03-01-2012 to 10-01-2012. The bathymetry of the model was based on the National Ocean Service Hydrographic Survey data, and updated with recent bathymetric measurements. At the landward end (western boundary), we specified point sources of freshwater in accordance with USGS streamflow measurements at 7 gauges, and a radiation boundary condition that allows tidal energy to propagate landward. On the seaward end, tidal water level and velocity amplitudes from the ADCIRC tidal constituents database for the North Atlantic were applied. These were supplemented by the subtidal water level and subtidal barotropic velocity from the ESPreSSO model, which covers the Mid-Atlantic Bight at 6 kilometer resolution. At the ocean boundary, a combination of Chapman, Flather, and gradient boundary conditions were used. Salinity and temperature was also supplied by the ESPreSSO model. A radiation condition with nudging on a 6-hour timescale for tracers allowed for relaxation of the model solution relative to the forcing data, which prevented sharp gradients at the seaward boundary and subsequent oscillations in the solution. At the ocean-atmosphere interface we applied meteorological forcing from North American Mesoscale Model. The bulk flux parameterization routine was used with 3-hour wind velocity, air pressure, long and shortwave radiation, relative humidity, and rain inputs. For more details on the model set up see Defne and Ganju, 2015. Reference: Defne, Zafer, and Ganju, N. K., 2015, Quantifying the residence time and flushing characteristics of a shallow, back-barrier estuary: application of hydrodynamic and particle tracking models, Estuaries and Coasts, 38, 1719-1734" />
+  <attribute name="project" value="CMG_Portal" />
+  <attribute name="creator_email" value="zdefne@usgs.gov" />
+  <attribute name="creator_url" value="http://profile.usgs.gov/zdefne" />
+  <attribute name="creator_name" value="Zafer Defne" />
+  <attribute name="creator_institution" value="U.S. Geological Survey" />
+  <attribute name="publisher_email" value="zdefne@usgs.gov" />
+  <attribute name="publisher_url" value="http://profile.usgs.gov/zdefne" />
+  <attribute name="publisher_name" value="Zafer Defne" />
+  <attribute name="publisher_institution" value="U.S. Geological Survey" />
+  <attribute name="contributor_role" value="principalInvestigator" />
+  <attribute name="contributor_email" value="nganju@usgs.gov" />
+  <attribute name="contributor_url" value="http://profile.usgs.gov/nganju" />
+  <attribute name="contributor_name" value="Neil Ganju" />
+  <attribute name="contributor_institution" value="U.S. Geological Survey" />
+  <attribute name="naming_authority" value="gov.usgs.cmgp.whsc" />
+  <attribute name="license" value="The data may be used and redistributed for free but is not intended for legal use, since it may contain inaccuracies. Neither the data Contributor, nor the United States Government, nor any of their employees or contractors, makes any warranty, express or implied, including warranties of merchantability and fitness for a particular purpose, or assumes any legal liability for the accuracy, completeness, or usefulness, of this information." />
+  <attribute name="references" value="http://woodshole.er.usgs.gov/project-pages/estuaries/,http://woodshole.er.usgs.gov/operations/modeling/COAWST/" />
+  <attribute name="keywords" value="Earth Science Services &gt; Models &gt; Ocean General Circulation Models (OGCM)/Regional Ocean Models, Earth Science Services &gt; Models &gt; Weather Research/Forecast Models, Earth Science &gt; Oceans &gt; Ocean Temperature &gt; Potential Temperature, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Salinity, Earth Science &gt; Oceans &gt; Sea Surface Topography &gt; Sea Surface Height, Earth Science &gt; Oceans &gt; Ocean Circulation &gt; Ocean Currents" />
+  <attribute name="processing_level" value="The model results were compared against available water level, velocity, salinity and temperature measurements in the bay." />
+  <attribute name="locations" value="Continent &gt; North America &gt; United States Of America &gt; New Jersey, Ocean &gt; Atlantic Ocean &gt; Nrth Atlantic Ocean" />
+  <attribute name="locations_vocabulary" value="GCMD Location Keywords" />
+  <attribute name="keywords_vocabulary" value="GCMD Science Keywords" />
+  <attribute name="standard_name_vocabulary" value="CF Standard Name Table v39" />
+  <attribute name="Metadata_Conventions" value="Unidata Dataset Discovery v1.0" />
+  <attribute name="Metadata_Link" value="https://doi.org/10.5066/F7SB44QS" />
+  <attribute name="time_coverage_start" value="2012-03-01T00:00:00" />
+  <attribute name="time_coverage_end" value="2012-10-01T00:00:00" />
+  <attribute name="time_coverage_durationn" value="P0Y7M" />
+  <attribute name="time_coverage_resolution" value="PT30M" />
+  <attribute name="geospatial_vertical_min" value="0" />
+  <attribute name="geospatial_vertical_max" value="25.0" />
+  <attribute name="geospatial_vertical_positive" value="down" />
+  <attribute name="geospatial_vertical_units" value="meter" />
+  <attribute name="date_created" value="2015-04-01" />
+  <attribute name="date_modified" value="2015-04-01" />
+  <attribute name="date_issued" value="2017-12-01" />
+  <attribute name="date_metadata_modified" value="2017-11-01" />
+  <attribute name="institution" value="U.S. Geological Survey" />
+  <attribute name="acknowledgment" value="Funding was provided by the Coastal and Marine Geology Program of the U.S. Geological Survey the New Jersey Department of Environmental Protection. Assistance was provided by John Warner for numrical modeling, Jennifer Miselis and Brian Andrews for model grid. Hydrologic data were collected by the New Jersey Water Science Center of the U.S. Geological Survey " />
+  <attribute name="comment" value="a selection of model output fields are also available at the USGS Oceanographic Data and Model Portal, http://cmgdata.usgsportals.net . Geospatial vertical resolution is variable due to the sigma coordinate system of the numerical model." />
+  <attribute name="_CoordSysBuilder" value="ucar.nc2.dataset.conv.CF1Convention" />
+  <dimension name="tracer" length="2" />
+  <dimension name="boundary" length="4" />
+  <dimension name="s_rho" length="7" />
+  <dimension name="s_w" length="8" />
+  <dimension name="eta_rho" length="800" />
+  <dimension name="xi_rho" length="160" />
+  <dimension name="eta_u" length="800" />
+  <dimension name="xi_u" length="159" />
+  <dimension name="eta_v" length="799" />
+  <dimension name="xi_v" length="160" />
+  <dimension name="eta_psi" length="799" />
+  <dimension name="xi_psi" length="159" />
+  <dimension name="ocean_time" length="10272" />
+  <dimension name="N" length="7" />
+  <group name="CFMetadata">
+    <attribute name="geospatial_lon_min" value="-74.43636499745051" type="float" />
+    <attribute name="geospatial_lat_min" value="39.44520325543955" type="float" />
+    <attribute name="geospatial_lon_max" value="-74.0033391193193" type="float" />
+    <attribute name="geospatial_lat_max" value="40.14055802120193" type="float" />
+    <attribute name="geospatial_lon_units" value="degree_east" />
+    <attribute name="geospatial_lat_units" value="degree_north" />
+    <attribute name="geospatial_lon_resolution" value="3.408552184973386E-6" />
+    <attribute name="geospatial_lat_resolution" value="5.473467351188841E-6" />
+    <attribute name="time_coverage_start" value="2012-03-01T00:30:00Z" />
+    <attribute name="time_coverage_end" value="2012-10-01T00:00:00Z" />
+    <attribute name="time_coverage_units" value="seconds since 2012-03-01 00:00:00" />
+    <attribute name="time_coverage_resolution" value="P0Y0M0DT0H29M59.824S" />
+    <attribute name="time_coverage_duration" value="P0Y0M213DT23H30M0.000S" />
+  </group>
+  <group name="THREDDSMetadata">
+    <attribute name="id" value="sand/usgs/Projects/BBLEH/run071tRX/00_dir_roms.ncml" />
+    <attribute name="full_name" value="run071tRX/00_dir_roms.ncml" />
+    <group name="services">
+      <attribute name="opendap_service" value="https://geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/run071tRX/00_dir_roms.ncml" />
+      <attribute name="nccs_service" value="https://geoport.usgs.esipfed.org/thredds/ncss/grid/sand/usgs/Projects/BBLEH/run071tRX/00_dir_roms.ncml/dataset.html" />
+      <attribute name="wms_service" value="https://geoport.usgs.esipfed.org/thredds/wms/sand/usgs/Projects/BBLEH/run071tRX/00_dir_roms.ncml?service=WMS&amp;version=1.3.0&amp;request=GetCapabilities" />
+    </group>
+    <group name="dates">
+      <attribute name="date" value="2018-02-02T16:45:04Z" type="modified" />
+    </group>
+  </group>
+  <group name="NCISOMetadata">
+    <attribute name="metadata_creation" value="2022-01-19" />
+  </group>
+  <variable name="ntimes" type="int">
+    <attribute name="long_name" value="number of long time-steps" />
+  </variable>
+  <variable name="ndtfast" type="int">
+    <attribute name="long_name" value="number of short time-steps" />
+  </variable>
+  <variable name="dt" type="double">
+    <attribute name="long_name" value="size of long time-steps" />
+    <attribute name="units" value="second" />
+  </variable>
+  <variable name="dtfast" type="double">
+    <attribute name="long_name" value="size of short time-steps" />
+    <attribute name="units" value="second" />
+  </variable>
+  <variable name="dstart" type="double">
+    <attribute name="long_name" value="time stamp assigned to model initilization" />
+    <attribute name="units" value="days since 2012-03-01 00:00:00" />
+  </variable>
+  <variable name="nHIS" type="int">
+    <attribute name="long_name" value="number of time-steps between history records" />
+  </variable>
+  <variable name="ndefHIS" type="int">
+    <attribute name="long_name" value="number of time-steps between the creation of history files" />
+  </variable>
+  <variable name="nRST" type="int">
+    <attribute name="long_name" value="number of time-steps between restart records" />
+    <attribute name="cycle" value="only latest two records are maintained" />
+  </variable>
+  <variable name="ntsAVG" type="int">
+    <attribute name="long_name" value="starting time-step for accumulation of time-averaged fields" />
+  </variable>
+  <variable name="nAVG" type="int">
+    <attribute name="long_name" value="number of time-steps between time-averaged records" />
+  </variable>
+  <variable name="ndefAVG" type="int">
+    <attribute name="long_name" value="number of time-steps between the creation of average files" />
+  </variable>
+  <variable name="Falpha" type="double">
+    <attribute name="long_name" value="Power-law shape barotropic filter parameter" />
+  </variable>
+  <variable name="Fbeta" type="double">
+    <attribute name="long_name" value="Power-law shape barotropic filter parameter" />
+  </variable>
+  <variable name="Fgamma" type="double">
+    <attribute name="long_name" value="Power-law shape barotropic filter parameter" />
+  </variable>
+  <variable name="Akt_bak" type="double" shape="tracer">
+    <attribute name="long_name" value="background vertical mixing coefficient for tracers" />
+    <attribute name="units" value="meter2 second-1" />
+  </variable>
+  <variable name="Akv_bak" type="double">
+    <attribute name="long_name" value="background vertical mixing coefficient for momentum" />
+    <attribute name="units" value="meter2 second-1" />
+  </variable>
+  <variable name="Akk_bak" type="double">
+    <attribute name="long_name" value="background vertical mixing coefficient for turbulent energy" />
+    <attribute name="units" value="meter2 second-1" />
+  </variable>
+  <variable name="Akp_bak" type="double">
+    <attribute name="long_name" value="background vertical mixing coefficient for length scale" />
+    <attribute name="units" value="meter2 second-1" />
+  </variable>
+  <variable name="rdrg" type="double">
+    <attribute name="long_name" value="linear drag coefficient" />
+    <attribute name="units" value="meter second-1" />
+  </variable>
+  <variable name="rdrg2" type="double">
+    <attribute name="long_name" value="quadratic drag coefficient" />
+  </variable>
+  <variable name="Zob" type="double">
+    <attribute name="long_name" value="bottom roughness" />
+    <attribute name="units" value="meter" />
+  </variable>
+  <variable name="Zos" type="double">
+    <attribute name="long_name" value="surface roughness" />
+    <attribute name="units" value="meter" />
+  </variable>
+  <variable name="gls_p" type="double">
+    <attribute name="long_name" value="stability exponent" />
+  </variable>
+  <variable name="gls_m" type="double">
+    <attribute name="long_name" value="turbulent kinetic energy exponent" />
+  </variable>
+  <variable name="gls_n" type="double">
+    <attribute name="long_name" value="turbulent length scale exponent" />
+  </variable>
+  <variable name="gls_cmu0" type="double">
+    <attribute name="long_name" value="stability coefficient" />
+  </variable>
+  <variable name="gls_c1" type="double">
+    <attribute name="long_name" value="shear production coefficient" />
+  </variable>
+  <variable name="gls_c2" type="double">
+    <attribute name="long_name" value="dissipation coefficient" />
+  </variable>
+  <variable name="gls_c3m" type="double">
+    <attribute name="long_name" value="buoyancy production coefficient (minus)" />
+  </variable>
+  <variable name="gls_c3p" type="double">
+    <attribute name="long_name" value="buoyancy production coefficient (plus)" />
+  </variable>
+  <variable name="gls_sigk" type="double">
+    <attribute name="long_name" value="constant Schmidt number for TKE" />
+  </variable>
+  <variable name="gls_sigp" type="double">
+    <attribute name="long_name" value="constant Schmidt number for PSI" />
+  </variable>
+  <variable name="gls_Kmin" type="double">
+    <attribute name="long_name" value="minimum value of specific turbulent kinetic energy" />
+  </variable>
+  <variable name="gls_Pmin" type="double">
+    <attribute name="long_name" value="minimum Value of dissipation" />
+  </variable>
+  <variable name="Charnok_alpha" type="double">
+    <attribute name="long_name" value="Charnok factor for surface roughness" />
+  </variable>
+  <variable name="Zos_hsig_alpha" type="double">
+    <attribute name="long_name" value="wave amplitude factor for surface roughness" />
+  </variable>
+  <variable name="sz_alpha" type="double">
+    <attribute name="long_name" value="surface flux from wave dissipation" />
+  </variable>
+  <variable name="CrgBan_cw" type="double">
+    <attribute name="long_name" value="surface flux due to Craig and Banner wave breaking" />
+  </variable>
+  <variable name="Znudg" type="double">
+    <attribute name="long_name" value="free-surface nudging/relaxation inverse time scale" />
+    <attribute name="units" value="day-1" />
+  </variable>
+  <variable name="M2nudg" type="double">
+    <attribute name="long_name" value="2D momentum nudging/relaxation inverse time scale" />
+    <attribute name="units" value="day-1" />
+  </variable>
+  <variable name="M3nudg" type="double">
+    <attribute name="long_name" value="3D momentum nudging/relaxation inverse time scale" />
+    <attribute name="units" value="day-1" />
+  </variable>
+  <variable name="Tnudg" type="double" shape="tracer">
+    <attribute name="long_name" value="Tracers nudging/relaxation inverse time scale" />
+    <attribute name="units" value="day-1" />
+  </variable>
+  <variable name="FSobc_in" type="double" shape="boundary">
+    <attribute name="long_name" value="free-surface inflow, nudging inverse time scale" />
+    <attribute name="units" value="second-1" />
+  </variable>
+  <variable name="FSobc_out" type="double" shape="boundary">
+    <attribute name="long_name" value="free-surface outflow, nudging inverse time scale" />
+    <attribute name="units" value="second-1" />
+  </variable>
+  <variable name="M2obc_in" type="double" shape="boundary">
+    <attribute name="long_name" value="2D momentum inflow, nudging inverse time scale" />
+    <attribute name="units" value="second-1" />
+  </variable>
+  <variable name="M2obc_out" type="double" shape="boundary">
+    <attribute name="long_name" value="2D momentum outflow, nudging inverse time scale" />
+    <attribute name="units" value="second-1" />
+  </variable>
+  <variable name="Tobc_in" type="double" shape="boundary tracer">
+    <attribute name="long_name" value="tracers inflow, nudging inverse time scale" />
+    <attribute name="units" value="second-1" />
+    <attribute name="grid" value="grid" />
+    <attribute name="display" value="False" />
+    <attribute name="coverage_content_type" value="modelResult" />
+  </variable>
+  <variable name="Tobc_out" type="double" shape="boundary tracer">
+    <attribute name="long_name" value="tracers outflow, nudging inverse time scale" />
+    <attribute name="units" value="second-1" />
+    <attribute name="grid" value="grid" />
+    <attribute name="display" value="False" />
+    <attribute name="coverage_content_type" value="modelResult" />
+  </variable>
+  <variable name="M3obc_in" type="double" shape="boundary">
+    <attribute name="long_name" value="3D momentum inflow, nudging inverse time scale" />
+    <attribute name="units" value="second-1" />
+  </variable>
+  <variable name="M3obc_out" type="double" shape="boundary">
+    <attribute name="long_name" value="3D momentum outflow, nudging inverse time scale" />
+    <attribute name="units" value="second-1" />
+  </variable>
+  <variable name="rho0" type="double">
+    <attribute name="long_name" value="mean density used in Boussinesq approximation" />
+    <attribute name="units" value="kilogram meter-3" />
+  </variable>
+  <variable name="R0" type="double">
+    <attribute name="long_name" value="background density used in linear equation of state" />
+    <attribute name="units" value="kilogram meter-3" />
+  </variable>
+  <variable name="Tcoef" type="double">
+    <attribute name="long_name" value="thermal expansion coefficient" />
+    <attribute name="units" value="Celsius-1" />
+  </variable>
+  <variable name="Scoef" type="double">
+    <attribute name="long_name" value="Saline contraction coefficient" />
+  </variable>
+  <variable name="gamma2" type="double">
+    <attribute name="long_name" value="slipperiness parameter" />
+  </variable>
+  <variable name="LuvSrc" type="int">
+    <attribute name="long_name" value="momentum point sources and sink activation switch" />
+    <attribute name="flag_values" value="0  1 " type="int" />
+    <attribute name="flag_meanings" value=".FALSE. .TRUE." />
+  </variable>
+  <variable name="LwSrc" type="int">
+    <attribute name="long_name" value="mass point sources and sink activation switch" />
+    <attribute name="flag_values" value="0  1 " type="int" />
+    <attribute name="flag_meanings" value=".FALSE. .TRUE." />
+  </variable>
+  <variable name="LtracerSrc" type="int" shape="tracer">
+    <attribute name="long_name" value="tracer point sources and sink activation switch" />
+    <attribute name="flag_values" value="0  1 " type="int" />
+    <attribute name="flag_meanings" value=".FALSE. .TRUE." />
+  </variable>
+  <variable name="LsshCLM" type="int">
+    <attribute name="long_name" value="sea surface height climatology processing switch" />
+    <attribute name="flag_values" value="0  1 " type="int" />
+    <attribute name="flag_meanings" value=".FALSE. .TRUE." />
+  </variable>
+  <variable name="Lm2CLM" type="int">
+    <attribute name="long_name" value="2D momentum climatology processing switch" />
+    <attribute name="flag_values" value="0  1 " type="int" />
+    <attribute name="flag_meanings" value=".FALSE. .TRUE." />
+  </variable>
+  <variable name="Lm3CLM" type="int">
+    <attribute name="long_name" value="3D momentum climatology processing switch" />
+    <attribute name="flag_values" value="0  1 " type="int" />
+    <attribute name="flag_meanings" value=".FALSE. .TRUE." />
+  </variable>
+  <variable name="LtracerCLM" type="int" shape="tracer">
+    <attribute name="long_name" value="tracer climatology processing switch" />
+    <attribute name="flag_values" value="0  1 " type="int" />
+    <attribute name="flag_meanings" value=".FALSE. .TRUE." />
+  </variable>
+  <variable name="LnudgeM2CLM" type="int">
+    <attribute name="long_name" value="2D momentum climatology nudging activation switch" />
+    <attribute name="flag_values" value="0  1 " type="int" />
+    <attribute name="flag_meanings" value=".FALSE. .TRUE." />
+  </variable>
+  <variable name="LnudgeM3CLM" type="int">
+    <attribute name="long_name" value="3D momentum climatology nudging activation switch" />
+    <attribute name="flag_values" value="0  1 " type="int" />
+    <attribute name="flag_meanings" value=".FALSE. .TRUE." />
+  </variable>
+  <variable name="LnudgeTCLM" type="int" shape="tracer">
+    <attribute name="long_name" value="tracer climatology nudging activation switch" />
+    <attribute name="flag_values" value="0  1 " type="int" />
+    <attribute name="flag_meanings" value=".FALSE. .TRUE." />
+  </variable>
+  <variable name="spherical" type="int">
+    <attribute name="long_name" value="grid type logical switch" />
+    <attribute name="flag_values" value="0  1 " type="int" />
+    <attribute name="flag_meanings" value="Cartesian spherical" />
+  </variable>
+  <variable name="xl" type="double">
+    <attribute name="long_name" value="domain length in the XI-direction" />
+    <attribute name="units" value="meter" />
+  </variable>
+  <variable name="el" type="double">
+    <attribute name="long_name" value="domain length in the ETA-direction" />
+    <attribute name="units" value="meter" />
+  </variable>
+  <variable name="Vtransform" type="int">
+    <attribute name="long_name" value="vertical terrain-following transformation equation" />
+  </variable>
+  <variable name="Vstretching" type="int">
+    <attribute name="long_name" value="vertical terrain-following stretching function" />
+  </variable>
+  <variable name="theta_s" type="double">
+    <attribute name="long_name" value="S-coordinate surface control parameter" />
+  </variable>
+  <variable name="theta_b" type="double">
+    <attribute name="long_name" value="S-coordinate bottom control parameter" />
+  </variable>
+  <variable name="Tcline" type="double">
+    <attribute name="long_name" value="S-coordinate surface/bottom layer width" />
+    <attribute name="units" value="meter" />
+  </variable>
+  <variable name="hc" type="double">
+    <attribute name="long_name" value="S-coordinate parameter, critical depth" />
+    <attribute name="units" value="meter" />
+  </variable>
+  <variable name="Cs_r" type="double" shape="s_rho">
+    <attribute name="long_name" value="S-coordinate stretching curves at RHO-points" />
+    <attribute name="valid_min" value="-1.0 " type="double" />
+    <attribute name="valid_max" value="0.0 " type="double" />
+    <attribute name="field" value="Cs_r, scalar" />
+  </variable>
+  <variable name="Cs_w" type="double" shape="s_w">
+    <attribute name="long_name" value="S-coordinate stretching curves at W-points" />
+    <attribute name="valid_min" value="-1.0 " type="double" />
+    <attribute name="valid_max" value="0.0 " type="double" />
+    <attribute name="field" value="Cs_w, scalar" />
+  </variable>
+  <variable name="h" type="double" shape="eta_rho xi_rho">
+    <attribute name="long_name" value="bathymetry at RHO-points" />
+    <attribute name="units" value="meter" />
+    <attribute name="coordinates" value="lon_rho lat_rho" />
+    <attribute name="field" value="bath, scalar" />
+    <attribute name="grid" value="grid" />
+    <attribute name="display" value="True" />
+    <attribute name="coverage_content_type" value="modelResult" />
+    <attribute name="location" value="face" />
+  </variable>
+  <variable name="f" type="double" shape="eta_rho xi_rho">
+    <attribute name="long_name" value="Coriolis parameter at RHO-points" />
+    <attribute name="units" value="second-1" />
+    <attribute name="coordinates" value="lon_rho lat_rho" />
+    <attribute name="field" value="coriolis, scalar" />
+    <attribute name="grid" value="grid" />
+    <attribute name="display" value="True" />
+    <attribute name="coverage_content_type" value="modelResult" />
+    <attribute name="location" value="face" />
+  </variable>
+  <variable name="pm" type="double" shape="eta_rho xi_rho">
+    <attribute name="long_name" value="curvilinear coordinate metric in XI" />
+    <attribute name="units" value="meter-1" />
+    <attribute name="coordinates" value="lon_rho lat_rho" />
+    <attribute name="field" value="pm, scalar" />
+    <attribute name="grid" value="grid" />
+    <attribute name="display" value="True" />
+    <attribute name="coverage_content_type" value="modelResult" />
+    <attribute name="location" value="face" />
+  </variable>
+  <variable name="pn" type="double" shape="eta_rho xi_rho">
+    <attribute name="long_name" value="curvilinear coordinate metric in ETA" />
+    <attribute name="units" value="meter-1" />
+    <attribute name="coordinates" value="lon_rho lat_rho" />
+    <attribute name="field" value="pn, scalar" />
+    <attribute name="grid" value="grid" />
+    <attribute name="display" value="True" />
+    <attribute name="coverage_content_type" value="modelResult" />
+    <attribute name="location" value="face" />
+  </variable>
+  <variable name="angle" type="double" shape="eta_rho xi_rho">
+    <attribute name="long_name" value="angle between XI-axis and EAST" />
+    <attribute name="units" value="radians" />
+    <attribute name="coordinates" value="lon_rho lat_rho" />
+    <attribute name="field" value="angle, scalar" />
+    <attribute name="grid" value="grid" />
+    <attribute name="display" value="True" />
+    <attribute name="coverage_content_type" value="modelResult" />
+    <attribute name="location" value="face" />
+  </variable>
+  <variable name="mask_rho" type="double" shape="eta_rho xi_rho">
+    <attribute name="long_name" value="mask on RHO-points" />
+    <attribute name="flag_values" value="0.0  1.0 " type="double" />
+    <attribute name="flag_meanings" value="land water" />
+    <attribute name="coordinates" value="lon_rho lat_rho" />
+    <attribute name="grid" value="grid" />
+    <attribute name="display" value="True" />
+    <attribute name="coverage_content_type" value="modelResult" />
+    <attribute name="location" value="face" />
+  </variable>
+  <variable name="mask_u" type="double" shape="eta_u xi_u">
+    <attribute name="long_name" value="mask on U-points" />
+    <attribute name="flag_values" value="0.0  1.0 " type="double" />
+    <attribute name="flag_meanings" value="land water" />
+    <attribute name="coordinates" value="lon_u lat_u" />
+    <attribute name="grid" value="grid" />
+    <attribute name="display" value="True" />
+    <attribute name="coverage_content_type" value="modelResult" />
+    <attribute name="location" value="edge1" />
+  </variable>
+  <variable name="mask_v" type="double" shape="eta_v xi_v">
+    <attribute name="long_name" value="mask on V-points" />
+    <attribute name="flag_values" value="0.0  1.0 " type="double" />
+    <attribute name="flag_meanings" value="land water" />
+    <attribute name="coordinates" value="lon_v lat_v" />
+    <attribute name="grid" value="grid" />
+    <attribute name="display" value="True" />
+    <attribute name="coverage_content_type" value="modelResult" />
+    <attribute name="location" value="edge2" />
+  </variable>
+  <variable name="mask_psi" type="double" shape="eta_psi xi_psi">
+    <attribute name="long_name" value="mask on psi-points" />
+    <attribute name="flag_values" value="0.0  1.0 " type="double" />
+    <attribute name="flag_meanings" value="land water" />
+    <attribute name="coordinates" value="lon_psi lat_psi" />
+    <attribute name="grid" value="grid" />
+    <attribute name="display" value="True" />
+    <attribute name="coverage_content_type" value="modelResult" />
+  </variable>
+  <variable name="wetdry_mask_rho" type="double" shape="ocean_time eta_rho xi_rho">
+    <attribute name="long_name" value="wet/dry mask on RHO-points" />
+    <attribute name="flag_values" value="0.0  1.0 " type="double" />
+    <attribute name="flag_meanings" value="land water" />
+    <attribute name="time" value="ocean_time" />
+    <attribute name="coordinates" value="lon_rho lat_rho ocean_time" />
+    <attribute name="field" value="wetdry_mask_rho, scalar, series" />
+    <attribute name="grid" value="grid" />
+    <attribute name="display" value="True" />
+    <attribute name="coverage_content_type" value="modelResult" />
+    <attribute name="location" value="face" />
+  </variable>
+  <variable name="wetdry_mask_u" type="double" shape="ocean_time eta_u xi_u">
+    <attribute name="long_name" value="wet/dry mask on U-points" />
+    <attribute name="flag_values" value="0.0  1.0 " type="double" />
+    <attribute name="flag_meanings" value="land water" />
+    <attribute name="time" value="ocean_time" />
+    <attribute name="coordinates" value="lon_u lat_u ocean_time" />
+    <attribute name="field" value="wetdry_mask_u, scalar, series" />
+    <attribute name="grid" value="grid" />
+    <attribute name="display" value="True" />
+    <attribute name="coverage_content_type" value="modelResult" />
+    <attribute name="location" value="edge1" />
+  </variable>
+  <variable name="wetdry_mask_v" type="double" shape="ocean_time eta_v xi_v">
+    <attribute name="long_name" value="wet/dry mask on V-points" />
+    <attribute name="flag_values" value="0.0  1.0 " type="double" />
+    <attribute name="flag_meanings" value="land water" />
+    <attribute name="time" value="ocean_time" />
+    <attribute name="coordinates" value="lon_v lat_v ocean_time" />
+    <attribute name="field" value="wetdry_mask_v, scalar, series" />
+    <attribute name="grid" value="grid" />
+    <attribute name="display" value="True" />
+    <attribute name="coverage_content_type" value="modelResult" />
+    <attribute name="location" value="edge2" />
+  </variable>
+  <variable name="zeta" type="double" shape="ocean_time eta_rho xi_rho">
+    <attribute name="long_name" value="free-surface" />
+    <attribute name="units" value="meter" />
+    <attribute name="time" value="ocean_time" />
+    <attribute name="coordinates" value="lon_rho lat_rho ocean_time" />
+    <attribute name="field" value="free-surface, scalar, series" />
+    <attribute name="standard_name" value="sea_surface_height_above_geopotential_datum" />
+    <attribute name="grid" value="grid" />
+    <attribute name="display" value="True" />
+    <attribute name="coverage_content_type" value="modelResult" />
+    <attribute name="location" value="face" />
+  </variable>
+  <variable name="ubar" type="double" shape="ocean_time eta_u xi_u">
+    <attribute name="long_name" value="vertically integrated u-momentum component" />
+    <attribute name="units" value="meter second-1" />
+    <attribute name="time" value="ocean_time" />
+    <attribute name="coordinates" value="lon_u lat_u ocean_time" />
+    <attribute name="field" value="ubar-velocity, scalar, series" />
+    <attribute name="_FillValue" value="1.0E37 " type="double" />
+    <attribute name="standard_name" value="barotropic_sea_water_x_velocity" />
+    <attribute name="grid" value="grid" />
+    <attribute name="display" value="True" />
+    <attribute name="coverage_content_type" value="modelResult" />
+    <attribute name="location" value="edge1" />
+  </variable>
+  <variable name="vbar" type="double" shape="ocean_time eta_v xi_v">
+    <attribute name="long_name" value="vertically integrated v-momentum component" />
+    <attribute name="units" value="meter second-1" />
+    <attribute name="time" value="ocean_time" />
+    <attribute name="coordinates" value="lon_v lat_v ocean_time" />
+    <attribute name="field" value="vbar-velocity, scalar, series" />
+    <attribute name="_FillValue" value="1.0E37 " type="double" />
+    <attribute name="standard_name" value="barotropic_sea_water_y_velocity" />
+    <attribute name="grid" value="grid" />
+    <attribute name="display" value="True" />
+    <attribute name="coverage_content_type" value="modelResult" />
+    <attribute name="location" value="edge2" />
+  </variable>
+  <variable name="u" type="double" shape="ocean_time s_rho eta_u xi_u">
+    <attribute name="long_name" value="u-momentum component" />
+    <attribute name="units" value="meter second-1" />
+    <attribute name="time" value="ocean_time" />
+    <attribute name="coordinates" value="lon_u lat_u s_rho ocean_time" />
+    <attribute name="field" value="u-velocity, scalar, series" />
+    <attribute name="_FillValue" value="1.0E37 " type="double" />
+    <attribute name="standard_name" value="sea_water_x_velocity" />
+    <attribute name="grid" value="grid" />
+    <attribute name="display" value="False" />
+    <attribute name="coverage_content_type" value="modelResult" />
+    <attribute name="location" value="edge1" />
+  </variable>
+  <variable name="v" type="double" shape="ocean_time s_rho eta_v xi_v">
+    <attribute name="long_name" value="v-momentum component" />
+    <attribute name="units" value="meter second-1" />
+    <attribute name="time" value="ocean_time" />
+    <attribute name="coordinates" value="lon_v lat_v s_rho ocean_time" />
+    <attribute name="field" value="v-velocity, scalar, series" />
+    <attribute name="_FillValue" value="1.0E37 " type="double" />
+    <attribute name="standard_name" value="sea_water_y_velocity" />
+    <attribute name="grid" value="grid" />
+    <attribute name="display" value="False" />
+    <attribute name="coverage_content_type" value="modelResult" />
+    <attribute name="location" value="edge2" />
+  </variable>
+  <variable name="w" type="double" shape="ocean_time s_w eta_rho xi_rho">
+    <attribute name="long_name" value="vertical momentum component" />
+    <attribute name="units" value="meter second-1" />
+    <attribute name="time" value="ocean_time" />
+    <attribute name="coordinates" value="lon_rho lat_rho s_w ocean_time" />
+    <attribute name="field" value="w-velocity, scalar, series" />
+    <attribute name="_FillValue" value="1.0E37 " type="double" />
+    <attribute name="grid" value="grid" />
+    <attribute name="display" value="False" />
+    <attribute name="coverage_content_type" value="modelResult" />
+    <attribute name="location" value="face" />
+  </variable>
+  <variable name="temp" type="double" shape="ocean_time s_rho eta_rho xi_rho">
+    <attribute name="long_name" value="potential temperature" />
+    <attribute name="units" value="Celsius" />
+    <attribute name="time" value="ocean_time" />
+    <attribute name="coordinates" value="lon_rho lat_rho s_rho ocean_time" />
+    <attribute name="field" value="temperature, scalar, series" />
+    <attribute name="_FillValue" value="1.0E37 " type="double" />
+    <attribute name="standard_name" value="sea_water_potential_temperature" />
+    <attribute name="grid" value="grid" />
+    <attribute name="display" value="True" />
+    <attribute name="coverage_content_type" value="modelResult" />
+    <attribute name="location" value="face" />
+  </variable>
+  <variable name="salt" type="double" shape="ocean_time s_rho eta_rho xi_rho">
+    <attribute name="long_name" value="salinity" />
+    <attribute name="time" value="ocean_time" />
+    <attribute name="coordinates" value="lon_rho lat_rho s_rho ocean_time" />
+    <attribute name="field" value="salinity, scalar, series" />
+    <attribute name="_FillValue" value="1.0E37 " type="double" />
+    <attribute name="standard_name" value="sea_water_salinity" />
+    <attribute name="grid" value="grid" />
+    <attribute name="display" value="True" />
+    <attribute name="coverage_content_type" value="modelResult" />
+    <attribute name="location" value="face" />
+  </variable>
+  <variable name="rho" type="double" shape="ocean_time s_rho eta_rho xi_rho">
+    <attribute name="long_name" value="density anomaly" />
+    <attribute name="units" value="kilogram meter-3" />
+    <attribute name="time" value="ocean_time" />
+    <attribute name="coordinates" value="lon_rho lat_rho s_rho ocean_time" />
+    <attribute name="field" value="density, scalar, series" />
+    <attribute name="_FillValue" value="1.0E37 " type="double" />
+    <attribute name="grid" value="grid" />
+    <attribute name="display" value="True" />
+    <attribute name="coverage_content_type" value="modelResult" />
+    <attribute name="location" value="face" />
+  </variable>
+  <variable name="AKs" type="double" shape="ocean_time s_w eta_rho xi_rho">
+    <attribute name="long_name" value="salinity vertical diffusion coefficient" />
+    <attribute name="units" value="meter2 second-1" />
+    <attribute name="time" value="ocean_time" />
+    <attribute name="coordinates" value="lon_rho lat_rho s_w ocean_time" />
+    <attribute name="field" value="AKs, scalar, series" />
+    <attribute name="grid" value="grid" />
+    <attribute name="display" value="True" />
+    <attribute name="coverage_content_type" value="modelResult" />
+    <attribute name="location" value="face" />
+  </variable>
+  <variable name="bustr" type="double" shape="ocean_time eta_u xi_u">
+    <attribute name="long_name" value="bottom u-momentum stress" />
+    <attribute name="units" value="newton meter-2" />
+    <attribute name="time" value="ocean_time" />
+    <attribute name="coordinates" value="lon_u lat_u ocean_time" />
+    <attribute name="field" value="bottom u-momentum stress, scalar, series" />
+    <attribute name="_FillValue" value="1.0E37 " type="double" />
+    <attribute name="grid" value="grid" />
+    <attribute name="display" value="True" />
+    <attribute name="coverage_content_type" value="modelResult" />
+    <attribute name="location" value="edge1" />
+  </variable>
+  <variable name="bvstr" type="double" shape="ocean_time eta_v xi_v">
+    <attribute name="long_name" value="bottom v-momentum stress" />
+    <attribute name="units" value="newton meter-2" />
+    <attribute name="time" value="ocean_time" />
+    <attribute name="coordinates" value="lon_v lat_v ocean_time" />
+    <attribute name="field" value="bottom v-momentum stress, scalar, series" />
+    <attribute name="_FillValue" value="1.0E37 " type="double" />
+    <attribute name="grid" value="grid" />
+    <attribute name="display" value="True" />
+    <attribute name="coverage_content_type" value="modelResult" />
+    <attribute name="location" value="edge2" />
+  </variable>
+  <variable name="grid" type="int">
+    <attribute name="cf_role" value="grid_topology" />
+    <attribute name="topology_dimension" value="2 " type="int" />
+    <attribute name="node_dimensions" value="xi_psi eta_psi" />
+    <attribute name="face_dimensions" value="xi_rho: xi_psi (padding: both) eta_rho: eta_psi (padding: both)" />
+    <attribute name="edge1_dimensions" value="xi_u: xi_psi eta_u: eta_psi (padding: both)" />
+    <attribute name="edge2_dimensions" value="xi_v: xi_psi (padding: both) eta_v: eta_psi" />
+    <attribute name="node_coordinates" value="lon_psi lat_psi" />
+    <attribute name="face_coordinates" value="lon_rho lat_rho" />
+    <attribute name="edge1_coordinates" value="lon_u lat_u" />
+    <attribute name="edge2_coordinates" value="lon_v lat_v" />
+    <attribute name="vertical_dimensions" value="s_rho: s_w (padding: none)" />
+  </variable>
+  <variable name="s_rho" type="double" shape="s_rho">
+    <attribute name="long_name" value="S-coordinate at RHO-points" />
+    <attribute name="valid_min" value="-1.0 " type="double" />
+    <attribute name="valid_max" value="0.0 " type="double" />
+    <attribute name="positive" value="up" />
+    <attribute name="standard_name" value="ocean_s_coordinate_g1" />
+    <attribute name="formula_terms" value="s: s_rho C: Cs_r eta: zeta depth: h depth_c: hc" />
+    <attribute name="field" value="s_rho, scalar" />
+    <attribute name="_CoordinateTransformType" value="Vertical" />
+    <attribute name="_CoordinateAxes" value="s_rho" />
+    <attribute name="_CoordinateAxisType" value="GeoZ" />
+    <attribute name="_CoordinateZisPositive" value="up" />
+  </variable>
+  <variable name="s_w" type="double" shape="s_w">
+    <attribute name="long_name" value="S-coordinate at W-points" />
+    <attribute name="valid_min" value="-1.0 " type="double" />
+    <attribute name="valid_max" value="0.0 " type="double" />
+    <attribute name="positive" value="up" />
+    <attribute name="standard_name" value="ocean_s_coordinate_g1" />
+    <attribute name="formula_terms" value="s: s_w C: Cs_w eta: zeta depth: h depth_c: hc" />
+    <attribute name="field" value="s_w, scalar" />
+    <attribute name="_CoordinateTransformType" value="Vertical" />
+    <attribute name="_CoordinateAxes" value="s_w" />
+    <attribute name="_CoordinateAxisType" value="GeoZ" />
+    <attribute name="_CoordinateZisPositive" value="up" />
+  </variable>
+  <variable name="lon_rho" type="double" shape="eta_rho xi_rho">
+    <attribute name="long_name" value="longitude of RHO-points" />
+    <attribute name="units" value="degree_east" />
+    <attribute name="standard_name" value="longitude" />
+    <attribute name="field" value="lon_rho, scalar" />
+    <attribute name="grid" value="grid" />
+    <attribute name="display" value="True" />
+    <attribute name="coverage_content_type" value="modelResult" />
+    <attribute name="location" value="face" />
+    <attribute name="_CoordinateAxisType" value="Lon" />
+  </variable>
+  <variable name="lat_rho" type="double" shape="eta_rho xi_rho">
+    <attribute name="long_name" value="latitude of RHO-points" />
+    <attribute name="units" value="degree_north" />
+    <attribute name="standard_name" value="latitude" />
+    <attribute name="field" value="lat_rho, scalar" />
+    <attribute name="grid" value="grid" />
+    <attribute name="display" value="True" />
+    <attribute name="coverage_content_type" value="modelResult" />
+    <attribute name="location" value="face" />
+    <attribute name="_CoordinateAxisType" value="Lat" />
+  </variable>
+  <variable name="lon_u" type="double" shape="eta_u xi_u">
+    <attribute name="long_name" value="longitude of U-points" />
+    <attribute name="units" value="degree_east" />
+    <attribute name="standard_name" value="longitude" />
+    <attribute name="field" value="lon_u, scalar" />
+    <attribute name="grid" value="grid" />
+    <attribute name="display" value="True" />
+    <attribute name="coverage_content_type" value="modelResult" />
+    <attribute name="location" value="edge1" />
+    <attribute name="_CoordinateAxisType" value="Lon" />
+  </variable>
+  <variable name="lat_u" type="double" shape="eta_u xi_u">
+    <attribute name="long_name" value="latitude of U-points" />
+    <attribute name="units" value="degree_north" />
+    <attribute name="standard_name" value="latitude" />
+    <attribute name="field" value="lat_u, scalar" />
+    <attribute name="grid" value="grid" />
+    <attribute name="display" value="True" />
+    <attribute name="coverage_content_type" value="modelResult" />
+    <attribute name="location" value="edge1" />
+    <attribute name="_CoordinateAxisType" value="Lat" />
+  </variable>
+  <variable name="lon_v" type="double" shape="eta_v xi_v">
+    <attribute name="long_name" value="longitude of V-points" />
+    <attribute name="units" value="degree_east" />
+    <attribute name="standard_name" value="longitude" />
+    <attribute name="field" value="lon_v, scalar" />
+    <attribute name="grid" value="grid" />
+    <attribute name="display" value="True" />
+    <attribute name="coverage_content_type" value="modelResult" />
+    <attribute name="location" value="edge2" />
+    <attribute name="_CoordinateAxisType" value="Lon" />
+  </variable>
+  <variable name="lat_v" type="double" shape="eta_v xi_v">
+    <attribute name="long_name" value="latitude of V-points" />
+    <attribute name="units" value="degree_north" />
+    <attribute name="standard_name" value="latitude" />
+    <attribute name="field" value="lat_v, scalar" />
+    <attribute name="grid" value="grid" />
+    <attribute name="display" value="True" />
+    <attribute name="coverage_content_type" value="modelResult" />
+    <attribute name="location" value="edge2" />
+    <attribute name="_CoordinateAxisType" value="Lat" />
+  </variable>
+  <variable name="lon_psi" type="double" shape="eta_psi xi_psi">
+    <attribute name="long_name" value="longitude of PSI-points" />
+    <attribute name="units" value="degree_east" />
+    <attribute name="standard_name" value="longitude" />
+    <attribute name="field" value="lon_psi, scalar" />
+    <attribute name="grid" value="grid" />
+    <attribute name="display" value="True" />
+    <attribute name="coverage_content_type" value="modelResult" />
+    <attribute name="_CoordinateAxisType" value="Lon" />
+  </variable>
+  <variable name="lat_psi" type="double" shape="eta_psi xi_psi">
+    <attribute name="long_name" value="latitude of PSI-points" />
+    <attribute name="units" value="degree_north" />
+    <attribute name="standard_name" value="latitude" />
+    <attribute name="field" value="lat_psi, scalar" />
+    <attribute name="grid" value="grid" />
+    <attribute name="display" value="True" />
+    <attribute name="coverage_content_type" value="modelResult" />
+    <attribute name="_CoordinateAxisType" value="Lat" />
+  </variable>
+  <variable name="ocean_time" type="double" shape="ocean_time">
+    <attribute name="long_name" value="time since initialization" />
+    <attribute name="units" value="seconds since 2012-03-01 00:00:00" />
+    <attribute name="calendar" value="gregorian" />
+    <attribute name="field" value="time, scalar, series" />
+    <attribute name="standard_name" value="time" />
+    <attribute name="_CoordinateAxisType" value="Time" />
+  </variable>
+</netcdf>
+

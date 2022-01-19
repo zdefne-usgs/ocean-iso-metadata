@@ -1,0 +1,698 @@
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:06 - displayName=ROOT
+INFO  [main] impl.CatalogCrawlerImpl.[] Jan/19 11:57:07 - maxDepth: 1 depth: 0 dataset.getFullName():run071tRX/00_dir_roms.ncml; dataset.hasAccess(): true maxLeaves: 20 leafcnt: 0
+INFO  [main] impl.CatalogCrawlerImpl.[] Jan/19 11:57:07 - allowable service
+INFO  [main] impl.CatalogCrawlerImpl.[] Jan/19 11:57:07 - adding mdc
+INFO  [main] impl.CatalogCrawlerImpl.[] Jan/19 11:57:07 - maxDepth: 1 depth: 0 dataset.getFullName():run071tRX/WASP_TR; dataset.hasAccess(): false maxLeaves: 20 leafcnt: 1
+INFO  [main] impl.CatalogCrawlerImpl.[] Jan/19 11:57:07 - maxDepth: 1 depth: 1 dataset.getFullName():WASP_TR/TRsort3_prj.zip; dataset.hasAccess(): true maxLeaves: 20 leafcnt: 1
+INFO  [main] impl.CatalogCrawlerImpl.[] Jan/19 11:57:07 - allowable service
+INFO  [main] impl.CatalogCrawlerImpl.[] Jan/19 11:57:07 - New Parent
+INFO  [main] impl.CatalogCrawlerImpl.[] Jan/19 11:57:07 - adding mdc
+INFO  [main] impl.CatalogCrawlerImpl.[] Jan/19 11:57:07 - maxDepth: 1 depth: 1 dataset.getFullName():run071tRX/avg; dataset.hasAccess(): false maxLeaves: 20 leafcnt: 1
+INFO  [main] impl.CatalogCrawlerImpl.[] Jan/19 11:57:07 - maxDepth: 1 depth: 1 dataset.getFullName():run071tRX/his; dataset.hasAccess(): false maxLeaves: 20 leafcnt: 1
+INFO  [main] impl.CatalogCrawlerImpl.[] Jan/19 11:57:07 - maxDepth: 1 depth: 1 dataset.getFullName():run071tRX/input; dataset.hasAccess(): false maxLeaves: 20 leafcnt: 1
+INFO  [main] impl.CatalogCrawlerImpl.[] Jan/19 11:57:07 - maxDepth: 1 depth: 1 dataset.getFullName():run071tRX/readme_with_HTTPServer.txt; dataset.hasAccess(): true maxLeaves: 20 leafcnt: 1
+INFO  [main] impl.CatalogCrawlerImpl.[] Jan/19 11:57:07 - allowable service
+INFO  [main] impl.CatalogCrawlerImpl.[] Jan/19 11:57:07 - New Parent
+INFO  [main] impl.CatalogCrawlerImpl.[] Jan/19 11:57:07 - adding mdc
+INFO  [main] impl.CatalogCrawlerImpl.[] Jan/19 11:57:07 - maxDepth: 1 depth: 1 dataset.getFullName():run071tRX/yaml; dataset.hasAccess(): false maxLeaves: 20 leafcnt: 1
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - returning: ROOT; url: /ROOT
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - displayName=geoport.usgs.esipfed.org
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - displayName=thredds
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - displayName=dodsC
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - displayName=sand
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - displayName=usgs
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - displayName=Projects
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - displayName=BBLEH
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - displayName=run071tRX
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - displayName=00_dir_roms.ncml
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - returning: ROOT; url: /ROOT
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - returning: geoport.usgs.esipfed.org; url: /geoport.usgs.esipfed.org/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - returning: thredds; url: /geoport.usgs.esipfed.org/thredds/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - returning: dodsC; url: /geoport.usgs.esipfed.org/thredds/dodsC/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/dodsC/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/dodsC/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/dodsC/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - returning: sand; url: /geoport.usgs.esipfed.org/thredds/dodsC/sand/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - returning: usgs; url: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - returning: Projects; url: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - returning: BBLEH; url: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - returning: run071tRX; url: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/run071tRX/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/run071tRX/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/run071tRX/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/run071tRX/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/run071tRX/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/run071tRX/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/run071tRX/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/run071tRX/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/run071tRX/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - displayName=WASP_TR
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - displayName=TRsort3_prj.zip
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - returning: ROOT; url: /ROOT
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - returning: geoport.usgs.esipfed.org; url: /geoport.usgs.esipfed.org/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - returning: thredds; url: /geoport.usgs.esipfed.org/thredds/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - returning: dodsC; url: /geoport.usgs.esipfed.org/thredds/dodsC/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/dodsC/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/dodsC/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/dodsC/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - returning: sand; url: /geoport.usgs.esipfed.org/thredds/dodsC/sand/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - returning: usgs; url: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - returning: Projects; url: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - returning: BBLEH; url: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - returning: run071tRX; url: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/run071tRX/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/run071tRX/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/run071tRX/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/run071tRX/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/run071tRX/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/run071tRX/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/run071tRX/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/run071tRX/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/run071tRX/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:57:07 - displayName=readme_with_HTTPServer.txt
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:02 - displayName=ROOT
+INFO  [main] impl.CatalogCrawlerImpl.[] Jan/19 11:59:03 - maxDepth: 1 depth: 0 dataset.getFullName():run071tRX/00_dir_roms.ncml; dataset.hasAccess(): true maxLeaves: 20 leafcnt: 0
+INFO  [main] impl.CatalogCrawlerImpl.[] Jan/19 11:59:03 - allowable service
+INFO  [main] impl.CatalogCrawlerImpl.[] Jan/19 11:59:03 - adding mdc
+INFO  [main] impl.CatalogCrawlerImpl.[] Jan/19 11:59:03 - maxDepth: 1 depth: 0 dataset.getFullName():run071tRX/WASP_TR; dataset.hasAccess(): false maxLeaves: 20 leafcnt: 1
+INFO  [main] impl.CatalogCrawlerImpl.[] Jan/19 11:59:03 - maxDepth: 1 depth: 1 dataset.getFullName():WASP_TR/TRsort3_prj.zip; dataset.hasAccess(): true maxLeaves: 20 leafcnt: 1
+INFO  [main] impl.CatalogCrawlerImpl.[] Jan/19 11:59:03 - allowable service
+INFO  [main] impl.CatalogCrawlerImpl.[] Jan/19 11:59:03 - New Parent
+INFO  [main] impl.CatalogCrawlerImpl.[] Jan/19 11:59:03 - adding mdc
+INFO  [main] impl.CatalogCrawlerImpl.[] Jan/19 11:59:03 - maxDepth: 1 depth: 1 dataset.getFullName():run071tRX/avg; dataset.hasAccess(): false maxLeaves: 20 leafcnt: 1
+INFO  [main] impl.CatalogCrawlerImpl.[] Jan/19 11:59:03 - maxDepth: 1 depth: 1 dataset.getFullName():run071tRX/his; dataset.hasAccess(): false maxLeaves: 20 leafcnt: 1
+INFO  [main] impl.CatalogCrawlerImpl.[] Jan/19 11:59:03 - maxDepth: 1 depth: 1 dataset.getFullName():run071tRX/input; dataset.hasAccess(): false maxLeaves: 20 leafcnt: 1
+INFO  [main] impl.CatalogCrawlerImpl.[] Jan/19 11:59:03 - maxDepth: 1 depth: 1 dataset.getFullName():run071tRX/readme_with_HTTPServer.txt; dataset.hasAccess(): true maxLeaves: 20 leafcnt: 1
+INFO  [main] impl.CatalogCrawlerImpl.[] Jan/19 11:59:03 - allowable service
+INFO  [main] impl.CatalogCrawlerImpl.[] Jan/19 11:59:03 - New Parent
+INFO  [main] impl.CatalogCrawlerImpl.[] Jan/19 11:59:03 - adding mdc
+INFO  [main] impl.CatalogCrawlerImpl.[] Jan/19 11:59:03 - maxDepth: 1 depth: 1 dataset.getFullName():run071tRX/yaml; dataset.hasAccess(): false maxLeaves: 20 leafcnt: 1
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - returning: ROOT; url: /ROOT
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - displayName=geoport.usgs.esipfed.org
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - displayName=thredds
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - displayName=dodsC
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - displayName=sand
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - displayName=usgs
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - displayName=Projects
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - displayName=BBLEH
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - displayName=run071tRX
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - displayName=00_dir_roms.ncml
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - returning: ROOT; url: /ROOT
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - returning: geoport.usgs.esipfed.org; url: /geoport.usgs.esipfed.org/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - returning: thredds; url: /geoport.usgs.esipfed.org/thredds/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - returning: dodsC; url: /geoport.usgs.esipfed.org/thredds/dodsC/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/dodsC/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/dodsC/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/dodsC/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - returning: sand; url: /geoport.usgs.esipfed.org/thredds/dodsC/sand/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - returning: usgs; url: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - returning: Projects; url: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - returning: BBLEH; url: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - returning: run071tRX; url: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/run071tRX/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/run071tRX/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/run071tRX/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/run071tRX/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/run071tRX/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/run071tRX/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/run071tRX/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/run071tRX/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/run071tRX/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - displayName=WASP_TR
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - displayName=TRsort3_prj.zip
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - returning: ROOT; url: /ROOT
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - returning: geoport.usgs.esipfed.org; url: /geoport.usgs.esipfed.org/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - returning: thredds; url: /geoport.usgs.esipfed.org/thredds/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - returning: dodsC; url: /geoport.usgs.esipfed.org/thredds/dodsC/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/dodsC/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/dodsC/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/dodsC/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - returning: sand; url: /geoport.usgs.esipfed.org/thredds/dodsC/sand/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - returning: usgs; url: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - returning: Projects; url: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - returning: BBLEH; url: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - returning: run071tRX; url: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/run071tRX/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/run071tRX/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/run071tRX/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/run071tRX/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/run071tRX/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/run071tRX/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/run071tRX/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/run071tRX/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - found: /geoport.usgs.esipfed.org/thredds/dodsC/sand/usgs/Projects/BBLEH/run071tRX/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:03 - displayName=readme_with_HTTPServer.txt
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:51 - displayName=ROOT
+INFO  [main] impl.CatalogCrawlerImpl.[] Jan/19 11:59:52 - maxDepth: 1 depth: 0 dataset.getFullName():breach_matanzas/00_dir_roms.ncml; dataset.hasAccess(): true maxLeaves: 20 leafcnt: 0
+INFO  [main] impl.CatalogCrawlerImpl.[] Jan/19 11:59:52 - allowable service
+INFO  [main] impl.CatalogCrawlerImpl.[] Jan/19 11:59:52 - adding mdc
+INFO  [main] impl.CatalogCrawlerImpl.[] Jan/19 11:59:52 - maxDepth: 1 depth: 0 dataset.getFullName():breach_matanzas/00_dir_roms_ISO.xml; dataset.hasAccess(): true maxLeaves: 20 leafcnt: 1
+INFO  [main] impl.CatalogCrawlerImpl.[] Jan/19 11:59:52 - allowable service
+INFO  [main] impl.CatalogCrawlerImpl.[] Jan/19 11:59:52 - adding mdc
+INFO  [main] impl.CatalogCrawlerImpl.[] Jan/19 11:59:52 - maxDepth: 1 depth: 0 dataset.getFullName():breach_matanzas/Build; dataset.hasAccess(): false maxLeaves: 20 leafcnt: 2
+INFO  [main] impl.CatalogCrawlerImpl.[] Jan/19 11:59:52 - maxDepth: 1 depth: 1 dataset.getFullName():breach_matanzas/GTM_inwave_grd8.nc; dataset.hasAccess(): true maxLeaves: 20 leafcnt: 2
+INFO  [main] impl.CatalogCrawlerImpl.[] Jan/19 11:59:52 - allowable service
+INFO  [main] impl.CatalogCrawlerImpl.[] Jan/19 11:59:52 - adding mdc
+INFO  [main] impl.CatalogCrawlerImpl.[] Jan/19 11:59:52 - maxDepth: 1 depth: 1 dataset.getFullName():breach_matanzas/GTM_inwave_grd8_bry_R7.nc; dataset.hasAccess(): true maxLeaves: 20 leafcnt: 3
+INFO  [main] impl.CatalogCrawlerImpl.[] Jan/19 11:59:52 - allowable service
+INFO  [main] impl.CatalogCrawlerImpl.[] Jan/19 11:59:52 - adding mdc
+INFO  [main] impl.CatalogCrawlerImpl.[] Jan/19 11:59:52 - maxDepth: 1 depth: 1 dataset.getFullName():breach_matanzas/GTM_inwave_grd8_ini_R7.nc; dataset.hasAccess(): true maxLeaves: 20 leafcnt: 4
+INFO  [main] impl.CatalogCrawlerImpl.[] Jan/19 11:59:52 - allowable service
+INFO  [main] impl.CatalogCrawlerImpl.[] Jan/19 11:59:52 - adding mdc
+INFO  [main] impl.CatalogCrawlerImpl.[] Jan/19 11:59:52 - maxDepth: 1 depth: 1 dataset.getFullName():breach_matanzas/Output; dataset.hasAccess(): false maxLeaves: 20 leafcnt: 5
+INFO  [main] impl.CatalogCrawlerImpl.[] Jan/19 11:59:52 - maxDepth: 1 depth: 1 dataset.getFullName():breach_matanzas/breach_inwave_grd8_ini.nc; dataset.hasAccess(): true maxLeaves: 20 leafcnt: 5
+INFO  [main] impl.CatalogCrawlerImpl.[] Jan/19 11:59:52 - allowable service
+INFO  [main] impl.CatalogCrawlerImpl.[] Jan/19 11:59:52 - adding mdc
+INFO  [main] impl.CatalogCrawlerImpl.[] Jan/19 11:59:52 - maxDepth: 1 depth: 1 dataset.getFullName():breach_matanzas/breach_matanzas.nc; dataset.hasAccess(): true maxLeaves: 20 leafcnt: 6
+INFO  [main] impl.CatalogCrawlerImpl.[] Jan/19 11:59:52 - allowable service
+INFO  [main] impl.CatalogCrawlerImpl.[] Jan/19 11:59:52 - adding mdc
+INFO  [main] impl.CatalogCrawlerImpl.[] Jan/19 11:59:52 - maxDepth: 1 depth: 1 dataset.getFullName():breach_matanzas/coamps_air_7318.nc; dataset.hasAccess(): true maxLeaves: 20 leafcnt: 7
+INFO  [main] impl.CatalogCrawlerImpl.[] Jan/19 11:59:52 - allowable service
+INFO  [main] impl.CatalogCrawlerImpl.[] Jan/19 11:59:52 - adding mdc
+INFO  [main] impl.CatalogCrawlerImpl.[] Jan/19 11:59:52 - maxDepth: 1 depth: 1 dataset.getFullName():breach_matanzas/coamps_rad_7318.nc; dataset.hasAccess(): true maxLeaves: 20 leafcnt: 8
+INFO  [main] impl.CatalogCrawlerImpl.[] Jan/19 11:59:52 - allowable service
+INFO  [main] impl.CatalogCrawlerImpl.[] Jan/19 11:59:52 - adding mdc
+INFO  [main] impl.CatalogCrawlerImpl.[] Jan/19 11:59:52 - maxDepth: 1 depth: 1 dataset.getFullName():breach_matanzas/coamps_wind_7318.nc; dataset.hasAccess(): true maxLeaves: 20 leafcnt: 9
+INFO  [main] impl.CatalogCrawlerImpl.[] Jan/19 11:59:52 - allowable service
+INFO  [main] impl.CatalogCrawlerImpl.[] Jan/19 11:59:52 - adding mdc
+INFO  [main] impl.CatalogCrawlerImpl.[] Jan/19 11:59:52 - maxDepth: 1 depth: 1 dataset.getFullName():breach_matanzas/geoport.usgs.esipfed.org; dataset.hasAccess(): false maxLeaves: 20 leafcnt: 10
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: ROOT; url: /ROOT
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - displayName=geoport.usgs.esipfed.org
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - displayName=thredds
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - displayName=dodsC
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - displayName=vortexfs1
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - displayName=usgs
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - displayName=Projects
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - displayName=breach
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - displayName=breach_matanzas
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - displayName=00_dir_roms.ncml
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: ROOT; url: /ROOT
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: geoport.usgs.esipfed.org; url: /geoport.usgs.esipfed.org/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: thredds; url: /geoport.usgs.esipfed.org/thredds/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: dodsC; url: /geoport.usgs.esipfed.org/thredds/dodsC/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: vortexfs1; url: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: usgs; url: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: Projects; url: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: breach; url: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: breach_matanzas; url: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - displayName=00_dir_roms_ISO.xml
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: ROOT; url: /ROOT
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: geoport.usgs.esipfed.org; url: /geoport.usgs.esipfed.org/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: thredds; url: /geoport.usgs.esipfed.org/thredds/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: dodsC; url: /geoport.usgs.esipfed.org/thredds/dodsC/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: vortexfs1; url: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: usgs; url: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: Projects; url: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: breach; url: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: breach_matanzas; url: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - displayName=GTM_inwave_grd8.nc
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: ROOT; url: /ROOT
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: geoport.usgs.esipfed.org; url: /geoport.usgs.esipfed.org/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: thredds; url: /geoport.usgs.esipfed.org/thredds/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: dodsC; url: /geoport.usgs.esipfed.org/thredds/dodsC/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: vortexfs1; url: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: usgs; url: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: Projects; url: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: breach; url: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: breach_matanzas; url: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - displayName=GTM_inwave_grd8_bry_R7.nc
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: ROOT; url: /ROOT
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: geoport.usgs.esipfed.org; url: /geoport.usgs.esipfed.org/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: thredds; url: /geoport.usgs.esipfed.org/thredds/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: dodsC; url: /geoport.usgs.esipfed.org/thredds/dodsC/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: vortexfs1; url: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: usgs; url: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: Projects; url: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: breach; url: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: breach_matanzas; url: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - displayName=GTM_inwave_grd8_ini_R7.nc
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: ROOT; url: /ROOT
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: geoport.usgs.esipfed.org; url: /geoport.usgs.esipfed.org/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: thredds; url: /geoport.usgs.esipfed.org/thredds/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: dodsC; url: /geoport.usgs.esipfed.org/thredds/dodsC/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: vortexfs1; url: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: usgs; url: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: Projects; url: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: breach; url: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: breach_matanzas; url: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - displayName=breach_inwave_grd8_ini.nc
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: ROOT; url: /ROOT
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: geoport.usgs.esipfed.org; url: /geoport.usgs.esipfed.org/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: thredds; url: /geoport.usgs.esipfed.org/thredds/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: dodsC; url: /geoport.usgs.esipfed.org/thredds/dodsC/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: vortexfs1; url: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: usgs; url: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: Projects; url: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: breach; url: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: breach_matanzas; url: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - displayName=breach_matanzas.nc
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: ROOT; url: /ROOT
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: geoport.usgs.esipfed.org; url: /geoport.usgs.esipfed.org/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: thredds; url: /geoport.usgs.esipfed.org/thredds/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: dodsC; url: /geoport.usgs.esipfed.org/thredds/dodsC/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: vortexfs1; url: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: usgs; url: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: Projects; url: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: breach; url: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: breach_matanzas; url: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - displayName=coamps_air_7318.nc
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: ROOT; url: /ROOT
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: geoport.usgs.esipfed.org; url: /geoport.usgs.esipfed.org/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: thredds; url: /geoport.usgs.esipfed.org/thredds/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: dodsC; url: /geoport.usgs.esipfed.org/thredds/dodsC/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: vortexfs1; url: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: usgs; url: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: Projects; url: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: breach; url: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: breach_matanzas; url: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - displayName=coamps_rad_7318.nc
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: ROOT; url: /ROOT
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: geoport.usgs.esipfed.org; url: /geoport.usgs.esipfed.org/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: thredds; url: /geoport.usgs.esipfed.org/thredds/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: dodsC; url: /geoport.usgs.esipfed.org/thredds/dodsC/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: vortexfs1; url: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: usgs; url: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: Projects; url: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: breach; url: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - returning: breach_matanzas; url: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - found: /geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/
+INFO  [main] bean.ThreddsDatasetTree.[] Jan/19 11:59:52 - displayName=coamps_wind_7318.nc

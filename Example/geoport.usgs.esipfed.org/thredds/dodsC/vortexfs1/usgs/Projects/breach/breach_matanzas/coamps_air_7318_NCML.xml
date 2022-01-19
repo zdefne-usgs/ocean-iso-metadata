@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="dods://geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/coamps_air_7318.nc">
+  <attribute name="type" value="bulk fluxes forcing file" />
+  <attribute name="gridid" value="combined grid" />
+  <attribute name="history" value="Created by &quot;coamps2roms&quot; on 03-Jul-2018 10:33:06" />
+  <attribute name="_CoordSysBuilder" value="ucar.nc2.dataset.conv.DefaultConvention" />
+  <dimension name="time" length="65" />
+  <dimension name="er" length="801" />
+  <dimension name="xr" length="1101" />
+  <dimension name="rain_time" length="65" />
+  <dimension name="pair_time" length="65" />
+  <dimension name="tair_time" length="65" />
+  <dimension name="qair_time" length="65" />
+  <group name="CFMetadata">
+    <attribute name="geospatial_lon_min" value="-105.0" type="float" />
+    <attribute name="geospatial_lat_min" value="10.0" type="float" />
+    <attribute name="geospatial_lon_max" value="-50.0" type="float" />
+    <attribute name="geospatial_lat_max" value="50.0" type="float" />
+    <attribute name="geospatial_lon_units" value="degrees_east" />
+    <attribute name="geospatial_lat_units" value="degrees_north" />
+    <attribute name="geospatial_lon_resolution" value="6.23652768281247E-5" />
+    <attribute name="geospatial_lat_resolution" value="4.535656496590887E-5" />
+    <attribute name="time_coverage_start" value="2016-10-01T00:00:00Z" />
+    <attribute name="time_coverage_end" value="2016-10-09T00:00:00Z" />
+    <attribute name="time_coverage_units" value="days since 1858-11-17 00:00:00 UTC" />
+    <attribute name="time_coverage_resolution" value="P0Y0M0DT2H57M13.846S" />
+    <attribute name="time_coverage_duration" value="P0Y0M8DT0H0M0.000S" />
+  </group>
+  <group name="THREDDSMetadata">
+    <attribute name="id" value="vortexfs1/usgs/Projects/breach/breach_matanzas/00_dir_roms.ncml" />
+    <attribute name="full_name" value="breach_matanzas/00_dir_roms.ncml" />
+    <group name="services">
+      <attribute name="opendap_service" value="https://geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/00_dir_roms.ncml" />
+      <attribute name="nccs_service" value="https://geoport.usgs.esipfed.org/thredds/ncss/grid/vortexfs1/usgs/Projects/breach/breach_matanzas/00_dir_roms.ncml/dataset.html" />
+      <attribute name="wms_service" value="https://geoport.usgs.esipfed.org/thredds/wms/vortexfs1/usgs/Projects/breach/breach_matanzas/00_dir_roms.ncml?service=WMS&amp;version=1.3.0&amp;request=GetCapabilities" />
+    </group>
+    <group name="dates">
+      <attribute name="date" value="2022-01-18T14:47:58.684Z" type="modified" />
+    </group>
+  </group>
+  <group name="NCISOMetadata">
+    <attribute name="metadata_creation" value="2022-01-19" />
+  </group>
+  <variable name="ocean_time" type="double" shape="time">
+    <attribute name="long_name" value="atmospheric forcing time" />
+    <attribute name="units" value="days" />
+    <attribute name="field" value="time, scalar, series" />
+  </variable>
+  <variable name="rain" type="double" shape="rain_time er xr">
+    <attribute name="long_name" value="rain fall rate" />
+    <attribute name="units" value="kilogram meter-2 second-1" />
+    <attribute name="field" value="rain, scalar, series" />
+    <attribute name="coordinates" value="lon lat" />
+    <attribute name="time" value="rain_time" />
+  </variable>
+  <variable name="Tair" type="double" shape="tair_time er xr">
+    <attribute name="long_name" value="surface air temperature" />
+    <attribute name="units" value="Celsius" />
+    <attribute name="field" value="Tair, scalar, series" />
+    <attribute name="coordinates" value="lon lat" />
+    <attribute name="time" value="tair_time" />
+  </variable>
+  <variable name="Qair" type="double" shape="qair_time er xr">
+    <attribute name="long_name" value="surface air relative humidity" />
+    <attribute name="units" value="percentage" />
+    <attribute name="field" value="Qair, scalar, series" />
+    <attribute name="coordinates" value="lon lat" />
+    <attribute name="time" value="qair_time" />
+  </variable>
+  <variable name="lon" type="double" shape="er xr">
+    <attribute name="long_name" value="longitude" />
+    <attribute name="units" value="degrees_east" />
+    <attribute name="field" value="xp, scalar, series" />
+    <attribute name="_CoordinateAxisType" value="Lon" />
+  </variable>
+  <variable name="lat" type="double" shape="er xr">
+    <attribute name="long_name" value="latitude" />
+    <attribute name="units" value="degrees_north" />
+    <attribute name="field" value="yp, scalar, series" />
+    <attribute name="_CoordinateAxisType" value="Lat" />
+  </variable>
+  <variable name="rain_time" type="double" shape="rain_time">
+    <attribute name="long_name" value="rain_time" />
+    <attribute name="units" value="days since 1858-11-17 00:00:00 UTC" />
+    <attribute name="field" value="rain_time, scalar, series" />
+    <attribute name="_CoordinateAxisType" value="Time" />
+  </variable>
+  <variable name="pair_time" type="double" shape="pair_time">
+    <attribute name="long_name" value="pair_time" />
+    <attribute name="units" value="days" />
+    <attribute name="field" value="pair_time, scalar, series" />
+  </variable>
+  <variable name="Pair" type="double" shape="pair_time er xr">
+    <attribute name="long_name" value="surface air pressure" />
+    <attribute name="units" value="millibar" />
+    <attribute name="field" value="Pair, scalar, series" />
+    <attribute name="coordinates" value="lon lat" />
+    <attribute name="time" value="pair_time" />
+    <attribute name="_CoordinateAxisType" value="Pressure" />
+  </variable>
+  <variable name="tair_time" type="double" shape="tair_time">
+    <attribute name="long_name" value="tair_time" />
+    <attribute name="units" value="days" />
+    <attribute name="field" value="tair_time, scalar, series" />
+  </variable>
+  <variable name="qair_time" type="double" shape="qair_time">
+    <attribute name="long_name" value="qair_time" />
+    <attribute name="units" value="days" />
+    <attribute name="field" value="qair_time, scalar, series" />
+  </variable>
+</netcdf>
+

@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="dods://geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/GTM_inwave_grd8_ini_R7.nc">
+  <attribute name="history" value="Created by updatclim on 06-Oct-2019 08:11:11" />
+  <attribute name="type" value="initial forcing file from http://hycom.coaps.fsu.edu:8080/thredds/dodsC/glb_analysis" />
+  <attribute name="_CoordSysBuilder" value="ucar.nc2.dataset.conv.DefaultConvention" />
+  <dimension name="time" length="1" />
+  <dimension name="sc_r" length="5" />
+  <dimension name="sc_w" length="6" />
+  <dimension name="erho" length="300" />
+  <dimension name="xrho" length="400" />
+  <dimension name="eu" length="300" />
+  <dimension name="xu" length="399" />
+  <dimension name="ev" length="299" />
+  <dimension name="xv" length="400" />
+  <dimension name="Nbed" length="1" />
+  <dimension name="Nveg" length="1" />
+  <dimension name="xpsi" length="399" />
+  <dimension name="epsi" length="299" />
+  <group name="CFMetadata" />
+  <group name="THREDDSMetadata">
+    <attribute name="id" value="vortexfs1/usgs/Projects/breach/breach_matanzas/00_dir_roms.ncml" />
+    <attribute name="full_name" value="breach_matanzas/00_dir_roms.ncml" />
+    <group name="services">
+      <attribute name="opendap_service" value="https://geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/00_dir_roms.ncml" />
+      <attribute name="nccs_service" value="https://geoport.usgs.esipfed.org/thredds/ncss/grid/vortexfs1/usgs/Projects/breach/breach_matanzas/00_dir_roms.ncml/dataset.html" />
+      <attribute name="wms_service" value="https://geoport.usgs.esipfed.org/thredds/wms/vortexfs1/usgs/Projects/breach/breach_matanzas/00_dir_roms.ncml?service=WMS&amp;version=1.3.0&amp;request=GetCapabilities" />
+    </group>
+    <group name="dates">
+      <attribute name="date" value="2022-01-18T14:47:58.684Z" type="modified" />
+    </group>
+  </group>
+  <group name="NCISOMetadata">
+    <attribute name="metadata_creation" value="2022-01-19" />
+  </group>
+  <variable name="spherical" type="short" shape="time">
+    <attribute name="long_name" value="grid type logical switch" />
+    <attribute name="flag_meanings" value="spherical Cartesian" />
+    <attribute name="flag_values" value="1, 0" />
+  </variable>
+  <variable name="Vtransform" type="int" shape="time">
+    <attribute name="long_name" value="vertical terrain-following transformation equation" />
+  </variable>
+  <variable name="Vstretching" type="int" shape="time">
+    <attribute name="long_name" value="vertical terrain-following stretching function" />
+  </variable>
+  <variable name="theta_b" type="double" shape="time">
+    <attribute name="long_name" value="S-coordinate bottom control parameter" />
+    <attribute name="units" value="1" />
+  </variable>
+  <variable name="theta_s" type="double" shape="time">
+    <attribute name="long_name" value="S-coordinate surface control parameter" />
+    <attribute name="units" value="1" />
+  </variable>
+  <variable name="Tcline" type="double" shape="time">
+    <attribute name="long_name" value="S-coordinate surface/bottom layer width" />
+    <attribute name="units" value="meter" />
+  </variable>
+  <variable name="hc" type="double" shape="time">
+    <attribute name="long_name" value="S-coordinate parameter, critical depth" />
+    <attribute name="units" value="meter" />
+  </variable>
+  <variable name="Cs_r" type="double" shape="sc_r">
+    <attribute name="long_name" value="S-coordinate stretching curves at RHO-points" />
+    <attribute name="units" value="1" />
+    <attribute name="valid_min" value="-1.0 " type="double" />
+    <attribute name="valid_max" value="0.0 " type="double" />
+    <attribute name="field" value="Cs_r, scalar" />
+  </variable>
+  <variable name="Cs_w" type="double" shape="sc_w">
+    <attribute name="long_name" value="S-coordinate stretching curves at W-points" />
+    <attribute name="units" value="1" />
+    <attribute name="valid_min" value="-1.0 " type="double" />
+    <attribute name="valid_max" value="0.0 " type="double" />
+    <attribute name="field" value="Cs_w, scalar" />
+  </variable>
+  <variable name="ocean_time" type="double" shape="time">
+    <attribute name="long_name" value="time since initialization" />
+    <attribute name="units" value="days" />
+    <attribute name="field" value="ocean_time, scalar, series" />
+  </variable>
+  <variable name="salt" type="float" shape="time sc_r erho xrho">
+    <attribute name="long_name" value="salinity" />
+    <attribute name="units" value="PSU" />
+    <attribute name="field" value="salinity, scalar, series" />
+  </variable>
+  <variable name="temp" type="float" shape="time sc_r erho xrho">
+    <attribute name="long_name" value="temperature" />
+    <attribute name="units" value="C" />
+    <attribute name="field" value="temperature, scalar, series" />
+  </variable>
+  <variable name="u" type="float" shape="time sc_r eu xu">
+    <attribute name="long_name" value="u-momentum component" />
+    <attribute name="units" value="meter second-1" />
+    <attribute name="field" value="u-velocity, scalar, series" />
+  </variable>
+  <variable name="ubar" type="float" shape="time eu xu">
+    <attribute name="long_name" value="vertically integrated u-momentum component" />
+    <attribute name="units" value="meter second-1" />
+    <attribute name="field" value="ubar-velocity, scalar, series" />
+  </variable>
+  <variable name="v" type="float" shape="time sc_r ev xv">
+    <attribute name="long_name" value="v-momentum component" />
+    <attribute name="units" value="meter second-1" />
+    <attribute name="field" value="v-velocity, scalar, series" />
+  </variable>
+  <variable name="vbar" type="float" shape="time ev xv">
+    <attribute name="long_name" value="vertically integrated v-momentum component" />
+    <attribute name="units" value="meter second-1" />
+    <attribute name="field" value="vbar-velocity, scalar, series" />
+  </variable>
+  <variable name="zeta" type="float" shape="time erho xrho">
+    <attribute name="long_name" value="free-surface" />
+    <attribute name="units" value="meter" />
+    <attribute name="field" value="free-surface, scalar, series" />
+  </variable>
+  <variable name="sand_01" type="double" shape="time sc_r erho xrho">
+    <attribute name="long_name" value="suspended noncohesive sediment, size class 01" />
+    <attribute name="units" value="kilogram meter-3" />
+    <attribute name="time" value="ocean_time" />
+    <attribute name="field" value="sand_01, scalar, series" />
+  </variable>
+  <variable name="sandfrac_01" type="double" shape="time Nbed erho xrho">
+    <attribute name="long_name" value="noncohesive sediment fraction, size class 01" />
+    <attribute name="units" value="nondimensional" />
+    <attribute name="time" value="ocean_time" />
+    <attribute name="field" value="sandfrac_01, scalar, series" />
+  </variable>
+  <variable name="sandmass_01" type="double" shape="time Nbed erho xrho">
+    <attribute name="long_name" value="noncohesive sediment mass, size class 01" />
+    <attribute name="units" value="kilogram meter-2" />
+    <attribute name="time" value="ocean_time" />
+    <attribute name="field" value="sandmass_01, scalar, series" />
+  </variable>
+  <variable name="bedload_Usand_01" type="double" shape="time eu xu">
+    <attribute name="long_name" value="bed load flux of sand in U-direction, size class 01" />
+    <attribute name="units" value="kilogram meter-1 s-1" />
+    <attribute name="time" value="ocean_time" />
+    <attribute name="field" value="bedload_Usand_01, scalar, series" />
+  </variable>
+  <variable name="bedload_Vsand_01" type="double" shape="time ev xv">
+    <attribute name="long_name" value="bed load flux of sand in V-direction, size class 01" />
+    <attribute name="units" value="kilogram meter-1 s-1" />
+    <attribute name="time" value="ocean_time" />
+    <attribute name="field" value="bedload_Vsand_01, scalar, series" />
+  </variable>
+  <variable name="bed_thickness" type="double" shape="time Nbed erho xrho">
+    <attribute name="long_name" value="sediment layer thickness" />
+    <attribute name="units" value="meter" />
+    <attribute name="time" value="ocean_time" />
+    <attribute name="field" value="bed thickness, scalar, series" />
+  </variable>
+  <variable name="bed_age" type="double" shape="time Nbed erho xrho">
+    <attribute name="long_name" value="sediment layer age" />
+    <attribute name="units" value="day" />
+    <attribute name="time" value="ocean_time" />
+    <attribute name="field" value="bed age, scalar, series" />
+  </variable>
+  <variable name="bed_porosity" type="double" shape="time Nbed erho xrho">
+    <attribute name="long_name" value="sediment layer porosity" />
+    <attribute name="units" value="nondimensional" />
+    <attribute name="time" value="ocean_time" />
+    <attribute name="field" value="bed porosity, scalar, series" />
+  </variable>
+  <variable name="bed_biodiff" type="double" shape="time Nbed erho xrho">
+    <attribute name="long_name" value="biodiffusivity at bottom of each layer" />
+    <attribute name="units" value="meter2 second-1" />
+    <attribute name="time" value="ocean_time" />
+    <attribute name="field" value="bed biodiffusivity, scalar, series" />
+  </variable>
+  <variable name="grain_diameter" type="double" shape="time erho xrho">
+    <attribute name="long_name" value="sediment median grain diameter size" />
+    <attribute name="units" value="meter" />
+    <attribute name="time" value="ocean_time" />
+    <attribute name="field" value="grain diameter, scalar, series" />
+  </variable>
+  <variable name="grain_density" type="double" shape="time erho xrho">
+    <attribute name="long_name" value="sediment median grain density" />
+    <attribute name="units" value="kilogram meter-3" />
+    <attribute name="time" value="ocean_time" />
+    <attribute name="field" value="grain density, scalar, series" />
+  </variable>
+  <variable name="settling_vel" type="double" shape="time erho xrho">
+    <attribute name="long_name" value="sediment median grain settling velocity" />
+    <attribute name="units" value="meter second-1" />
+    <attribute name="time" value="ocean_time" />
+    <attribute name="field" value="settling vel, scalar, series" />
+  </variable>
+  <variable name="erosion_stress" type="double" shape="time erho xrho">
+    <attribute name="long_name" value="sediment median critical erosion stress" />
+    <attribute name="units" value="meter2 second-2" />
+    <attribute name="time" value="ocean_time" />
+    <attribute name="field" value="erosion stress, scalar, series" />
+  </variable>
+  <variable name="ripple_length" type="double" shape="time erho xrho">
+    <attribute name="long_name" value="bottom ripple length" />
+    <attribute name="units" value="meter" />
+    <attribute name="time" value="ocean_time" />
+    <attribute name="field" value="ripple length, scalar, series" />
+  </variable>
+  <variable name="ripple_height" type="double" shape="time erho xrho">
+    <attribute name="long_name" value="bottom ripple height" />
+    <attribute name="units" value="meter" />
+    <attribute name="time" value="ocean_time" />
+    <attribute name="field" value="ripple height, scalar, series" />
+  </variable>
+  <variable name="dmix_offset" type="double" shape="time erho xrho">
+    <attribute name="long_name" value="dmix erodibility profile offset" />
+    <attribute name="units" value="meter" />
+    <attribute name="time" value="ocean_time" />
+    <attribute name="field" value="dmix_offset, scalar, series" />
+  </variable>
+  <variable name="dmix_slope" type="double" shape="time erho xrho">
+    <attribute name="long_name" value="dmix erodibility profile slope" />
+    <attribute name="units" value="_" />
+    <attribute name="time" value="ocean_time" />
+    <attribute name="field" value="dmix_slope, scalar, series" />
+  </variable>
+  <variable name="dmix_time" type="double" shape="time erho xrho">
+    <attribute name="long_name" value="dmix erodibility profile time scale" />
+    <attribute name="units" value="seconds" />
+    <attribute name="time" value="ocean_time" />
+    <attribute name="field" value="dmix_time, scalar, series" />
+  </variable>
+  <variable name="plant_height" type="double" shape="time Nveg erho xrho">
+    <attribute name="long_name" value="plant height" />
+    <attribute name="units" value="meter" />
+    <attribute name="time" value="ocean_time" />
+    <attribute name="field" value="plant_height, scalar, series" />
+  </variable>
+  <variable name="plant_density" type="double" shape="time Nveg erho xrho">
+    <attribute name="long_name" value="plant density" />
+    <attribute name="units" value="plant-meter2" />
+    <attribute name="time" value="ocean_time" />
+    <attribute name="field" value="plant_density, scalar, series" />
+  </variable>
+  <variable name="plant_diameter" type="double" shape="time Nveg erho xrho">
+    <attribute name="long_name" value="plant diameter" />
+    <attribute name="units" value="meter" />
+    <attribute name="time" value="ocean_time" />
+    <attribute name="field" value="plant_diameter, scalar, series" />
+  </variable>
+  <variable name="plant_thickness" type="double" shape="time Nveg erho xrho">
+    <attribute name="long_name" value="plant thickness" />
+    <attribute name="units" value="meter" />
+    <attribute name="time" value="ocean_time" />
+    <attribute name="field" value="plant_thickness, scalar, series" />
+  </variable>
+  <variable name="marsh_mask" type="double" shape="time Nveg erho xrho">
+    <attribute name="long_name" value="marsh mask" />
+    <attribute name="units" value="nondimensional" />
+    <attribute name="time" value="ocean_time" />
+    <attribute name="field" value="marsh_mask, scalar, series" />
+  </variable>
+  <variable name="sc_r" type="double" shape="sc_r">
+    <attribute name="long_name" value="S-coordinate at RHO-points" />
+    <attribute name="units" value="1" />
+    <attribute name="valid_min" value="-1.0 " type="double" />
+    <attribute name="valid_max" value="0.0 " type="double" />
+    <attribute name="field" value="sc_r, scalar" />
+  </variable>
+  <variable name="sc_w" type="double" shape="sc_w">
+    <attribute name="long_name" value="S-coordinate at W-points" />
+    <attribute name="units" value="1" />
+    <attribute name="valid_min" value="-1.0 " type="double" />
+    <attribute name="valid_max" value="0.0 " type="double" />
+    <attribute name="field" value="sc_w, scalar" />
+  </variable>
+</netcdf>
+

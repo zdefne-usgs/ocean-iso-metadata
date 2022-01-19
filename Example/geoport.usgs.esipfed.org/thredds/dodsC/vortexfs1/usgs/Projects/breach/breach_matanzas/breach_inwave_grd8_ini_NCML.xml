@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="dods://geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/breach_inwave_grd8_ini.nc">
+  <attribute name="history" value="Created by create_InWave_ini on 27-Sep-2019 14:25:31" />
+  <attribute name="_CoordSysBuilder" value="ucar.nc2.dataset.conv.DefaultConvention" />
+  <dimension name="energy_time" length="1" />
+  <dimension name="energy_angle_centers" length="19" />
+  <dimension name="TA_dim" length="1" />
+  <dimension name="erho" length="300" />
+  <dimension name="xrho" length="400" />
+  <dimension name="xu" length="399" />
+  <dimension name="ev" length="299" />
+  <dimension name="energy_angle_faces" length="20" />
+  <dimension name="xpsi" length="399" />
+  <dimension name="xv" length="400" />
+  <dimension name="epsi" length="299" />
+  <dimension name="eu" length="300" />
+  <group name="CFMetadata" />
+  <group name="THREDDSMetadata">
+    <attribute name="id" value="vortexfs1/usgs/Projects/breach/breach_matanzas/00_dir_roms.ncml" />
+    <attribute name="full_name" value="breach_matanzas/00_dir_roms.ncml" />
+    <group name="services">
+      <attribute name="opendap_service" value="https://geoport.usgs.esipfed.org/thredds/dodsC/vortexfs1/usgs/Projects/breach/breach_matanzas/00_dir_roms.ncml" />
+      <attribute name="nccs_service" value="https://geoport.usgs.esipfed.org/thredds/ncss/grid/vortexfs1/usgs/Projects/breach/breach_matanzas/00_dir_roms.ncml/dataset.html" />
+      <attribute name="wms_service" value="https://geoport.usgs.esipfed.org/thredds/wms/vortexfs1/usgs/Projects/breach/breach_matanzas/00_dir_roms.ncml?service=WMS&amp;version=1.3.0&amp;request=GetCapabilities" />
+    </group>
+    <group name="dates">
+      <attribute name="date" value="2022-01-18T14:47:58.684Z" type="modified" />
+    </group>
+  </group>
+  <group name="NCISOMetadata">
+    <attribute name="metadata_creation" value="2022-01-19" />
+  </group>
+  <variable name="energy_angle" type="double" shape="energy_angle_centers">
+    <attribute name="long_name" value="direction respect to the north of the bin" />
+    <attribute name="units" value="degrees" />
+    <attribute name="field" value="energy_angle, scalar, series" />
+  </variable>
+  <variable name="AC" type="double" shape="energy_angle_centers erho xrho">
+    <attribute name="long_name" value="wave action envelope" />
+    <attribute name="units" value="Joules s m-2 rad-1" />
+    <attribute name="field" value="AC, scalar, series" />
+  </variable>
+  <variable name="Cx" type="double" shape="energy_angle_centers erho xu">
+    <attribute name="long_name" value="x component of the group celerity" />
+    <attribute name="units" value="m s-1" />
+    <attribute name="field" value="cx, scalar, series" />
+  </variable>
+  <variable name="Cy" type="double" shape="energy_angle_centers ev xrho">
+    <attribute name="long_name" value="y component of the group celerity" />
+    <attribute name="units" value="m s-1" />
+    <attribute name="field" value="cy, scalar, series" />
+  </variable>
+  <variable name="Ct" type="double" shape="energy_angle_faces erho xrho">
+    <attribute name="long_name" value="directional component of the group celerity" />
+    <attribute name="units" value="rad s-1" />
+    <attribute name="field" value="ct, scalar, series" />
+  </variable>
+  <variable name="Ta" type="double" shape="TA_dim">
+    <attribute name="long_name" value="representative absolute peak period" />
+    <attribute name="units" value="seconds" />
+    <attribute name="field" value="Ta, scalar, series" />
+  </variable>
+  <variable name="energy_time" type="double" shape="energy_time">
+    <attribute name="long_name" value="time for energy envelope" />
+    <attribute name="units" value="seconds" />
+    <attribute name="field" value="energy_time, scalar, series" />
+  </variable>
+  <variable name="TA_dim" type="double" shape="TA_dim">
+    <attribute name="long_name" value="representative absolute peak period" />
+    <attribute name="units" value="seconds" />
+    <attribute name="field" value="TA_dim, scalar, series" />
+  </variable>
+</netcdf>
+
