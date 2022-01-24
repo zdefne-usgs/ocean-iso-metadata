@@ -23,6 +23,7 @@
             <xd:p> May 10, 2012 version 2.3 authored by Ted Habermann</xd:p>
         </xd:desc>
     </xd:doc>
+    <xsl:variable name="flocation" as="xs:string*" select="nc:netcdf/@location"/>
     <xsl:variable name="stylesheetVersion" select="'2.3.4'"/>
     <xsl:output method="xml" encoding="UTF-8" indent="yes"/>
     <xsl:strip-space elements="*"/>
@@ -1553,7 +1554,7 @@
                     <xsl:when test="$variableUnits">
                         <gmd:units>
                             <xsl:attribute name="xlink:href">
-                                <xsl:value-of select="'https://geoport.usgs.esipfed.org/thredds/fileServer/sand/usgs/Projects/BBLEH/[[folder_name]]/udunits2_combined_whmsc.xml#'"/>
+                                <xsl:value-of select="concat( substring-before($flocation,'00'), 'udunits2_combined_whmsc.xml#')"/>
                                 <xsl:value-of select="encode-for-uri($variableUnits)"/>
                             </xsl:attribute>
                             <xsl:attribute name="xlink:title">
