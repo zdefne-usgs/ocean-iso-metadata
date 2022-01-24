@@ -10,8 +10,6 @@ java -Xms1024m -Xmx1024m -jar ncISO-2.3.7.jar -custom true -xsl UnidataDD2MI_cur
 
 Each will create a JSON file for that run and will append messages to ncISO.log. The ISO xml are created in a locally created folder structure similar to the thredds server.  
 
-**Note**
+**Note (01/24/2022)**
 
-01/24/2022
-
-Currently there seems to be a problem with standalone ncISO. See issues #21 [here](https://github.com/NOAA-PMEL/uafnciso/issues/21)
+Currently there seems to be a problem with standalone ncISO. See issues #21 [here](https://github.com/NOAA-PMEL/uafnciso/issues/21).
