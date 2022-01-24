@@ -14,4 +14,4 @@ Each will create a JSON file for that run and will append messages to ncISO.log.
 
 01/24/2022
 
-Currently there seems to be a problem with standalone ncISO. See issues #21 here https://github.com/NOAA-PMEL/uafnciso/issues/21
+Currently there seems to be a problem with standalone ncISO. See issues #21 [here](https://github.com/NOAA-PMEL/uafnciso/issues/21)
