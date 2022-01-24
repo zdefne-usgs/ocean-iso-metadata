@@ -115,7 +115,7 @@
     </group>
   </group>
   <group name="NCISOMetadata">
-    <attribute name="metadata_creation" value="2022-01-19" />
+    <attribute name="metadata_creation" value="2022-01-21" />
   </group>
   <variable name="ntimes" type="int">
     <attribute name="long_name" value="number of long time-steps" />
