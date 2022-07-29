@@ -1,4 +1,4 @@
-Examples using custom style sheet:
+Examples using custom style sheet (an .xsl file needs to be placed under XSL for this to work):
 
 **Example 1** - run071tRX
 
