@@ -1,5 +1,5 @@
 # Ocean ISO Metadata
-Describing ocean model outputs  based on ISO metadata standards. We are using the [this model output](http://geoport-dev.whoi.edu/thredds/sand/usgs/Projects/BBLEH/run071tRX/catalog.html?dataset=sand/usgs/Projects/BBLEH/run071tRX/00_dir_roms.ncml) as the pilot case.
+Describing ocean model outputs  based on ISO metadata standards. We are using the [this model output](https://geoport.usgs.esipfed.org/thredds/catalog/sand/usgs/Projects/BBLEH/run071tRX/catalog.html?dataset=sand/usgs/Projects/BBLEH/run071tRX/00_dir_roms.ncml) as the pilot case.
 
 
 [Wiki](https://github.com/zdefne-usgs/ocean-iso-metadata/wiki/1.-Publishing-hydrodynamic-model-output)
