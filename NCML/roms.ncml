@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+  <attribute name="Conventions" type="String" value="CF-1.6, SGRID-0.1, ACDD-1.3"/>
+  <attribute name="cdm_data_type" type="String" value="Grid"/>
+  <attribute name="id" type="String" value="USGS_COAWST_DELAWARE_BAY_TIDE_SUBTIDAL"/>
+  <attribute name="title" type="String" value="USGS COAWST: Salinity intrusion in Delaware Bay (2019) with tidal and subtidal forcing"/>
+  <attribute name="summary" type="String" value="
+  The Coupled Ocean-Atmosphere-Wave-Sediment Transport (COAWST Warner and others, 2019; Warner and others, 2010) model was used to simulate three-dimensional hydrodynamics and waves to study salinity intrusion in the Delaware Bay estuary for 2019. Salinity intrusion in coastal systems is due in part to extreme events like drought or low-pressure storms and longer-term sea level rise, threatening economic infrastructure and ecological health. Along the eastern seaboard of the United States, approximately 13 million people rely on the water resources of the Delaware River basin, which is actively managed to suppress the salt front (or ~0.52 daily averaged psu line) through river discharge targets. However, river discharge is only part of the story. The other mechanisms controlling salinity intrusion include tidal motions on daily and spring-neap cycles, bathymetric and topographic features, and meteorological events. It is the interaction of these mechanisms that ultimately determines the distribution of salt in an estuary, particularly during periods of low discharge. The purpose of this study is to examine the mechanisms controlling the location of the salt front in the Delaware Bay estuary using a calibrated three-dimensional hydrodynamic model, the Coupled Ocean Atmosphere Wave and Sediment Transport (COAWST) modeling system. The model was forced with tides, subtidal water levels, bulk atmospheric conditions, and waves. Compared with the observation-based location of the salt front line the model captured the major dynamics throughout the year and performed well during times of low discharge. 
+    Further details are provided in Cook et al., 2022.
+        Reference cited:
+        Cook, S.E., Warner, J.C., and Russell, K.L., 2022, A Numerical Investigation of the mechanisms controlling salt intrusion in the Delaware Bay Estuary. Journal - TBD, DOI - TBD.
+        
+        Warner, J.C., Armstrong, Brandy, He, Ruoying, and Zambon, J.B., 2010, Development of a coupled ocean-atmosphere-wave-sediment transport (COAWST) modeling system: Ocean Modelling, v. 35, issue 3, p. 230-244.
+        
+        Warner, J.C., Ganju, N.K., Sherwood, C.R., Tarandeep, K., Aretxabaleta, A., He, R., Zambon, J., and Kumar, N., 2019, Coupled-Ocean-Atmosphere-Wave-Sediment Transport (COAWST) Modeling System: U.S. Geological Survey Software Release, 23 April 2019, https://doi.org/10.5066/P9NQUAOW. (URL for the specific version of the code used for these model results: https://code.usgs.gov/coawstmodel/COAWST/-/tags/COAWST_v3.7)
+                "/>
+
+  <attribute name="purpose" type="String" value="The model domain was developed to simulate the salt front in Delaware Bay estuary. This dataset is a set of data for stations within the Delaware Bay model grid for 2019 using the COAWST modeling system. These results are for the river discharge, tidal, and subtidal run "/>
+
+  <attribute name="naming_authority" type="String" value="gov.usgs.cmgp.whsc"/>
+  <!--attribute name="project" type="String" value="CMG_Portal"/-->
+  <attribute name="creator_email" type="String" value="secook@usgs.gov"/>
+  <attribute name="creator_url" type="String" value="https://www.usgs.gov/staff-profiles/salme-cook"/>
+  <attribute name="creator_name" type="String" value="Salme E Cook"/>
+  <!--attribute name="creator_institution" type="String" value="U.S. Geological Survey, Woods Hole Coastal and Marine Science Center"/-->
+  <!--Because UDDC uses institution for creator institution-->
+  <attribute name="institution" type="String" value="U.S. Geological Survey, Woods Hole Coastal and Marine Science Center"/> 
+  <!--Distributor information-->
+  <attribute name="publisher_email" type="String" value="sciencebase@usgs.gov"/>
+  <attribute name="publisher_url" type="String" value="https://www.sciencebase.gov/catalog/item/5d05a22ae4b0e3d3115bd27c"/>
+  <attribute name="publisher_name" type="String" value="U.S. Geological Survey - ScienceBase"/>
+
+  <attribute name="contributor_role" type="String" value="principalInvestigator"/>
+  <attribute name="contributor_email" type="String" value="jcwarner@usgs.gov"/>
+  <attribute name="contributor_url" type="String" value="https://www.usgs.gov/staff-profiles/john-warner"/>
+  <attribute name="contributor_name" type="String" value="John Warner"/>
+  <attribute name="contributor_institution" type="String" value="U.S. Geological Survey, Woods Hole Coastal and Marine Science Center"/>
+ <attribute name="license" type="String" value="The data may be used and redistributed for free but is not intended for legal use, since it may contain inaccuracies. Neither the data Contributor, nor the United States Government, nor any of their employees or contractors, makes any warranty, express or implied, including warranties of merchantability and fitness for a particular purpose, or assumes any legal liability for the accuracy, completeness, or usefulness, of this information."/>
+
+  <attribute name="acknowledgement" type="String" value="This work was supported by the Office of Delaware River Master Salinity Study and the USGS Coastal Marine Hazards and Resources Program. The computational support was provided by the High-Performance Computing Facility (Poseidon) at Woods Hole Oceanographic Institute. "/>
+
+  <attribute name="other_constraints" type="String" value="Please cite this as: Cook, S.E., Warner, J.C., and Russell, K.L., 2022, U.S. Geological Survey simulations of 3D-hydrodynamics in Delaware Bay (2019) to improve understanding of the mechanisms driving salinity intrusion, U.S. Geological Survey data release, DOI:LINK."/>
+
+  <attribute name="identification_supplemental" type="String" value="The model has  Arakawa C-grid type staggered grids for each of the following; grid cell centers, cell-edge mid-points, and corners. Grid cells are of irregular sizes but are rectangular with maximum orthogonality while conforming to the curvilinear shape of the grid. Generally, vector quantities such as velocity are calculated at cell edges, whereas the scalar quantities such as density are calculated at cell centers. Geospatial vertical resolution is variable due to the sigma coordinate system of the numerical model."/>
+
+  <attribute name="keywords" value="Earth Science Services > Models > Ocean General Circulation Models (OGCM)/Regional Ocean Models, Earth Science Services > Models > Weather Research/Forecast Mod      els, Earth Science > Oceans > Ocean Temperature > Potential Temperature, Earth Science > Oceans > Salinity/Density > Salinity, Earth Science > Oceans > Sea Surface Topography > Sea Surface Height, Earth Science > Oceans > Ocean Circulation > Ocean Currents"/>
+
+
+<variable name="Tobc_in">
+  <attribute name="grid" type="String" value="grid"/>
+  <attribute name="display" type="String" value="False"/>
+  <attribute name="coverage_content_type" type="String" value="modelResult"/>
+</variable>
+
+<variable name="Tobc_out">
+  <attribute name="grid" type="String" value="grid"/>
+  <attribute name="display" type="String" value="False"/>
+  <attribute name="coverage_content_type" type="String" value="modelResult"/>
+</variable>
+
+<variable name="zeta">
+  <attribute name="standard_name" type="String" value="sea_surface_height_above_geopotential_datum"/>
+  <attribute name="grid" type="String" value="grid"/>
+  <attribute name="display" type="String" value="True"/>
+  <attribute name="coverage_content_type" type="String" value="modelResult"/>
+</variable>
+
+<variable name="ubar">
+  <attribute name="standard_name" type="String" value="barotropic_sea_water_x_velocity"/>
+  <attribute name="grid" type="String" value="grid"/>
+  <attribute name="display" type="String" value="True"/>
+  <attribute name="coverage_content_type" type="String" value="modelResult"/>
+</variable>
+
+<variable name="vbar">
+  <attribute name="standard_name" type="String" value="barotropic_sea_water_y_velocity"/>
+  <attribute name="grid" type="String" value="grid"/>
+  <attribute name="display" type="String" value="True"/>
+  <attribute name="coverage_content_type" type="String" value="modelResult"/>
+</variable>
+
+<variable name="u">
+  <attribute name="standard_name" type="String" value="sea_water_x_velocity"/>
+  <attribute name="grid" type="String" value="grid"/>
+  <attribute name="display" type="String" value="True"/>
+  <attribute name="coverage_content_type" type="String" value="modelResult"/>
+</variable>
+
+<variable name="v">
+  <attribute name="standard_name" type="String" value="sea_water_y_velocity"/>
+  <attribute name="grid" type="String" value="grid"/>
+  <attribute name="display" type="String" value="True"/>
+  <attribute name="coverage_content_type" type="String" value="modelResult"/>
+</variable>
+
+<variable name="w">
+  <attribute name="grid" type="String" value="grid"/>
+  <attribute name="display" type="String" value="True"/>
+  <attribute name="coverage_content_type" type="String" value="modelResult"/>
+</variable>
+
+<variable name="omega">
+  <attribute name="grid" type="String" value="grid"/>
+  <attribute name="display" type="String" value="True"/>
+  <attribute name="coverage_content_type" type="String" value="modelResult"/>
+</variable>
+
+<variable name="temp">
+  <attribute name="standard_name" type="String" value="sea_water_potential_temperature"/>
+  <attribute name="grid" type="String" value="grid"/>
+  <attribute name="display" type="String" value="True"/>
+  <attribute name="coverage_content_type" type="String" value="modelResult"/>
+</variable>
+
+<variable name="salt">
+  <attribute name="standard_name" type="String" value="sea_water_salinity"/>
+  <attribute name="grid" type="String" value="grid"/>
+  <attribute name="display" type="String" value="True"/>
+  <attribute name="coverage_content_type" type="String" value="modelResult"/>
+</variable>
+
+<variable name="dye_01">
+  <attribute name="grid" type="String" value="grid"/>
+  <attribute name="display" type="String" value="True"/>
+  <attribute name="coverage_content_type" type="String" value="modelResult"/>
+</variable>
+
+<variable name="dye_02">
+  <attribute name="grid" type="String" value="grid"/>
+  <attribute name="display" type="String" value="True"/>
+  <attribute name="coverage_content_type" type="String" value="modelResult"/>
+</variable>
+
+<variable name="dye_03">
+  <attribute name="grid" type="String" value="grid"/>
+  <attribute name="display" type="String" value="True"/>
+  <attribute name="coverage_content_type" type="String" value="modelResult"/>
+</variable>
+
+<variable name="AKv">
+  <attribute name="grid" type="String" value="grid"/>
+  <attribute name="display" type="String" value="True"/>
+  <attribute name="coverage_content_type" type="String" value="modelResult"/>
+</variable>
+
+<variable name="tke">
+  <attribute name="grid" type="String" value="grid"/>
+  <attribute name="display" type="String" value="True"/>
+  <attribute name="coverage_content_type" type="String" value="modelResult"/>
+</variable>
+
+<variable name="gls">
+  <attribute name="grid" type="String" value="grid"/>
+  <attribute name="display" type="String" value="True"/>
+  <attribute name="coverage_content_type" type="String" value="modelResult"/>
+</variable>
+
+<variable name="sustr">
+  <attribute name="grid" type="String" value="grid"/>
+  <attribute name="display" type="String" value="True"/>
+  <attribute name="coverage_content_type" type="String" value="modelResult"/>
+</variable>
+
+<variable name="svstr">
+  <attribute name="grid" type="String" value="grid"/>
+  <attribute name="display" type="String" value="True"/>
+  <attribute name="coverage_content_type" type="String" value="modelResult"/>
+</variable>
+
+<variable name="bustr">
+  <attribute name="grid" type="String" value="grid"/>
+  <attribute name="display" type="String" value="True"/>
+  <attribute name="coverage_content_type" type="String" value="modelResult"/>
+</variable>
+
+<variable name="bvstr">
+  <attribute name="grid" type="String" value="grid"/>
+  <attribute name="display" type="String" value="True"/>
+  <attribute name="coverage_content_type" type="String" value="modelResult"/>
+</variable>
+
+
+<variable name="ocean_time">
+  <attribute name="standard_name" type="String" value="time"/>
+</variable>
+
+<variable name="grid" type="int">
+        <attribute name="cf_role" value="grid_topology"/>
+        <attribute name="topology_dimension" type="int" value="2"/>
+        <attribute name="node_dimensions" value="xi_psi eta_psi"/>
+        <attribute name="face_dimensions"
+            value="xi_rho: xi_psi (padding: both) eta_rho: eta_psi (padding: both)"/>
+        <attribute name="edge1_dimensions" value="xi_u: xi_psi eta_u: eta_psi (padding: both)"/>
+        <attribute name="edge2_dimensions" value="xi_v: xi_psi (padding: both) eta_v: eta_psi"/>
+        <attribute name="node_coordinates" value="lon_psi lat_psi"/>
+        <attribute name="face_coordinates" value="lon_rho lat_rho"/>
+        <attribute name="edge1_coordinates" value="lon_u lat_u"/>
+        <attribute name="edge2_coordinates" value="lon_v lat_v"/>
+        <attribute name="vertical_dimensions" value="s_rho: s_w (padding: none)"/>
+    </variable>
+<aggregation dimName="ocean_time" type="joinExisting">
+<scan location="Output/" regExp=".*ocean_deb_sta_run07C_tsvar_testcoawst.nc$" subdirs="false"/>
+</aggregation>
+</netcdf>
