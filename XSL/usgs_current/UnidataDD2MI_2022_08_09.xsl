@@ -75,6 +75,7 @@
     /nc:netcdf/nc:group[@name='THREDDSMetadata']/nc:attribute[@name='full_name']/@value)"/>
     <xsl:variable name="summary" as="xs:string*" select="(/nc:netcdf/nc:attribute[@name='summary']/@value,
     /nc:netcdf/nc:group[@name='THREDDSMetadata']/nc:group[@name='documentation']/nc:group[@name='document']/nc:attribute[@type='Summary']/@value)"/>
+    <xsl:variable name="purpose" as="xs:string*" select="(/nc:netcdf/nc:attribute[@name='purpose']/@value)"/>
     <xsl:variable name="keywords" as="xs:string*" select="(/nc:netcdf/nc:attribute[@name='keywords']/@value,
     /nc:netcdf/nc:group[@name='THREDDSMetadata']/nc:group[@name='keywords']/@value)"/>
     <xsl:variable name="keywordsVocabulary" as="xs:string*" select="(/nc:netcdf/nc:attribute[@name='keywords_vocabulary']/@value,
@@ -146,7 +147,7 @@
     <!-- Responsible Party Fields: 14 possible -->
     <xsl:variable name="creatorName" as="xs:string*" select="(/nc:netcdf/nc:attribute[@name='creator_name']/@value,
     /nc:netcdf/nc:group[@name='THREDDSMetadata']/nc:group[@name='creators']/nc:group[@name='creator']/nc:attribute[@name='name']/@value)"/>
-    <xsl:variable name="creatorURL" as="xs:string*" select="(/nc:netcdf/nc:attribute[@name='creator_url']/@value,
+    <xsl:variable name="creatorUrl" as="xs:string*" select="(/nc:netcdf/nc:attribute[@name='creator_url']/@value,
     /nc:netcdf/nc:group[@name='THREDDSMetadata']/nc:group[@name='creators']/nc:group[@name='creator']/nc:attribute[@name='url']/@value)"/>
     <xsl:variable name="creatorEmail" as="xs:string*" select="(/nc:netcdf/nc:attribute[@name='creator_email']/@value,
     /nc:netcdf/nc:group[@name='THREDDSMetadata']/nc:group[@name='creators']/nc:group[@name='creator']/nc:attribute[@name='email']/@value)"/>
@@ -163,23 +164,26 @@
     /nc:netcdf/nc:attribute[@name='acknowledgment']/@value,
     /nc:netcdf/nc:group[@name='THREDDSMetadata']/nc:group[@name='documentation']/nc:group[@name='document']/nc:attribute[@type='funding']/@value)"/>
     <xsl:variable name="dateCnt" select="count($creatorDate) + count($modifiedDate) + count($issuedDate)"/>
-    <xsl:variable name="creatorTotal" select="count($creatorName) + count($creatorURL) + count($creatorEmail) + count($creatorDate) + count($modifiedDate) + count($issuedDate) + count($institution) + count($project) + count($acknowledgement)"/>
+    <xsl:variable name="creatorTotal" select="count($creatorName) + count($creatorUrl) + count($creatorEmail) + count($creatorDate) + count($modifiedDate) + count($issuedDate) + count($institution) + count($project) + count($acknowledgement)"/>
     <xsl:variable name="creatorMax">9</xsl:variable>
     <!--  -->
     <xsl:variable name="contributorName" as="xs:string*" select="(/nc:netcdf/nc:attribute[@name='contributor_name']/@value,
     /nc:netcdf/nc:group[@name='THREDDSMetadata']/nc:group[@name='contributors']/nc:group[@name='contributor']/nc:attribute[@name='name']/@value)"/>
     <xsl:variable name="contributorRole" as="xs:string*" select="(/nc:netcdf/nc:attribute[@name='contributor_role']/@value,
     /nc:netcdf/nc:group[@name='THREDDSMetadata']/nc:group[@name='contributors']/nc:group[@name='contributor']/nc:attribute[@name='role']/@value)"/>
+    <xsl:variable name="contributorInstitution" as="xs:string*" select="(/nc:netcdf/nc:attribute[@name='contributor_institution']/@value)"/>
+    <xsl:variable name="contributorEmail" as="xs:string*" select="(/nc:netcdf/nc:attribute[@name='contributor_email']/@value)"/>
+    <xsl:variable name="contributorUrl" as="xs:string*" select="(/nc:netcdf/nc:attribute[@name='contributor_url']/@value)"/>
     <xsl:variable name="contributorTotal" select="count($contributorName) + count($contributorRole)"/>
     <xsl:variable name="contributorMax">2</xsl:variable>
     <!--  -->
     <xsl:variable name="publisherName" as="xs:string*" select="(/nc:netcdf/nc:attribute[@name='publisher_name']/@value,
     /nc:netcdf/nc:group[@name='THREDDSMetadata']/nc:group[@name='publishers']/nc:group[@name='publisher']/nc:attribute[@name='name']/@value)"/>
-    <xsl:variable name="publisherURL" as="xs:string*" select="(/nc:netcdf/nc:attribute[@name='publisher_url']/@value,
+    <xsl:variable name="publisherUrl" as="xs:string*" select="(/nc:netcdf/nc:attribute[@name='publisher_url']/@value,
     /nc:netcdf/nc:group[@name='THREDDSMetadata']/nc:group[@name='publishers']/nc:group[@name='publisher']/nc:attribute[@name='url']/@value)"/>
     <xsl:variable name="publisherEmail" as="xs:string*" select="(/nc:netcdf/nc:attribute[@name='publisher_email']/@value,
     /nc:netcdf/nc:group[@name='THREDDSMetadata']/nc:group[@name='publishers']/nc:group[@name='publisher']/nc:attribute[@name='email']/@value)"/>
-    <xsl:variable name="publisherTotal" select="count($publisherName) + count($publisherURL) + count($publisherEmail)"/>
+    <xsl:variable name="publisherTotal" select="count($publisherName) + count($publisherUrl) + count($publisherEmail)"/>
     <xsl:variable name="publisherMax">3</xsl:variable>
     <!--  -->
     <xsl:variable name="responsiblePartyCnt" select="count($creatorName) + count($contributorName) + count($publisherName)"/>
@@ -192,7 +196,12 @@
     /nc:netcdf/nc:group[@name='THREDDSMetadata']/nc:group[@name='documentation']/nc:group[@name='document']/nc:attribute[@type='processing_level']/@value)"/>
     <xsl:variable name="license" as="xs:string*" select="(/nc:netcdf/nc:attribute[@name='license']/@value,
     /nc:netcdf/nc:group[@name='THREDDSMetadata']/nc:group[@name='documentation']/nc:group[@name='document']/nc:attribute[@type='rights']/@value)"/>
-    <xsl:variable name="otherTotal" select="count($cdmType) + count($processingLevel) + count($license)"/>
+    <xsl:variable name="otherConstraints" as="xs:string*" select="(/nc:netcdf/nc:attribute[@name='other_constraints']/@value)"/>
+
+    <xsl:variable name="otherTotal" select="count($cdmType) + count($processingLevel) + count($license) + count($otherConstraints)"/>
+
+    <xsl:variable name="supplementalInformation" as="xs:string*" select="(/nc:netcdf/nc:attribute[@name='identification_supplemental']/@value)"/>
+
     <xsl:variable name="otherMax">3</xsl:variable>
     <xsl:variable name="spiralTotal" select="$extentTotal + $otherExtentTotal + $otherTotal + $responsiblePartyTotal"/>
     <xsl:variable name="spiralMax" select="$otherMax + $creatorMax + $extentMax + $responsiblePartyMax"/>
@@ -251,7 +260,9 @@
                 <xsl:with-param name="individualName" select="$creatorName[1]"/>
                 <xsl:with-param name="organisationName" select="$institution[1]"/>
                 <xsl:with-param name="email" select="$creatorEmail[1]"/>
-                <xsl:with-param name="url" select="$creatorURL[1]"/>
+                <xsl:with-param name="url" select="$creatorUrl[1]"/>
+                <xsl:with-param name="urlName" select="'URL for the metadata creator'"/>
+                <xsl:with-param name="urlDescription" select="'This URL provides contact information for the creator of this metadata'"/>
                 <xsl:with-param name="roleCode" select="'pointOfContact'"/>
             </xsl:call-template>
             <gmd:dateStamp>
@@ -406,7 +417,9 @@
                                     <xsl:with-param name="individualName" select="$creatorName[1]"/>
                                     <xsl:with-param name="organisationName" select="$institution[1]"/>
                                     <xsl:with-param name="email" select="$creatorEmail[1]"/>
-                                    <xsl:with-param name="url" select="$creatorURL[1]"/>
+                                    <xsl:with-param name="url" select="$creatorUrl[1]"/>
+                                    <xsl:with-param name="urlName" select="'URL for the creator of this dataset'"/>
+                                    <xsl:with-param name="urlDescription" select="'This URL provides contact information for the creator of this dataset'"/>
                                     <xsl:with-param name="roleCode" select="'originator'"/>
                                 </xsl:call-template>
                             </xsl:if>
@@ -415,9 +428,11 @@
                                     <xsl:with-param name="tagName" select="'gmd:citedResponsibleParty'"/>
                                     <xsl:with-param name="testValue" select="$contributorTotal"/>
                                     <xsl:with-param name="individualName" select="$contributorName[1]"/>
-                                    <xsl:with-param name="organisationName"/>
-                                    <xsl:with-param name="email"/>
-                                    <xsl:with-param name="url"/>
+                                    <xsl:with-param name="organisationName" select="$contributorInstitution[1]"/>
+                                    <xsl:with-param name="email" select="$contributorEmail[1]"/>
+                                    <xsl:with-param name="url" select="$contributorUrl[1]"/>
+                                    <xsl:with-param name="urlName" select="'URL for the contributor'"/>
+                                    <xsl:with-param name="urlDescription" select="'This URL provides contact information for the contributor for this metadata'"/>
                                     <xsl:with-param name="roleCode" select="/nc:netcdf/nc:attribute[@name='contributor_role']/@value"/>
                                 </xsl:call-template>
                             </xsl:if>
@@ -435,6 +450,11 @@
                             <xsl:with-param name="stringToWrite" select="$summary[1]"/>
                         </xsl:call-template>
                     </gmd:abstract>
+                     <gmd:purpose>
+                        <xsl:call-template name="writeCharacterString">
+                            <xsl:with-param name="stringToWrite" select="$purpose[1]"/>
+                        </xsl:call-template>
+                    </gmd:purpose>
                     <xsl:if test="count($acknowledgement)">
                         <gmd:credit>
                             <xsl:call-template name="writeCharacterString">
@@ -449,7 +469,9 @@
                         <xsl:with-param name="individualName" select="$creatorName[1]"/>
                         <xsl:with-param name="organisationName" select="$institution[1]"/>
                         <xsl:with-param name="email" select="$creatorEmail[1]"/>
-                        <xsl:with-param name="url" select="$creatorURL[1]"/>
+                        <xsl:with-param name="url" select="$creatorUrl[1]"/>
+                        <xsl:with-param name="urlName" select="'URL for the point of contact'"/>
+                        <xsl:with-param name="urlDescription" select="'This URL provides contact information for the point of contact for this dataset'"/>
                         <xsl:with-param name="roleCode" select="'pointOfContact'"/>
                     </xsl:call-template>
                     <xsl:if test="count($keywords)">
@@ -610,6 +632,11 @@
                                         <xsl:value-of select="$license[1]"/>
                                     </gco:CharacterString>
                                 </gmd:useLimitation>
+                                <gmd:otherConstraints>
+                                    <xsl:call-template name="writeCharacterString">
+                                        <xsl:with-param name="stringToWrite" select="$otherConstraints[1]"/>
+                                    </xsl:call-template>
+                                </gmd:otherConstraints>
                             </gmd:MD_LegalConstraints>
                         </gmd:resourceConstraints>
                     </xsl:if>
@@ -763,6 +790,11 @@
                             </xsl:otherwise>
                         </xsl:choose>
                     </gmd:extent>
+                    <gmd:supplementalInformation>
+                        <xsl:call-template name="writeCharacterString">
+                            <xsl:with-param name="stringToWrite" select="$supplementalInformation[1]"/>
+                        </xsl:call-template>
+                    </gmd:supplementalInformation>
                 </gmd:MD_DataIdentification>
             </gmd:identificationInfo>
             <xsl:if test="$thredds_opendapCnt">
@@ -905,7 +937,7 @@
                                             <xsl:with-param name="individualName"/>
                                             <xsl:with-param name="organisationName" select="$publisherName[1]"/>
                                             <xsl:with-param name="email" select="$publisherEmail[1]"/>
-                                            <xsl:with-param name="url" select="$publisherURL[1]"/>
+                                            <xsl:with-param name="url" select="$publisherUrl[1]"/>
                                             <xsl:with-param name="urlName" select="'URL for the data publisher'"/>
                                             <xsl:with-param name="urlDescription" select="'This URL provides contact information for the publisher of this dataset'"/>
                                             <xsl:with-param name="roleCode" select="'publisher'"/>
@@ -1096,7 +1128,7 @@
         <xsl:choose>
             <xsl:when test="normalize-space($stringToWrite)">
                 <gco:CharacterString>
-                    <xsl:value-of select="$stringToWrite"/>
+                    <xsl:value-of select="normalize-space($stringToWrite)"/>
                 </gco:CharacterString>
             </xsl:when>
             <xsl:otherwise>
@@ -1693,7 +1725,9 @@
                                 <xsl:with-param name="individualName" select="$creatorName[1]"/>
                                 <xsl:with-param name="organisationName" select="$institution[1]"/>
                                 <xsl:with-param name="email" select="$creatorEmail[1]"/>
-                                <xsl:with-param name="url" select="$creatorURL[1]"/>
+                                <xsl:with-param name="url" select="$creatorUrl[1]"/>
+                                <xsl:with-param name="urlName" select="'URL for the creator of data'"/>
+                                <xsl:with-param name="urlDescription" select="'This URL provides contact information for the creator of this dataset'"/>
                                 <xsl:with-param name="roleCode" select="'originator'"/>
                             </xsl:call-template>
                         </xsl:if>
@@ -1702,9 +1736,11 @@
                                 <xsl:with-param name="tagName" select="'gmd:citedResponsibleParty'"/>
                                 <xsl:with-param name="testValue" select="$contributorTotal"/>
                                 <xsl:with-param name="individualName" select="$contributorName[1]"/>
-                                <xsl:with-param name="organisationName"/>
-                                <xsl:with-param name="email"/>
-                                <xsl:with-param name="url"/>
+                                <xsl:with-param name="organisationName" select="$contributorInstitution[1]"/>
+                                <xsl:with-param name="email" select="$contributorEmail[1]"/>
+                                <xsl:with-param name="url" select="$contributorUrl[1]"/>
+                                <xsl:with-param name="urlName" select="'URL for the contributor'"/>
+                                <xsl:with-param name="urlDescription" select="'This URL provides contact information for the contributor for this dataset'"/>
                                 <xsl:with-param name="roleCode" select="/nc:netcdf/nc:attribute[@name='contributor_role']/@value"/>
                             </xsl:call-template>
                         </xsl:if>
